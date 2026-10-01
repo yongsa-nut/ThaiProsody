@@ -1,0 +1,287 @@
+{
+  "gemma-4-31b": {
+    "key": "gemma-4-31b",
+    "display": "Gemma 4 31B",
+    "n_eval": 160,
+    "topical": 1.0,
+    "topical_ci": [
+      1.0,
+      1.0
+    ],
+    "coherent": 1.0,
+    "coherent_ci": [
+      1.0,
+      1.0
+    ]
+  },
+  "gpt54-mini": {
+    "key": "gpt54-mini",
+    "display": "GPT-5.4-mini",
+    "n_eval": 160,
+    "topical": 1.0,
+    "topical_ci": [
+      1.0,
+      1.0
+    ],
+    "coherent": 1.0,
+    "coherent_ci": [
+      1.0,
+      1.0
+    ]
+  },
+  "gpt55-high": {
+    "key": "gpt55-high",
+    "display": "GPT-5.5 (high)",
+    "n_eval": 160,
+    "topical": 1.0,
+    "topical_ci": [
+      1.0,
+      1.0
+    ],
+    "coherent": 1.0,
+    "coherent_ci": [
+      1.0,
+      1.0
+    ]
+  },
+  "gpt55-low": {
+    "key": "gpt55-low",
+    "display": "GPT-5.5 (low)",
+    "n_eval": 160,
+    "topical": 1.0,
+    "topical_ci": [
+      1.0,
+      1.0
+    ],
+    "coherent": 1.0,
+    "coherent_ci": [
+      1.0,
+      1.0
+    ]
+  },
+  "gpt55-med": {
+    "key": "gpt55-med",
+    "display": "GPT-5.5 (medium)",
+    "n_eval": 160,
+    "topical": 1.0,
+    "topical_ci": [
+      1.0,
+      1.0
+    ],
+    "coherent": 1.0,
+    "coherent_ci": [
+      1.0,
+      1.0
+    ]
+  },
+  "minimax-m2.7": {
+    "key": "minimax-m2.7",
+    "display": "MiniMax M2.7",
+    "n_eval": 8,
+    "topical": 1.0,
+    "topical_ci": [
+      1.0,
+      1.0
+    ],
+    "coherent": 1.0,
+    "coherent_ci": [
+      1.0,
+      1.0
+    ]
+  },
+  "opus-4.7": {
+    "key": "opus-4.7",
+    "display": "Claude Opus 4.7",
+    "n_eval": 160,
+    "topical": 1.0,
+    "topical_ci": [
+      1.0,
+      1.0
+    ],
+    "coherent": 1.0,
+    "coherent_ci": [
+      1.0,
+      1.0
+    ]
+  },
+  "pathumma": {
+    "key": "pathumma",
+    "display": "Pathumma",
+    "n_eval": 2,
+    "topical": 1.0,
+    "topical_ci": [
+      1.0,
+      1.0
+    ],
+    "coherent": 1.0,
+    "coherent_ci": [
+      1.0,
+      1.0
+    ]
+  },
+  "sonnet-4.6": {
+    "key": "sonnet-4.6",
+    "display": "Claude Sonnet 4.6",
+    "n_eval": 160,
+    "topical": 1.0,
+    "topical_ci": [
+      1.0,
+      1.0
+    ],
+    "coherent": 1.0,
+    "coherent_ci": [
+      1.0,
+      1.0
+    ]
+  },
+  "typhoon25": {
+    "key": "typhoon25",
+    "display": "Typhoon 2.5 30B",
+    "n_eval": 16,
+    "topical": 1.0,
+    "topical_ci": [
+      1.0,
+      1.0
+    ],
+    "coherent": 0.9375,
+    "coherent_ci": [
+      0.8125,
+      1.0
+    ]
+  },
+  "gemini-3.5-flash": {
+    "key": "gemini-3.5-flash",
+    "display": "Gemini 3.5 Flash",
+    "n_eval": 160,
+    "topical": 0.9812,
+    "topical_ci": [
+      0.9563,
+      1.0
+    ],
+    "coherent": 0.9812,
+    "coherent_ci": [
+      0.9563,
+      1.0
+    ]
+  },
+  "openthaigpt": {
+    "key": "openthaigpt",
+    "display": "OpenThaiGPT 8B",
+    "n_eval": 160,
+    "topical": 0.9812,
+    "topical_ci": [
+      0.9563,
+      1.0
+    ],
+    "coherent": 0.9125,
+    "coherent_ci": [
+      0.8625,
+      0.9563
+    ]
+  },
+  "typhoon-s": {
+    "key": "typhoon-s",
+    "display": "Typhoon-S 8B",
+    "n_eval": 160,
+    "topical": 0.9812,
+    "topical_ci": [
+      0.9563,
+      1.0
+    ],
+    "coherent": 0.9437,
+    "coherent_ci": [
+      0.9062,
+      0.975
+    ]
+  },
+  "deepseek-v4-pro": {
+    "key": "deepseek-v4-pro",
+    "display": "DeepSeek V4 Pro",
+    "n_eval": 157,
+    "topical": 0.9299,
+    "topical_ci": [
+      0.8854,
+      0.9682
+    ],
+    "coherent": 0.9299,
+    "coherent_ci": [
+      0.8854,
+      0.9682
+    ]
+  },
+  "deepseek-v4-flash": {
+    "key": "deepseek-v4-flash",
+    "display": "DeepSeek V4 Flash",
+    "n_eval": 159,
+    "topical": 0.9245,
+    "topical_ci": [
+      0.8805,
+      0.9623
+    ],
+    "coherent": 0.8994,
+    "coherent_ci": [
+      0.8491,
+      0.9434
+    ]
+  },
+  "thalle": {
+    "key": "thalle",
+    "display": "THaLLE 8B",
+    "n_eval": 160,
+    "topical": 0.8187,
+    "topical_ci": [
+      0.7562,
+      0.875
+    ],
+    "coherent": 0.8187,
+    "coherent_ci": [
+      0.7562,
+      0.875
+    ]
+  },
+  "kimi-k2.6": {
+    "key": "kimi-k2.6",
+    "display": "Kimi K2.6",
+    "n_eval": 16,
+    "topical": 0.4375,
+    "topical_ci": [
+      0.1875,
+      0.6875
+    ],
+    "coherent": 0.4375,
+    "coherent_ci": [
+      0.1875,
+      0.6875
+    ]
+  },
+  "glm-5.1": {
+    "key": "glm-5.1",
+    "display": "GLM 5.1",
+    "n_eval": 156,
+    "topical": 0.359,
+    "topical_ci": [
+      0.2821,
+      0.4295
+    ],
+    "coherent": 0.359,
+    "coherent_ci": [
+      0.2821,
+      0.4295
+    ]
+  },
+  "qwen3.6-35b-a3b": {
+    "key": "qwen3.6-35b-a3b",
+    "display": "Qwen3.6 35B-A3B",
+    "n_eval": 72,
+    "topical": 0.2639,
+    "topical_ci": [
+      0.1667,
+      0.375
+    ],
+    "coherent": 0.2639,
+    "coherent_ci": [
+      0.1667,
+      0.375
+    ]
+  }
+}

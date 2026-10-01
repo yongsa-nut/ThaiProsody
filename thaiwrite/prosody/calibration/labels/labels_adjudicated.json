@@ -1,0 +1,1325 @@
+{
+ "description": "Adjudicated binary content labels for the 132 calibration poems: on-topic = topicality >= 3, not word salad = coherence >= 2. Where both raters (labels_expertA.json, labels_expertB.json) fall on the same side of a cut, that side; where they differ (12 on-topic, 7 not-word-salad decisions), the label rater 1 set after re-examining the poem with both scores in view.",
+ "labels": {
+  "cal2-gpt55-high-prosody-chan-compose-037": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-typhoon25-prosody-chan-compose-004": {
+   "topicality": {
+    "positive": true,
+    "source": "adjudicated by rater 1"
+   },
+   "coherence": {
+    "positive": false,
+    "source": "raters agree"
+   }
+  },
+  "cal2-thalle-prosody-khlong-compose-030": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gpt55-high-prosody-yani-compose-007": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-kimi-k2.6-prosody-khlong-compose-002": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gpt55-med-prosody-klon8-compose-033": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gemini-3.5-flash-prosody-khlong-compose-034": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-typhoon25-prosody-khlong-compose-004": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gpt55-low-prosody-chan-compose-004": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal-broken-03-count": {
+   "topicality": {
+    "positive": false,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": false,
+    "source": "adjudicated by rater 1"
+   }
+  },
+  "cal2-deepseek-v4-flash-prosody-klon8-compose-016": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-qwen3.6-35b-a3b-prosody-klon8-compose-017": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-minimax-m2.7-prosody-khlong-compose-001": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-thalle-prosody-chan-compose-021": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gpt54-mini-prosody-yani-compose-014": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-typhoon-s-prosody-klon8-compose-013": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-deepseek-v4-pro-prosody-khlong-compose-014": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-thalle-prosody-yani-compose-025": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-deepseek-v4-flash-prosody-chan-compose-005": {
+   "topicality": {
+    "positive": false,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": false,
+    "source": "raters agree"
+   }
+  },
+  "cal2-minimax-m2.7-prosody-chan-compose-001": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-deepseek-v4-flash-prosody-khlong-compose-022": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-qwen3.6-35b-a3b-prosody-klon8-compose-004": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal-clean-01": {
+   "topicality": {
+    "positive": false,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-typhoon-s-prosody-yani-compose-024": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-typhoon25-prosody-yani-compose-002": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-qwen3.6-35b-a3b-prosody-yani-compose-003": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gpt55-high-prosody-khlong-compose-010": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gpt55-med-prosody-yani-compose-006": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-typhoon25-prosody-chan-compose-003": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gpt55-med-prosody-chan-compose-020": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-typhoon-s-prosody-klon8-compose-024": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-pathumma-prosody-yani-compose-002": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-minimax-m2.7-prosody-yani-compose-004": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-deepseek-v4-flash-prosody-yani-compose-037": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gemma-4-31b-prosody-klon8-compose-018": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-deepseek-v4-flash-prosody-klon8-compose-006": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-opus-4.7-prosody-klon8-compose-003": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gemma-4-31b-prosody-klon8-compose-034": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-typhoon25-prosody-klon8-compose-003": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-deepseek-v4-pro-prosody-yani-compose-019": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-openthaigpt-prosody-chan-compose-002": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gpt54-mini-prosody-chan-compose-039": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-opus-4.7-prosody-khlong-compose-040": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal-clean-00": {
+   "topicality": {
+    "positive": true,
+    "source": "adjudicated by rater 1"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gemma-4-31b-prosody-chan-compose-037": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-glm-5.1-prosody-khlong-compose-006": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-thalle-prosody-klon8-compose-008": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-deepseek-v4-pro-prosody-chan-compose-002": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-typhoon25-prosody-klon8-compose-002": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gemma-4-31b-prosody-khlong-compose-034": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-typhoon-s-prosody-khlong-compose-012": {
+   "topicality": {
+    "positive": false,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": false,
+    "source": "raters agree"
+   }
+  },
+  "cal2-minimax-m2.7-prosody-chan-compose-004": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gpt55-high-prosody-chan-compose-003": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-openthaigpt-prosody-chan-compose-011": {
+   "topicality": {
+    "positive": true,
+    "source": "adjudicated by rater 1"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "adjudicated by rater 1"
+   }
+  },
+  "cal2-opus-4.7-prosody-yani-compose-011": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gemini-3.5-flash-prosody-chan-compose-035": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gemma-4-31b-prosody-chan-compose-010": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gpt55-med-prosody-khlong-compose-026": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal-clean-02": {
+   "topicality": {
+    "positive": true,
+    "source": "adjudicated by rater 1"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "adjudicated by rater 1"
+   }
+  },
+  "cal2-gpt55-low-prosody-yani-compose-002": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-glm-5.1-prosody-klon8-compose-003": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-qwen3.6-35b-a3b-prosody-chan-compose-007": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-kimi-k2.6-prosody-khlong-compose-001": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-glm-5.1-prosody-chan-compose-008": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-glm-5.1-prosody-yani-compose-019": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal-broken-04-count": {
+   "topicality": {
+    "positive": false,
+    "source": "adjudicated by rater 1"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "adjudicated by rater 1"
+   }
+  },
+  "cal2-deepseek-v4-flash-prosody-chan-compose-015": {
+   "topicality": {
+    "positive": true,
+    "source": "adjudicated by rater 1"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "adjudicated by rater 1"
+   }
+  },
+  "cal2-gemini-3.5-flash-prosody-yani-compose-001": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-glm-5.1-prosody-chan-compose-033": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-deepseek-v4-flash-prosody-yani-compose-006": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "adjudicated by rater 1"
+   }
+  },
+  "cal2-kimi-k2.6-prosody-klon8-compose-004": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-typhoon25-prosody-khlong-compose-001": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-typhoon25-prosody-chan-compose-002": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gemma-4-31b-prosody-yani-compose-024": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gpt55-med-prosody-klon8-compose-025": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-sonnet-4.6-prosody-khlong-compose-037": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-openthaigpt-prosody-yani-compose-030": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gemini-3.5-flash-prosody-chan-compose-025": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal-broken-02-count": {
+   "topicality": {
+    "positive": false,
+    "source": "adjudicated by rater 1"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-deepseek-v4-flash-prosody-klon8-compose-010": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-thalle-prosody-yani-compose-009": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-typhoon25-prosody-yani-compose-003": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gpt55-low-prosody-klon8-compose-018": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-sonnet-4.6-prosody-chan-compose-018": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal-broken-00-count": {
+   "topicality": {
+    "positive": false,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-kimi-k2.6-prosody-chan-compose-004": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gemma-4-31b-prosody-chan-compose-016": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-typhoon-s-prosody-chan-compose-018": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gemma-4-31b-prosody-klon8-compose-031": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-typhoon25-prosody-yani-compose-004": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-openthaigpt-prosody-klon8-compose-035": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gpt55-med-prosody-yani-compose-033": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gemma-4-31b-prosody-khlong-compose-015": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gpt54-mini-prosody-klon8-compose-024": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal-clean-03": {
+   "topicality": {
+    "positive": false,
+    "source": "adjudicated by rater 1"
+   },
+   "coherence": {
+    "positive": false,
+    "source": "adjudicated by rater 1"
+   }
+  },
+  "cal2-typhoon25-prosody-klon8-compose-004": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-typhoon25-prosody-khlong-compose-002": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-openthaigpt-prosody-khlong-compose-015": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-deepseek-v4-flash-prosody-chan-compose-008": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal-broken-00-tone": {
+   "topicality": {
+    "positive": false,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gpt55-low-prosody-khlong-compose-032": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gpt55-high-prosody-klon8-compose-015": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-thalle-prosody-khlong-compose-017": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-sonnet-4.6-prosody-yani-compose-024": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gpt54-mini-prosody-khlong-compose-035": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gpt55-high-prosody-klon8-compose-035": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-typhoon-s-prosody-khlong-compose-022": {
+   "topicality": {
+    "positive": true,
+    "source": "adjudicated by rater 1"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-glm-5.1-prosody-yani-compose-012": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-typhoon25-prosody-khlong-compose-003": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gemini-3.5-flash-prosody-klon8-compose-013": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-opus-4.7-prosody-chan-compose-032": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal-broken-04-kru_lahu": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-typhoon25-prosody-yani-compose-001": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-deepseek-v4-flash-prosody-yani-compose-009": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-minimax-m2.7-prosody-klon8-compose-001": {
+   "topicality": {
+    "positive": true,
+    "source": "adjudicated by rater 1"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-sonnet-4.6-prosody-klon8-compose-005": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gemma-4-31b-prosody-chan-compose-029": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-deepseek-v4-flash-prosody-khlong-compose-026": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-deepseek-v4-flash-prosody-khlong-compose-014": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-opus-4.7-prosody-khlong-compose-030": {
+   "topicality": {
+    "positive": true,
+    "source": "adjudicated by rater 1"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gemma-4-31b-prosody-klon8-compose-012": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-deepseek-v4-pro-prosody-klon8-compose-006": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-pathumma-prosody-klon8-compose-002": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal-clean-04": {
+   "topicality": {
+    "positive": true,
+    "source": "adjudicated by rater 1"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gemma-4-31b-prosody-yani-compose-033": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal-broken-01-count": {
+   "topicality": {
+    "positive": false,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-qwen3.6-35b-a3b-prosody-khlong-compose-005": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gemma-4-31b-prosody-khlong-compose-013": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gpt54-mini-prosody-khlong-compose-017": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-qwen3.6-35b-a3b-prosody-yani-compose-013": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gpt55-low-prosody-yani-compose-036": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  },
+  "cal2-gemma-4-31b-prosody-yani-compose-038": {
+   "topicality": {
+    "positive": true,
+    "source": "raters agree"
+   },
+   "coherence": {
+    "positive": true,
+    "source": "raters agree"
+   }
+  }
+ }
+}

@@ -1,0 +1,1534 @@
+[
+  {
+    "id": "cal-gpt54mini-prosody-khlong-compose-034",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "โคลงสี่สุภาพ",
+    "meter_id": "khlong_si_suphap",
+    "topic": "ทุ่งนาสีทอง",
+    "applicable_dims": [
+      "count",
+      "tone",
+      "rhyme"
+    ],
+    "poem_text": "ทุ่งทองส่องสรวงฟ้า\tลมพริ้ว\nข้าวรวงโยกเอนพลิ้ว\tกลิ่นฟุ้ง\nชาวนาหยาดเหงื่อลิ่ว\tหล่อเลี้ยง\nนาเหลืองเรืองรองรุ่ง\tอิ่มล้นฤทัย",
+    "_provenance": {
+      "model": "gpt-5.4-mini",
+      "src_id": "prosody-khlong-compose-034",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-gpt54mini-prosody-chan-compose-007",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "อินทรวิเชียรฉันท์ ๑๑",
+    "meter_id": "intharawichian_chan_11",
+    "topic": "ป่าใหญ่ยามเช้า",
+    "applicable_dims": [
+      "count",
+      "rhyme",
+      "kru_lahu"
+    ],
+    "poem_text": "แสงทองทาบทาไพร  \nลมเช้าพรูพรมพฤกษ์ไหว  \nนกเล็กเจื้อยแจ้วรัน  \nดุจถ้อยสวรรค์กล่อมป่า  \n\nหมอกบางลอยลับไกล  \nยอดไม้รับตะวันมา  \nธารใสไหลเย็นจ้า  \nป่าใหญ่ตื่นรับเช้าพราย",
+    "_provenance": {
+      "model": "gpt-5.4-mini",
+      "src_id": "prosody-chan-compose-007",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-typhoon-prosody-yani-compose-018",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "กาพย์ยานี ๑๑",
+    "meter_id": "kap_yani_11",
+    "topic": "ความจริงกับมายา",
+    "applicable_dims": [
+      "count",
+      "rhyme"
+    ],
+    "poem_text": "ความจริงแท้ซ่อนอยู่ในใจ  \nมายาหลอกลวงดั่งหมอกควัน  \nเมื่อแสงส่องมา ความมืดจางหาย  \nเหมือนฟ้าแจ่มใส ไร้เงาคลุมคลาย  \n\nโลกนี้เต็มไปด้วยภาพลวงตา  \nบางครั้งคิดว่ารู้ ทั้งที่ยังคลาดเคลื่อน  \nแต่เมื่อจิตใจตื่นจากฝันหลับ  \nก็เห็นสิ่งที่แท้จริง ไม่อาจบิดเบือนได้",
+    "_provenance": {
+      "model": "typhoon-v2.5-30b-a3b-instruct",
+      "src_id": "prosody-yani-compose-018",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-clean-02",
+    "kind": "poem",
+    "task_mode": "reference",
+    "meter": "กลอนแปด",
+    "meter_id": "klon_paet",
+    "topic": "การพลัดพรากและการผจญภัย",
+    "applicable_dims": [
+      "count",
+      "rhyme"
+    ],
+    "poem_text": "แล้วสอนว่าอย่าไว้ใจมะนุด\nมันแสนสุดลึกล้ำเหลือกำหนด\nถึงเถาวัลพันเกี่ยวที่เลี้ยวลด\nก็ไม่คดเหมือนหนึ่งในน้ำใจคน",
+    "_provenance": {
+      "source": "พระอภัยมณี — แล้วสอนว่าอย่าไว้ใจมนุษย์",
+      "kind": "clean_anchor"
+    }
+  },
+  {
+    "id": "cal-typhoon-prosody-khlong-compose-020",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "โคลงสี่สุภาพ",
+    "meter_id": "khlong_si_suphap",
+    "topic": "ความเปลี่ยนแปลงของชีวิต",
+    "applicable_dims": [
+      "count",
+      "tone",
+      "rhyme"
+    ],
+    "poem_text": "ชีวิตเปลี่ยนเหมือนลมพายุพัดผ่าน  \nสิ่งที่เคยมั่นคงก็จางหายไป  \nดั่งฟ้าครามกลายเป็นหมอกควัน  \nใจยังหวังดีแม้ทางไกลไกล",
+    "_provenance": {
+      "model": "typhoon-v2.5-30b-a3b-instruct",
+      "src_id": "prosody-khlong-compose-020",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-typhoon-prosody-chan-compose-029",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "อินทรวิเชียรฉันท์ ๑๑",
+    "meter_id": "intharawichian_chan_11",
+    "topic": "บทเรียนจากความผิดพลาด",
+    "applicable_dims": [
+      "count",
+      "rhyme",
+      "kru_lahu"
+    ],
+    "poem_text": "เมื่อผิดพลาดพลั้งใจ จงสำนึกในสิ่งตนทำ  \nเสียงคำสอนดังก้องในหัวใจ ไม่อาจซ่อนเร้นได้  \nผิดแล้วรู้ตัว ย่อมดีกว่า ฝืนเถื่อนไปเรื่อย  \nเหมือนดั่งน้ำท่วมบ้าน รู้ทันก่อน จึงรอดพ้นภัย  \n\nความผิดพลาดไม่ใช่จุดจบ แต่คือทางสู่ปัญญา  \nเหมือนดินที่เคยแห้งแล้ง ได้รับน้ำฝนจึงงอกงาม  \nแม้ล้มลุกคลุกคลาน แต่ยังลุกขึ้นยืนได้  \nด้วยใจที่ไม่ยอมแพ้ ย่อมพบแสงสว่างในมืดมน",
+    "_provenance": {
+      "model": "typhoon-v2.5-30b-a3b-instruct",
+      "src_id": "prosody-chan-compose-029",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-clean-03",
+    "kind": "poem",
+    "task_mode": "reference",
+    "meter": "กาพย์ยานี ๑๑",
+    "meter_id": "kap_yani_11",
+    "topic": "ภัยธรรมชาติและบทเรียนชีวิต",
+    "applicable_dims": [
+      "count",
+      "rhyme"
+    ],
+    "poem_text": "ขึ้นกกตกทุกข์ยาก\nแสนลำบากจากเวียงชัย\nมันเผือกเลือกเผาไฟ\nกินผลไม้ได้เป็นแรง",
+    "_provenance": {
+      "source": "กาพย์พระไชยสุริยา — ขึ้นกกตกทุกข์ยาก",
+      "kind": "clean_anchor"
+    }
+  },
+  {
+    "id": "cal-typhoon-prosody-yani-compose-013",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "กาพย์ยานี ๑๑",
+    "meter_id": "kap_yani_11",
+    "topic": "ความสุขของการได้พบกันอีกครั้ง",
+    "applicable_dims": [
+      "count",
+      "rhyme"
+    ],
+    "poem_text": "เมื่อสายลมพัดพาความหวังมา  \nเห็นหน้าเธอในวันนี้อีกครา  \nใจเต้นรัวดั่งเสียงกลองรำ  \nรู้สึกดีดั่งฟ้าสดใสไร้หมอกคลุม  \n\nสายตาที่เคยไกลแสนไกล  \nกลับมาเจอกันอีกคราในวันนี้  \nเหมือนดาวดวงเดียวที่ส่องทาง  \nนำพาหัวใจมารวมกันอีกครา  \n\nเมื่อเราได้พบกันอีกครั้ง  \nเหมือนสายธารไหลเย็นใจสงบ  \nความคิดถึงที่ซ่อนไว้หลายปี  \nปลดปล่อยออกมาเป็นเสียงหัวเราะเบาๆ",
+    "_provenance": {
+      "model": "typhoon-v2.5-30b-a3b-instruct",
+      "src_id": "prosody-yani-compose-013",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-typhoon-prosody-klon8-compose-003",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "กลอนแปด",
+    "meter_id": "klon_paet",
+    "topic": "ขุนเขาในสายหมอก",
+    "applicable_dims": [
+      "count",
+      "rhyme"
+    ],
+    "poem_text": "ขุนเขาในสายหมอกซ่อนเร้น  \nคลุมด้วยหมอกบางเบื้องหน้า  \nส่องแสงจันทร์ลอดผ่านกิ่งไม้  \nเยือกเย็นใจใครเฝ้ามอง  \n\nเสียงน้ำไหลรินตามโขดหิน  \nดังสะท้อนในยามว่างเปล่า  \nลมพัดผ่านใบไม้กระซิบเบา  \nเหมือนบทเพลงจากโลกอีกมิติ  \n\nขุนเขาในสายหมอกล่องลอย  \nเหมือนภาพวาดในฝันกลางคืน  \nเมฆลอยละล่องช้าๆ ไป  \nดั่งวิญญาณแห่งป่าลึก  \n\nร่มเงาต้นไม้ทอดยาว  \nซ่อนเร้นความลับอันล้ำลึก  \nใครจะรู้ว่าเบื้องหลังหมอก  \nคือดินแดนที่ไม่มีใครเคยเห็น",
+    "_provenance": {
+      "model": "typhoon-v2.5-30b-a3b-instruct",
+      "src_id": "prosody-klon8-compose-003",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-typhoon-prosody-yani-compose-020",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "กาพย์ยานี ๑๑",
+    "meter_id": "kap_yani_11",
+    "topic": "ความเปลี่ยนแปลงของชีวิต",
+    "applicable_dims": [
+      "count",
+      "rhyme"
+    ],
+    "poem_text": "เมื่อวานนี้ยังเดินเล่นใต้ร่มไม้  \nสายลมพัดผ่านหวีดหวิดดังเสียงร้อง  \nวันนี้ต้องเดินบนทางที่แห้งแล้ง  \nใจสั่นไหวเหมือนใบไม้ร่วงหล่นลงพื้น  \n\nชีวิตเปลี่ยนไปดั่งฟ้าฝนพลิกผัน  \nจากสุขสันต์กลายเป็นทุกข์ระทม  \nแม้รากต้นไม้ยังยึดดินไว้แน่น  \nแต่รากใจเราอาจขาดแคลนความหมาย  \n\nเมื่อวานนี้ยังมีใครคอยถามไถ่  \nว่าเรายังดีอยู่หรือเปล่าในวันนี้  \nวันนี้ต้องเงียบงันกับความเหงา  \nเหมือนดาวดวงเดียวในฟากฟ้าไกลโพ้น  \n\nชีวิตเปลี่ยนไปดั่งเปลวเพลิงไหม้  \nจากอบอุ่นกลายเป็นควันดำคลุมฟ้า  \nแม้ร่างกายยังยืนอยู่บนพื้นดิน  \nแต่จิตใจลอยล่องไปในความว่างเปล่า",
+    "_provenance": {
+      "model": "typhoon-v2.5-30b-a3b-instruct",
+      "src_id": "prosody-yani-compose-020",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-gpt54mini-prosody-khlong-compose-020",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "โคลงสี่สุภาพ",
+    "meter_id": "khlong_si_suphap",
+    "topic": "ความเปลี่ยนแปลงของชีวิต",
+    "applicable_dims": [
+      "count",
+      "tone",
+      "rhyme"
+    ],
+    "poem_text": "ชีวิตแปรเปลี่ยนเพราะ\t \t\nกาลพา\tผันหมุนเวียน\nสุขทุกข์\tล้วนแปนเปลี่ยน\nให้ใจเรียน\tรู้ค่าคง\n\nยามรุ่ง\tก็มีร่วงโรย\nยามโหย\tก็มีหวังตรง\nยึดธรรม\tนำจิตคง\nผ่านลม\tแห่งโลกา",
+    "_provenance": {
+      "model": "gpt-5.4-mini",
+      "src_id": "prosody-khlong-compose-020",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-gpt54mini-prosody-khlong-cloze-001",
+    "kind": "poem",
+    "task_mode": "cloze",
+    "meter": "โคลงสี่สุภาพ",
+    "meter_id": "khlong_si_suphap",
+    "topic": "เสียงลือเสียงเล่าอ้าง",
+    "applicable_dims": [
+      "count",
+      "tone",
+      "rhyme"
+    ],
+    "poem_text": "เสียงลือเสียงเล่าอ้าง  \nอันใดพี่เอย  \nเสียงยอยศใครทั่วหล้า  \nสองเขือ  \nพี่หลับใหลลืมตื่น  \nสองพี่คิดเองอ้า  \nอย่าได้ถามเผือ  \nพี่เอย  \nฤๅพี่",
+    "_provenance": {
+      "model": "gpt-5.4-mini",
+      "src_id": "prosody-khlong-cloze-001",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-typhoon-prosody-chan-compose-025",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "อินทรวิเชียรฉันท์ ๑๑",
+    "meter_id": "intharawichian_chan_11",
+    "topic": "ใบไม้ร่วงปลายฝน",
+    "applicable_dims": [
+      "count",
+      "rhyme",
+      "kru_lahu"
+    ],
+    "poem_text": "ใบไม้ร่วงปลายฝนพลิ้วพราว  \nพริ้วไหวโผนผวนกับสายลม  \nร่มรื่นยามเย็นที่ค่อยคลาย  \nสุดปลายทางสายหมอกลอย  \n\nร่มรื่นยามเย็นที่ค่อยคลาย  \nร่มรื่นยามเย็นที่ค่อยคลาย  \nร่มรื่นยามเย็นที่ค่อยคลาย  \nร่มรื่นยามเย็นที่ค่อยคลาย",
+    "_provenance": {
+      "model": "typhoon-v2.5-30b-a3b-instruct",
+      "src_id": "prosody-chan-compose-025",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-gpt54mini-prosody-chan-cloze-005",
+    "kind": "poem",
+    "task_mode": "cloze",
+    "meter": "อินทรวิเชียรฉันท์ ๑๑",
+    "meter_id": "intharawichian_chan_11",
+    "topic": "วรรคทดสอบ (สแกนตามฉันทลักษณ์): รำลึกพระค",
+    "applicable_dims": [
+      "count",
+      "rhyme",
+      "kru_lahu"
+    ],
+    "poem_text": "รำลึกพระคุณ\nกะรุณาและอาธร\nสายัณห์ตะวันอ่อน\nขณะข้ามทิคัมพร",
+    "_provenance": {
+      "model": "gpt-5.4-mini",
+      "src_id": "prosody-chan-cloze-005",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-gpt54mini-prosody-khlong-compose-018",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "โคลงสี่สุภาพ",
+    "meter_id": "khlong_si_suphap",
+    "topic": "ความจริงกับมายา",
+    "applicable_dims": [
+      "count",
+      "tone",
+      "rhyme"
+    ],
+    "poem_text": "ความจริงดุจดั่งแก้ว\tส่องทาง\nมายาแฝงหมอกพราง\tปิดฟ้า\nผู้เห็นย่อมพ้นทาง\tหลงลวง\nจงยึดธรรมไว้กล้า\tก้าวข้ามมายา",
+    "_provenance": {
+      "model": "gpt-5.4-mini",
+      "src_id": "prosody-khlong-compose-018",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-broken-03-count",
+    "kind": "poem",
+    "task_mode": "reference",
+    "meter": "กาพย์ยานี ๑๑",
+    "meter_id": "kap_yani_11",
+    "topic": "ภัยธรรมชาติและบทเรียนชีวิต",
+    "applicable_dims": [
+      "count",
+      "rhyme"
+    ],
+    "poem_text": "ขึ้นกกตกทุกข์\nแสนลำบากจากเวียงชัย\nมันเผือกเลือกเผาไฟ\nกินผลไม้ได้เป็นแรง",
+    "_provenance": {
+      "source": "กาพย์พระไชยสุริยา — ขึ้นกกตกทุกข์ยาก",
+      "kind": "broken_anchor",
+      "break": "count",
+      "grader_score": 0.6
+    }
+  },
+  {
+    "id": "cal-gpt54mini-prosody-chan-compose-029",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "อินทรวิเชียรฉันท์ ๑๑",
+    "meter_id": "intharawichian_chan_11",
+    "topic": "บทเรียนจากความผิดพลาด",
+    "applicable_dims": [
+      "count",
+      "rhyme",
+      "kru_lahu"
+    ],
+    "poem_text": "ผิดพลาดพลั้ง    พาใจให้   รู้คิด  \nทุกย่างผิด        เปลี่ยนเป็น   ธรรมะ  \nเจ็บครั้งก่อน     สอนให้ใจ   ใจละ  \nลุกขึ้นช้า        ก้าวหน้า    ด้วยปัญญา  \n\nเมื่อพลาดพลั้ง    อย่าท้อแท้   หม่นหมอง  \nหมั่นมองตน      ปรับใจ      ให้ผ่อง  \nความผิดเก่า     กลายบทเรียน   เรืองรอง  \nสู่ทางใหม่       งามผ่อง     ด้วยศรัทธา",
+    "_provenance": {
+      "model": "gpt-5.4-mini",
+      "src_id": "prosody-chan-compose-029",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-gpt54mini-prosody-klon8-cloze-003",
+    "kind": "poem",
+    "task_mode": "cloze",
+    "meter": "กลอนแปด",
+    "meter_id": "klon_paet",
+    "topic": "แล้วสอนว่าอย่าไว้ใจมนุษย์",
+    "applicable_dims": [
+      "count",
+      "rhyme"
+    ],
+    "poem_text": "แล้วสอนว่าอย่าไว้ใจมะยง  \nมันแสนสุดลึกล้ำเหลือกำหนด  \nถึงเถาวัลพันเกี่ยวที่เลี้ยวลด  \nก็ไม่คดเหมือนหนึ่งในน้ำใจคน",
+    "_provenance": {
+      "model": "gpt-5.4-mini",
+      "src_id": "prosody-klon8-cloze-003",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-typhoon-prosody-klon8-compose-040",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "กลอนแปด",
+    "meter_id": "klon_paet",
+    "topic": "รอยทางที่เลือกเดิน",
+    "applicable_dims": [
+      "count",
+      "rhyme"
+    ],
+    "poem_text": "รอยทางที่เลือกเดินไกลลับพ้นสายลม  \nเสียงฟ้าร้องสะท้อนในใจยังค้าง  \nก้าวฝ่าเถาวัลย์รากไม้พันเกลียว  \nสู่ดินแดนที่มืดมิดไม่มีแสง  \n\nแม้หนทางดูดิบด่างดงดงดง  \nแต่หัวใจยังรักษาความหวังไว้  \nไม่หวั่นไหวต่อพายุที่พัดมา  \nเพราะรู้ว่าปลายทางคือแสงอรุณ",
+    "_provenance": {
+      "model": "typhoon-v2.5-30b-a3b-instruct",
+      "src_id": "prosody-klon8-compose-040",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-typhoon-prosody-chan-compose-020",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "อินทรวิเชียรฉันท์ ๑๑",
+    "meter_id": "intharawichian_chan_11",
+    "topic": "ความเปลี่ยนแปลงของชีวิต",
+    "applicable_dims": [
+      "count",
+      "rhyme",
+      "kru_lahu"
+    ],
+    "poem_text": "เมื่อสายลมพัดผ่านป่าดง  \nเปลี่ยนใบไม้ร่วงโรยเรียงราย  \nชีวิตเหมือนคลื่นซัดฝั่ง  \nสลายหายไปในเวลาราวฝัน  \n\nต้นไม้ใหญ่เคยยืนสง่างาม  \nวันหนึ่งก็ทรุดตัวลงดิน  \nเหมือนใจเราที่เคยมั่นคง  \nพลันเปลี่ยนผันตามกาลเวลา  \n\nเมื่อฟ้าครึ้มบดบังแสงดาว  \nโลกหม่นหมองไร้สีสัน  \nชีวิตเปลี่ยนผันดั่งลมพายุ  \nไม่อาจหยุดยั้งได้ทุกอย่าง  \n\nเหมือนดอกบัวในโคลนสกปรก  \nยังงอกงามใต้แสงจันทร์  \nแม้ทุกข์ยากมาเยือนซ้ำซาก  \nหัวใจยังรักษาความหวังไว้",
+    "_provenance": {
+      "model": "typhoon-v2.5-30b-a3b-instruct",
+      "src_id": "prosody-chan-compose-020",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-gpt54mini-prosody-khlong-compose-002",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "โคลงสี่สุภาพ",
+    "meter_id": "khlong_si_suphap",
+    "topic": "ทะเลยามค่ำ",
+    "applicable_dims": [
+      "count",
+      "tone",
+      "rhyme"
+    ],
+    "poem_text": "ลมค่ำคลอคลื่นคราง\tครวญฟ้าคล้ำครึ้มคลี่  \nดาวดวงเด่นดั่งเพชร\tพร่างพรายพริบพริ้งพรรณ  \nจันทร์เจิดจรัสกลางเวหา\tวับวาววางวาดฝัน  \nทะเลท่ามรัตติกาล\tสงบซึ้งซ่านทรวงเรา",
+    "_provenance": {
+      "model": "gpt-5.4-mini",
+      "src_id": "prosody-khlong-compose-002",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-gpt54mini-prosody-klon8-compose-028",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "กลอนแปด",
+    "meter_id": "klon_paet",
+    "topic": "การเดินทางไกล",
+    "applicable_dims": [
+      "count",
+      "rhyme"
+    ],
+    "poem_text": "ย่ำทางไกลกลางแดดแผดแสงกล้า  \nแบกใจฝ่าหมู่ฟ้ากว้างไกลฝัน  \nก้าวทีละก้าวย้ำความมุ่งมั่น  \nแม้เหนื่อยสั่นก็สู้ไม่ท้อใจ  \n\nลมพัดผ่านทางชันดั่งบทเรียน  \nให้เราเพียรอดทนพ้นหมอกไหม้  \nเก็บรอยทางเป็นแรงแห่งดวงใจ  \nสู่ปลายไกลด้วยหวังดั่งตั้งปณิธาน",
+    "_provenance": {
+      "model": "gpt-5.4-mini",
+      "src_id": "prosody-klon8-compose-028",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-typhoon-prosody-chan-cloze-005",
+    "kind": "poem",
+    "task_mode": "cloze",
+    "meter": "อินทรวิเชียรฉันท์ ๑๑",
+    "meter_id": "intharawichian_chan_11",
+    "topic": "วรรคทดสอบ (สแกนตามฉันทลักษณ์): รำลึกพระค",
+    "applicable_dims": [
+      "count",
+      "rhyme",
+      "kru_lahu"
+    ],
+    "poem_text": "รำลึกพระพุทธเจ้า  \nกะรุณาและปัญญาทร  \nสายัณห์ตะวันส่องแสง  \nขะณะข้ามทิคัมพร",
+    "_provenance": {
+      "model": "typhoon-v2.5-30b-a3b-instruct",
+      "src_id": "prosody-chan-cloze-005",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-clean-01",
+    "kind": "poem",
+    "task_mode": "reference",
+    "meter": "กลอนแปด",
+    "meter_id": "klon_paet",
+    "topic": "การเดินทางและความคิดถึง",
+    "applicable_dims": [
+      "count",
+      "rhyme"
+    ],
+    "poem_text": "ถึงบางพูดพูดดีเป็นศรีศักดิ์\nมีคนรักรสถ้อยอะร่อยจิต\nแม้นพูดชั่วตัวตายทำลายมิตร\nจะชอบผิดในมะนุดเพราะพูดจา",
+    "_provenance": {
+      "source": "นิราศภูเขาทอง — ถึงบางพูดพูดดีเป็นศรีศักดิ์",
+      "kind": "clean_anchor"
+    }
+  },
+  {
+    "id": "cal-typhoon-prosody-khlong-compose-015",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "โคลงสี่สุภาพ",
+    "meter_id": "khlong_si_suphap",
+    "topic": "กาลเวลาที่ผันผ่าน",
+    "applicable_dims": [
+      "count",
+      "tone",
+      "rhyme"
+    ],
+    "poem_text": "กาลเวลาไหลลื่นดั่งสายธาร  \nผ่านพ้นมาแล้วไม่หวนกลับคืน  \nวันเดือนปีชราด้วยริ้วรอย  \nใจยังคงฝันถึงอดีตอันไกล",
+    "_provenance": {
+      "model": "typhoon-v2.5-30b-a3b-instruct",
+      "src_id": "prosody-khlong-compose-015",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-typhoon-prosody-chan-edit-005",
+    "kind": "poem",
+    "task_mode": "edit",
+    "meter": "อินทรวิเชียรฉันท์ ๑๑",
+    "meter_id": "intharawichian_chan_11",
+    "topic": "วรรคทดสอบ (สแกนตามฉันทลักษณ์): รำลึกพระค",
+    "applicable_dims": [
+      "count",
+      "rhyme",
+      "kru_lahu"
+    ],
+    "poem_text": "รำลึกถึงแม่  \nมารุณาและอาทร  \nสายัณห์ตะวันยาม  \nข้าข้ามทิศพร",
+    "_provenance": {
+      "model": "typhoon-v2.5-30b-a3b-instruct",
+      "src_id": "prosody-chan-edit-005",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-gpt54mini-prosody-yani-compose-013",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "กาพย์ยานี ๑๑",
+    "meter_id": "kap_yani_11",
+    "topic": "ความสุขของการได้พบกันอีกครั้ง",
+    "applicable_dims": [
+      "count",
+      "rhyme"
+    ],
+    "poem_text": "วันเก่าพรากจากกัน  \nใจยังผูกพันมิคลายไป  \nวันนี้ได้พบใหม่  \nรอยยิ้มกลับมาอุ่นดวงใจ  \n\nลมเย็นพัดผ่านมา  \nดั่งพาเสียงทักจากฟ้าไกล  \nมือเอื้อมถึงกันไว้  \nสุขล้นอวลในห้วงคืนวัน",
+    "_provenance": {
+      "model": "gpt-5.4-mini",
+      "src_id": "prosody-yani-compose-013",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-broken-04-count",
+    "kind": "poem",
+    "task_mode": "reference",
+    "meter": "อินทรวิเชียรฉันท์ ๑๑",
+    "meter_id": "intharawichian_chan_11",
+    "topic": "วรรคทดสอบ (สแกนตามฉันทลักษณ์): รำลึกพระค",
+    "applicable_dims": [
+      "count",
+      "rhyme",
+      "kru_lahu"
+    ],
+    "poem_text": "รำลึกพระคุณ\nกะรุณาและอาทร\nสายัณห์ตะวันยาม\nขะณะข้ามทิคัมพร",
+    "_provenance": {
+      "source": "วรรคทดสอบ (สแกนตามฉันทลักษณ์): รำลึกพระคุณแม่ / กรุณาและอาทร / สายัณห์ตะวันยาม / ขณะข้ามทิฆัมพร",
+      "kind": "broken_anchor",
+      "break": "count",
+      "grader_score": 0.896
+    }
+  },
+  {
+    "id": "cal-typhoon-prosody-khlong-compose-034",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "โคลงสี่สุภาพ",
+    "meter_id": "khlong_si_suphap",
+    "topic": "ทุ่งนาสีทอง",
+    "applicable_dims": [
+      "count",
+      "tone",
+      "rhyme"
+    ],
+    "poem_text": "ทุ่งนาสีทองเรืองรองแสงอรุณ  \nหญ้าข้าวพื้นดินงามตาล่องลอย  \nสายลมพัดผ่านเสียงกระซิบเบา  \nร่มเงาต้นไม้รับร่มรื่นใจ",
+    "_provenance": {
+      "model": "typhoon-v2.5-30b-a3b-instruct",
+      "src_id": "prosody-khlong-compose-034",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-broken-00-tone",
+    "kind": "poem",
+    "task_mode": "reference",
+    "meter": "โคลงสี่สุภาพ",
+    "meter_id": "khlong_si_suphap",
+    "topic": "ความงามและความรัก",
+    "applicable_dims": [
+      "count",
+      "tone",
+      "rhyme"
+    ],
+    "poem_text": "เสียงลือเสียงเลาอ้าง\nอันใด\nเสียงย่อมยอยศใคร\nทั่วหล้า\nสองเขือพี่หลับใหล\nลืมตื่น\nสองพี่คิดเองอ้า\nอย่าได้ถามเผือ\nพี่เอย\nฤๅพี่",
+    "_provenance": {
+      "source": "ลิลิตพระลอ — เสียงลือเสียงเล่าอ้าง",
+      "kind": "broken_anchor",
+      "break": "tone",
+      "grader_score": 0.964
+    }
+  },
+  {
+    "id": "cal-gpt54mini-prosody-yani-cloze-004",
+    "kind": "poem",
+    "task_mode": "cloze",
+    "meter": "กาพย์ยานี ๑๑",
+    "meter_id": "kap_yani_11",
+    "topic": "ขึ้นกกตกทุกข์ยาก",
+    "applicable_dims": [
+      "count",
+      "rhyme"
+    ],
+    "poem_text": "ขึ้นกกตกทุกข์บ่พ้น  \nแสนลำบากจากเวียงไกล  \nมันเผือกเลือกเผาไฟ  \nกินผลไม้ได้เป็นแรง",
+    "_provenance": {
+      "model": "gpt-5.4-mini",
+      "src_id": "prosody-yani-cloze-004",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-broken-04-kru_lahu",
+    "kind": "poem",
+    "task_mode": "reference",
+    "meter": "อินทรวิเชียรฉันท์ ๑๑",
+    "meter_id": "intharawichian_chan_11",
+    "topic": "วรรคทดสอบ (สแกนตามฉันทลักษณ์): รำลึกพระค",
+    "applicable_dims": [
+      "count",
+      "rhyme",
+      "kru_lahu"
+    ],
+    "poem_text": "รำลึกมาคุณแม่\nกะรุณาและอาทร\nสายัณห์ตะวันยาม\nขะณะข้ามทิคัมพร",
+    "_provenance": {
+      "source": "วรรคทดสอบ (สแกนตามฉันทลักษณ์): รำลึกพระคุณแม่ / กรุณาและอาทร / สายัณห์ตะวันยาม / ขณะข้ามทิฆัมพร",
+      "kind": "broken_anchor",
+      "break": "kru_lahu",
+      "grader_score": 0.968
+    }
+  },
+  {
+    "id": "cal-gpt54mini-prosody-yani-compose-040",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "กาพย์ยานี ๑๑",
+    "meter_id": "kap_yani_11",
+    "topic": "รอยทางที่เลือกเดิน",
+    "applicable_dims": [
+      "count",
+      "rhyme"
+    ],
+    "poem_text": "รอยทางข้างหน้าไกล\tใจเรายังยืนหยัด  \nเลือกทางด้วยแรงศรัทธา\tแม้พายุยังพัดมา  \nก้าวไปตามฝันหวาน\tผ่านคืนวันอันสับสน  \nแม้ล้มก็ไม่ยอมจน\tเก็บบทเรียนไว้ก้าวใหม่  \n\nรอยทางที่เลือกเดิน\tคือทางเกินคำพร่ำใด  \nแม้เหนื่อยยังมีหัวใจ\tพาเราฝ่าไกลลำเค็ญ  \nแสงเช้าจะคอยย้ำ\tว่าความพยายามเด่น  \nเมื่อใจไม่ยอมเป็นเย็น\tรอยทางนั้นงามในเรา",
+    "_provenance": {
+      "model": "gpt-5.4-mini",
+      "src_id": "prosody-yani-compose-040",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-typhoon-prosody-klon8-compose-028",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "กลอนแปด",
+    "meter_id": "klon_paet",
+    "topic": "การเดินทางไกล",
+    "applicable_dims": [
+      "count",
+      "rhyme"
+    ],
+    "poem_text": "เส้นทางไกลล่องลอยในสายหมอก  \nลมพัดเย็นเยือกใจสั่นไหว  \nก้าวเท้าฝ่าป่าดงดิบมืดมิด  \nแสงจันทร์ส่องทางให้เดินไป  \n\nภูเขาสูงชันกั้นฟ้าไกล  \nน้ำตกไหลรินเสียงดังก้อง  \nร่มไม้ร่วงหล่นเป็นเพียงร่องรอย  \nของผู้เดินทางที่ไม่เคยหยุดยั้ง  \n\nเมฆลอยเหนือศีรษะเหมือนผ้าคลุม  \nลมพัดพากเพียรพาใจไป  \nแม้ทางไกลไม่รู้ปลายทาง  \nแต่หัวใจยังมีไฟเพลิงร้อนเร่า",
+    "_provenance": {
+      "model": "typhoon-v2.5-30b-a3b-instruct",
+      "src_id": "prosody-klon8-compose-028",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-typhoon-prosody-khlong-cloze-001",
+    "kind": "poem",
+    "task_mode": "cloze",
+    "meter": "โคลงสี่สุภาพ",
+    "meter_id": "khlong_si_suphap",
+    "topic": "เสียงลือเสียงเล่าอ้าง",
+    "applicable_dims": [
+      "count",
+      "tone",
+      "rhyme"
+    ],
+    "poem_text": "เสียงลือเสียงเล่าขาน  \nอันใดใด  \nเสียงลือลั่นยอยศใคร  \nทั่วหล้า  \nสองเขือพี่หลับใหล  \nลืมลาภ  \nสองพี่คิดเองอ้า  \nอย่าได้ถามเผือ  \nพี่เอย  \nฤๅพี่รัก",
+    "_provenance": {
+      "model": "typhoon-v2.5-30b-a3b-instruct",
+      "src_id": "prosody-khlong-cloze-001",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-gpt54mini-prosody-khlong-edit-001",
+    "kind": "poem",
+    "task_mode": "edit",
+    "meter": "โคลงสี่สุภาพ",
+    "meter_id": "khlong_si_suphap",
+    "topic": "เสียงลือเสียงเล่าอ้าง",
+    "applicable_dims": [
+      "count",
+      "tone",
+      "rhyme"
+    ],
+    "poem_text": "เสียงลือเสียงเล่าอ้าง  \nอันใด  \nเสียงย่อมยอยศใคร  \nทั่วหล้า  \nสองเขือพี่หลับใหล  \nลืมตื่น  \nสองพี่คิดเองอ้า  \nอย่าได้ถามเผือ  \nพี่เอย  \nฤๅพี่",
+    "_provenance": {
+      "model": "gpt-5.4-mini",
+      "src_id": "prosody-khlong-edit-001",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-typhoon-prosody-yani-compose-040",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "กาพย์ยานี ๑๑",
+    "meter_id": "kap_yani_11",
+    "topic": "รอยทางที่เลือกเดิน",
+    "applicable_dims": [
+      "count",
+      "rhyme"
+    ],
+    "poem_text": "รอยทางที่เลือกเดินดั่งสายธาร  \nไหลผ่านป่ามืดมิดในยามค่ำคืน  \nเสียงลมกระซิบบอกทางฝัน  \nดั่งดวงดาวส่องนำทางใจ  \n\nแม้หนทางไกลลับตาไม่เห็น  \nแต่ละก้าวคือความหวังที่ฝังไว้  \nไม่หวั่นไหวเมื่อเจอพายุโหม  \nเพราะรู้ว่าแสงอรุณรออยู่ปลายทาง",
+    "_provenance": {
+      "model": "typhoon-v2.5-30b-a3b-instruct",
+      "src_id": "prosody-yani-compose-040",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-gpt54mini-prosody-chan-compose-020",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "อินทรวิเชียรฉันท์ ๑๑",
+    "meter_id": "intharawichian_chan_11",
+    "topic": "ความเปลี่ยนแปลงของชีวิต",
+    "applicable_dims": [
+      "count",
+      "rhyme",
+      "kru_lahu"
+    ],
+    "poem_text": "ชีวิตเปลี่ยนผันวน               ระลอกล้นและเลือนราง  \nวันนี้เรืองรองปราง             พรุ่งนี้อาจมืดมนใจ  \nเคยสูงก็กลับต่ำ                  เคยช้ำก็กลับไหว  \nทุกย่างล้วนผ่านไป               ดังน้ำไหลไม่คืนเดิม  \n\nลมฟ้าและเวลา                   พาใจเราให้เปลี่ยนเสมอ  \nยิ้มรับทั้งดีเลอ                   และร้ายเผลอให้เรียนรู้  \nแม้โลกจะหมุนกลับ              ก็อย่าพลันสิ้นศรัทธาอยู่  \nเก็บแสงแห่งวันสู้                งอกงามสู่วันใหม่เอย",
+    "_provenance": {
+      "model": "gpt-5.4-mini",
+      "src_id": "prosody-chan-compose-020",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-typhoon-prosody-yani-compose-024",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "กาพย์ยานี ๑๑",
+    "meter_id": "kap_yani_11",
+    "topic": "แดดร้อนกลางฤดูร้อน",
+    "applicable_dims": [
+      "count",
+      "rhyme"
+    ],
+    "poem_text": "แสงแดดเผาผลาญแผ่นดินร้อน  \nร้อนแทบสลายใจคนเดินทาง  \nสายลมพัดผ่านก็ร้อนแรง  \nเหมือนไฟลุกไหม้ในป่าร้าง  \n\nเมฆลอยฟ้าไร้หยาดฝน  \nต้นไม้เหี่ยวเฉาแห้งแล้ง  \nเสียงนกขับร้องก็คล้ายครวญ  \nด้วยความร้อนที่ทนไม่ไหว",
+    "_provenance": {
+      "model": "typhoon-v2.5-30b-a3b-instruct",
+      "src_id": "prosody-yani-compose-024",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-gpt54mini-prosody-chan-compose-005",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "อินทรวิเชียรฉันท์ ๑๑",
+    "meter_id": "intharawichian_chan_11",
+    "topic": "พระจันทร์เต็มดวง",
+    "applicable_dims": [
+      "count",
+      "rhyme",
+      "kru_lahu"
+    ],
+    "poem_text": "จันทร์แจ่มจรัสกลางฟ้า  \nส่องนภาอำไพ  \nสาดแสงนวลลงไพรพฤกษ์  \nให้โลกซึ้งซ่านใจ  \n\nครั้นดวงจันทร์เต็มดวงเด่น  \nเย็นส่องทั่วธรณี  \nนภากว้างดุจแก้วเกลื่อน  \nงามนักยิ่งฤดี",
+    "_provenance": {
+      "model": "gpt-5.4-mini",
+      "src_id": "prosody-chan-compose-005",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-gpt54mini-prosody-khlong-compose-015",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "โคลงสี่สุภาพ",
+    "meter_id": "khlong_si_suphap",
+    "topic": "กาลเวลาที่ผันผ่าน",
+    "applicable_dims": [
+      "count",
+      "tone",
+      "rhyme"
+    ],
+    "poem_text": "กาลล่วงเลยคล้อยคล้อย       เคลื่อนคล้อย  \nวันคืนหมุนเวียนถอย          เร่งเร้า  \nวัยหวานพลันลาลอย           เลือนเล่า  \nเหลือเพียงธรรมสอนเจ้า       จิตรู้สงบงาม",
+    "_provenance": {
+      "model": "gpt-5.4-mini",
+      "src_id": "prosody-khlong-compose-015",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-gpt54mini-prosody-yani-compose-020",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "กาพย์ยานี ๑๑",
+    "meter_id": "kap_yani_11",
+    "topic": "ความเปลี่ยนแปลงของชีวิต",
+    "applicable_dims": [
+      "count",
+      "rhyme"
+    ],
+    "poem_text": "ชีวิตหมุนเปลี่ยนผัน                ตามวันและคืนลับ  \nเมื่อวานเคยแนบรับ                 วันนี้กลับแปรผัน  \n\nบางคราใจเหนื่อยล้า                 เพราะฟ้าพาแปรเปลี่ยน  \nแต่ยังคงเรียนรู้เพียร               ก้าวผ่านเวียนทุกข์ทน  \n\nแสงเช้าสาดมาก่อน                แม้นรอนคืนมืดหม่น  \nชีวิตย่อมเปลี่ยนคน                 ให้เข้มทนและงามงอน  \n\nเมื่อใจยอมรับจริง                  ทุกสิ่งย่อมไม่ยึด  \nปล่อยวางแล้วจิตฤทธิ์               พบทางใหม่งอกงาม",
+    "_provenance": {
+      "model": "gpt-5.4-mini",
+      "src_id": "prosody-yani-compose-020",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-clean-00",
+    "kind": "poem",
+    "task_mode": "reference",
+    "meter": "โคลงสี่สุภาพ",
+    "meter_id": "khlong_si_suphap",
+    "topic": "ความงามและความรัก",
+    "applicable_dims": [
+      "count",
+      "tone",
+      "rhyme"
+    ],
+    "poem_text": "เสียงลือเสียงเล่าอ้าง\nอันใด\nเสียงย่อมยอยศใคร\nทั่วหล้า\nสองเขือพี่หลับใหล\nลืมตื่น\nสองพี่คิดเองอ้า\nอย่าได้ถามเผือ\nพี่เอย\nฤๅพี่",
+    "_provenance": {
+      "source": "ลิลิตพระลอ — เสียงลือเสียงเล่าอ้าง",
+      "kind": "clean_anchor"
+    }
+  },
+  {
+    "id": "cal-broken-00-count",
+    "kind": "poem",
+    "task_mode": "reference",
+    "meter": "โคลงสี่สุภาพ",
+    "meter_id": "khlong_si_suphap",
+    "topic": "ความงามและความรัก",
+    "applicable_dims": [
+      "count",
+      "tone",
+      "rhyme"
+    ],
+    "poem_text": "เสียงลือเสียงเล่า\nอันใด\nเสียงย่อมยอยศใคร\nทั่วหล้า\nสองเขือพี่หลับใหล\nลืมตื่น\nสองพี่คิดเองอ้า\nอย่าได้ถามเผือ\nพี่เอย\nฤๅพี่",
+    "_provenance": {
+      "source": "ลิลิตพระลอ — เสียงลือเสียงเล่าอ้าง",
+      "kind": "broken_anchor",
+      "break": "count",
+      "grader_score": 0.939
+    }
+  },
+  {
+    "id": "cal-gpt54mini-prosody-klon8-compose-003",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "กลอนแปด",
+    "meter_id": "klon_paet",
+    "topic": "ขุนเขาในสายหมอก",
+    "applicable_dims": [
+      "count",
+      "rhyme"
+    ],
+    "poem_text": "ขุนเขาแทรกเมฆหมอกล่องลอยลับ  \nยามแสงจับยอดดอยดูค่อยค่อย  \nลมหนาวพัดพร่างพริ้วปลิวละห้อย  \nดุจใจค่อยเคล้าคลอเฝ้ารอวัน  \n\nสายหมอกคลุมแนวป่าพรางฟ้าครึ้ม  \nแสงอรุณค่อยยิ้มแต่งสวรรค์  \nภูผางามยืนสงบงามนิรันดร์  \nปลุกชีวันให้ฝันสู่ไพรทอง",
+    "_provenance": {
+      "model": "gpt-5.4-mini",
+      "src_id": "prosody-klon8-compose-003",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-typhoon-prosody-khlong-edit-001",
+    "kind": "poem",
+    "task_mode": "edit",
+    "meter": "โคลงสี่สุภาพ",
+    "meter_id": "khlong_si_suphap",
+    "topic": "เสียงลือเสียงเล่าอ้าง",
+    "applicable_dims": [
+      "count",
+      "tone",
+      "rhyme"
+    ],
+    "poem_text": "เสียงลือเสียงเลาอ้าง  \nอันใดอันหนึ่งเล่า  \nเสียงยอมยอยศใคร  \nทั่วหล้าลือลั่นกัน  \n\nสองเขือพี่หลับใหล  \nลืมตื่นจากฝันดี  \nสองพี่คิดเองอ้า  \nอย่าได้ถามเผือใจ  \n\nพี่เอย ฤๅพี่  \nใจยังมั่นคงไหม",
+    "_provenance": {
+      "model": "typhoon-v2.5-30b-a3b-instruct",
+      "src_id": "prosody-khlong-edit-001",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-clean-04",
+    "kind": "poem",
+    "task_mode": "reference",
+    "meter": "อินทรวิเชียรฉันท์ ๑๑",
+    "meter_id": "intharawichian_chan_11",
+    "topic": "วรรคทดสอบ (สแกนตามฉันทลักษณ์): รำลึกพระค",
+    "applicable_dims": [
+      "count",
+      "rhyme",
+      "kru_lahu"
+    ],
+    "poem_text": "รำลึกพระคุณแม่\nกะรุณาและอาทร\nสายัณห์ตะวันยาม\nขะณะข้ามทิคัมพร",
+    "_provenance": {
+      "source": "วรรคทดสอบ (สแกนตามฉันทลักษณ์): รำลึกพระคุณแม่ / กรุณาและอาทร / สายัณห์ตะวันยาม / ขณะข้ามทิฆัมพร",
+      "kind": "clean_anchor"
+    }
+  },
+  {
+    "id": "cal-broken-02-count",
+    "kind": "poem",
+    "task_mode": "reference",
+    "meter": "กลอนแปด",
+    "meter_id": "klon_paet",
+    "topic": "การพลัดพรากและการผจญภัย",
+    "applicable_dims": [
+      "count",
+      "rhyme"
+    ],
+    "poem_text": "แล้วสอนว่าอย่าไว้ใจมะ\nมันแสนสุดลึกล้ำเหลือกำหนด\nถึงเถาวัลพันเกี่ยวที่เลี้ยวลด\nก็ไม่คดเหมือนหนึ่งในน้ำใจคน",
+    "_provenance": {
+      "source": "พระอภัยมณี — แล้วสอนว่าอย่าไว้ใจมนุษย์",
+      "kind": "broken_anchor",
+      "break": "count",
+      "grader_score": 0.8
+    }
+  },
+  {
+    "id": "cal-gpt54mini-prosody-chan-compose-025",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "อินทรวิเชียรฉันท์ ๑๑",
+    "meter_id": "intharawichian_chan_11",
+    "topic": "ใบไม้ร่วงปลายฝน",
+    "applicable_dims": [
+      "count",
+      "rhyme",
+      "kru_lahu"
+    ],
+    "poem_text": "สายฝนซาแสงพราว\tลมพริ้วพาใบไม้เอน\nปลิดปลิวร่วงเกรียมเย็น\tลงดินปนกลิ่นชื้นงาม\n\nครั้นวันคล้อยค่ำครึ้ม\tเมฆคล้ำครอบฟ้าทึมขาม\nใบไม้ลอยลับถาม\tว่าคราวงามย่อมแปรไป",
+    "_provenance": {
+      "model": "gpt-5.4-mini",
+      "src_id": "prosody-chan-compose-025",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-typhoon-prosody-chan-compose-007",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "อินทรวิเชียรฉันท์ ๑๑",
+    "meter_id": "intharawichian_chan_11",
+    "topic": "ป่าใหญ่ยามเช้า",
+    "applicable_dims": [
+      "count",
+      "rhyme",
+      "kru_lahu"
+    ],
+    "poem_text": "ป่าใหญ่ยามเช้าสายส่องแสง  \nละอองหมอกลอยละล่อง  \nเสียงนกขับร้องในกิ่งไม้  \nเย็นชื่นใจดั่งสวรรค์  \n\nลมพัดแผ่วผ่านยอดต้นไม้  \nใบไม้ไหวพริ้วราวกับรำ  \nสายรุ้งปรากฏเบื้องหน้า  \nดั่งม่านทองอร่ามเรืองรอง",
+    "_provenance": {
+      "model": "typhoon-v2.5-30b-a3b-instruct",
+      "src_id": "prosody-chan-compose-007",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-typhoon-prosody-khlong-compose-018",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "โคลงสี่สุภาพ",
+    "meter_id": "khlong_si_suphap",
+    "topic": "ความจริงกับมายา",
+    "applicable_dims": [
+      "count",
+      "tone",
+      "rhyme"
+    ],
+    "poem_text": "ความจริงแท้ซื่อสัตย์อยู่ในใจ  \nมายาหลอกลวงแฝงด้วยคำหวาน  \nเหมือนฟ้าครามที่มองเห็นไกล  \nแต่เมื่อเข้าใกล้กลับเป็นหมอกควัน  \n\nสัจจะไม่หวั่นไหวต่อพายุร้าย  \nมายาเพียงชั่วคราวลอยไปกับลม  \nใครรู้จักคิดด้วยปัญญาแท้  \nจึงเห็นแสงธรรมเบื้องหลังเงาดำ",
+    "_provenance": {
+      "model": "typhoon-v2.5-30b-a3b-instruct",
+      "src_id": "prosody-khlong-compose-018",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-gpt54mini-prosody-klon8-compose-036",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "กลอนแปด",
+    "meter_id": "klon_paet",
+    "topic": "ความกตัญญูต่อบุพการี",
+    "applicable_dims": [
+      "count",
+      "rhyme"
+    ],
+    "poem_text": "พระคุณแม่พ่อหล่อเลี้ยงชีวิต  \nท่านอุทิศแรงใจไม่เคยหนี  \nเหน็ดเหนื่อยยากฝากรักทุกนาที  \nคอยชี้ทางส่องชีวีให้ก้าวไกล  \n\nลูกจะตอบแทนคุณท่านทุกเมื่อ  \nไม่ให้เบื่อบกพร่องด้วยสิ่งใด  \nตั้งใจเรียนทำดีมีวินัย  \nเพื่อทดแทนพระคุณใหญ่ให้สมควร  \n\nยามท่านชราเราจะคอยดูแล  \nทั้งเทคแคร์ด้วยใจไม่ขาดหวน  \nเอื้ออาทรปรนนิบัติไม่แปรปรวน  \nให้ท่านชื่นอิ่มนวลด้วยรอยยิ้ม  \n\nกตัญญูคือคุณธรรมอันสูงค่า  \nประดับหล้าดุจแก้วแววสดใส  \nระลึกคุณบุพการีมิคลอนคลาย  \nลูกขอหมายทดแทนท่านด้วยภักดี",
+    "_provenance": {
+      "model": "gpt-5.4-mini",
+      "src_id": "prosody-klon8-compose-036",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-gpt54mini-prosody-klon8-compose-010",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "กลอนแปด",
+    "meter_id": "klon_paet",
+    "topic": "ความคิดถึงบ้านเกิด",
+    "applicable_dims": [
+      "count",
+      "rhyme"
+    ],
+    "poem_text": "ยามไกลบ้านใจหวิวดังปลิวฝน  \nคิดถึงคนเคยชิดสนิทนัก  \nถิ่นนาเก่ากลิ่นดินยังตราตรึงรัก  \nทุกคืนพักใจคอยหวนคืนรัง  \n\nลมเย็นพัดผ่านทุ่งมุ่งกลับหา  \nเห็นท้องฟ้าเก่าก็พร่ำคิดถึงฝั่ง  \nบ้านเกิดเก่าคอยเรียกทุกยามดัง  \nให้ใจยังผูกพันมิคลอนคลาย",
+    "_provenance": {
+      "model": "gpt-5.4-mini",
+      "src_id": "prosody-klon8-compose-010",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-gpt54mini-prosody-yani-compose-018",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "กาพย์ยานี ๑๑",
+    "meter_id": "kap_yani_11",
+    "topic": "ความจริงกับมายา",
+    "applicable_dims": [
+      "count",
+      "rhyme"
+    ],
+    "poem_text": "มายาบังตาฟ้าสว่าง  \nแต่จริงยังคงอยู่กลางใจ  \nหากมองให้ลึกจะเข้าใจ  \nความจริงไม่ไกลเกินตาเรา  \n\nแสงเงาเวียนวับจับแววตา  \nหลอกให้หลงพาใจลู่ตาม  \nสุดท้ายสิ่งแท้ไม่ตามความ  \nจริงย่อมงามกว่าเงามายา",
+    "_provenance": {
+      "model": "gpt-5.4-mini",
+      "src_id": "prosody-yani-compose-018",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-typhoon-prosody-klon8-cloze-003",
+    "kind": "poem",
+    "task_mode": "cloze",
+    "meter": "กลอนแปด",
+    "meter_id": "klon_paet",
+    "topic": "แล้วสอนว่าอย่าไว้ใจมนุษย์",
+    "applicable_dims": [
+      "count",
+      "rhyme"
+    ],
+    "poem_text": "แล้วสอนว่าอย่าไว้ใจมะพร้าว  \nมันแสนสุดลึกล้ำเหลือกำลัง  \nถึงเถาวัลพันเกี่ยวที่เลี้ยวลวง  \nก็ไม่คดเหมือนหนึ่งในน้ำใจคน",
+    "_provenance": {
+      "model": "typhoon-v2.5-30b-a3b-instruct",
+      "src_id": "prosody-klon8-cloze-003",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-gpt54mini-prosody-yani-compose-024",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "กาพย์ยานี ๑๑",
+    "meter_id": "kap_yani_11",
+    "topic": "แดดร้อนกลางฤดูร้อน",
+    "applicable_dims": [
+      "count",
+      "rhyme"
+    ],
+    "poem_text": "ตะวันเผาโลมฟ้า  \nแดดแผดกล้าไล่ลมรอน  \nพื้นดินแตกระอุร้อน  \nไอแดดพ่นทั่วลานไกล  \n\nเด็กน้อยหลบใต้ร่มไม้  \nเหงื่อไหลพราวซึมกายไป  \nนกยังเงียบปีกพับใน  \nรอร่มเย็นคืนคลายร้อน",
+    "_provenance": {
+      "model": "gpt-5.4-mini",
+      "src_id": "prosody-yani-compose-024",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-typhoon-prosody-klon8-compose-010",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "กลอนแปด",
+    "meter_id": "klon_paet",
+    "topic": "ความคิดถึงบ้านเกิด",
+    "applicable_dims": [
+      "count",
+      "rhyme"
+    ],
+    "poem_text": "บ้านเกิดไกลป่านพ้นพ้นพง  \nสายลมพัดผ่านรำพึงรำพัน  \nแม่น้ำไหลเย็นใจยังหวน  \nเห็นภาพเดิมในฝันยังหวาน  \n\nสายน้ำค้างค่อยๆ คลายคืนวาน  \nเสียงนกขับขานร่วมรำพัน  \nบ้านเรือนเก่าซ่อนอยู่ในฝัน  \nใจยังหลงรักถิ่นเดิมที่เคย",
+    "_provenance": {
+      "model": "typhoon-v2.5-30b-a3b-instruct",
+      "src_id": "prosody-klon8-compose-010",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-gpt54mini-prosody-klon8-cloze-002",
+    "kind": "poem",
+    "task_mode": "cloze",
+    "meter": "กลอนแปด",
+    "meter_id": "klon_paet",
+    "topic": "ถึงบางพูดพูดดีเป็นศรีศักดิ์",
+    "applicable_dims": [
+      "count",
+      "rhyme"
+    ],
+    "poem_text": "ถึงบางพูดพูดดีเป็นศรีสง่า  \nมีคนรักรสถ้อยอะร่อยล้ำค่า  \nแม้นพูดชั่วตัวตายทำลายตนหนา  \nจะชอบผิดในมะนุดเพราะพูดจา",
+    "_provenance": {
+      "model": "gpt-5.4-mini",
+      "src_id": "prosody-klon8-cloze-002",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-gpt54mini-prosody-klon8-compose-040",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "กลอนแปด",
+    "meter_id": "klon_paet",
+    "topic": "รอยทางที่เลือกเดิน",
+    "applicable_dims": [
+      "count",
+      "rhyme"
+    ],
+    "poem_text": "รอยทางที่เลือกเดินนี้                แม้ไม่รื่นเหมือนดั่งฝัน  \nแต่ทุกย่างที่ฝ่าฟัน                     หล่อหลอมฉันให้กล้าไป  \n\nทางขรุขระมิพรั่นพรึง                 เพราะยึดดึงด้วยหทัย  \nแม้เหน็ดเหนื่อยเท่าใด                  ยังก้าวไปไม่ถอยหลัง",
+    "_provenance": {
+      "model": "gpt-5.4-mini",
+      "src_id": "prosody-klon8-compose-040",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-typhoon-prosody-chan-compose-005",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "อินทรวิเชียรฉันท์ ๑๑",
+    "meter_id": "intharawichian_chan_11",
+    "topic": "พระจันทร์เต็มดวง",
+    "applicable_dims": [
+      "count",
+      "rhyme",
+      "kru_lahu"
+    ],
+    "poem_text": "พระจันทร์เต็มดวงส่องแสงอรุณ  \nบดบังดาวฤกษ์ทั้งหลายในฟ้า  \nเยือกเย็นดั่งหยดน้ำค้าง  \nลอยอยู่กลางท้องฟ้าสูงสุด  \n\nร่มเงาแผ่กว้างทั่วป่าช้า  \nสะท้อนความงามในยามราตรี  \nเหมือนหยกใสที่ไม่มีคราบฝุ่น  \nประดับด้วยแสงทองอร่ามเรืองรอง",
+    "_provenance": {
+      "model": "typhoon-v2.5-30b-a3b-instruct",
+      "src_id": "prosody-chan-compose-005",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-typhoon-prosody-yani-cloze-004",
+    "kind": "poem",
+    "task_mode": "cloze",
+    "meter": "กาพย์ยานี ๑๑",
+    "meter_id": "kap_yani_11",
+    "topic": "ขึ้นกกตกทุกข์ยาก",
+    "applicable_dims": [
+      "count",
+      "rhyme"
+    ],
+    "poem_text": "ขึ้นกกตกทุกข์พ้นพ้น  \nแสนลำบากจากเวียงวัง  \nมันเผือกเลือกเผาไฟ  \nกินผลไม้ได้เป็นแรง",
+    "_provenance": {
+      "model": "typhoon-v2.5-30b-a3b-instruct",
+      "src_id": "prosody-yani-cloze-004",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-broken-01-count",
+    "kind": "poem",
+    "task_mode": "reference",
+    "meter": "กลอนแปด",
+    "meter_id": "klon_paet",
+    "topic": "การเดินทางและความคิดถึง",
+    "applicable_dims": [
+      "count",
+      "rhyme"
+    ],
+    "poem_text": "ถึงบางพูดพูดดีเป็นศรี\nมีคนรักรสถ้อยอะร่อยจิต\nแม้นพูดชั่วตัวตายทำลายมิตร\nจะชอบผิดในมะนุดเพราะพูดจา",
+    "_provenance": {
+      "source": "นิราศภูเขาทอง — ถึงบางพูดพูดดีเป็นศรีศักดิ์",
+      "kind": "broken_anchor",
+      "break": "count",
+      "grader_score": 0.7
+    }
+  },
+  {
+    "id": "cal-typhoon-prosody-klon8-cloze-002",
+    "kind": "poem",
+    "task_mode": "cloze",
+    "meter": "กลอนแปด",
+    "meter_id": "klon_paet",
+    "topic": "ถึงบางพูดพูดดีเป็นศรีศักดิ์",
+    "applicable_dims": [
+      "count",
+      "rhyme"
+    ],
+    "poem_text": "ถึงบางพูดพูดดีเป็นศรีสุข  \nมีคนรักรสถ้อยอะร่อยใจ  \nแม้นพูดชั่วตัวตายทำลายชื่อ  \nจะชอบผิดในมะนุดเพราะพูดจา",
+    "_provenance": {
+      "model": "typhoon-v2.5-30b-a3b-instruct",
+      "src_id": "prosody-klon8-cloze-002",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-typhoon-prosody-khlong-compose-002",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "โคลงสี่สุภาพ",
+    "meter_id": "khlong_si_suphap",
+    "topic": "ทะเลยามค่ำ",
+    "applicable_dims": [
+      "count",
+      "tone",
+      "rhyme"
+    ],
+    "poem_text": "ทะเลค่ำเริงรื่นเงียบสงบนิ่ง  \nคลื่นซัดฝั่งแผ่วเบาดังเพลงรัก  \nดวงดาวระยิบระยับบนฟ้าสูง  \nแสงจันทร์สาดส่องน้ำใสวาววับ",
+    "_provenance": {
+      "model": "typhoon-v2.5-30b-a3b-instruct",
+      "src_id": "prosody-khlong-compose-002",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-typhoon-prosody-klon8-compose-036",
+    "kind": "poem",
+    "task_mode": "compose",
+    "meter": "กลอนแปด",
+    "meter_id": "klon_paet",
+    "topic": "ความกตัญญูต่อบุพการี",
+    "applicable_dims": [
+      "count",
+      "rhyme"
+    ],
+    "poem_text": "บิดาแม่ผู้ให้กำเนิด  \nด้วยรักแท้ไม่หวังผลตอบแทน  \nเลี้ยงดูมาด้วยใจอ่อนโยน  \nเหมือนดวงตะวันส่องแสงในวันหนาว  \n\nครูบาอาจารย์สอนทางชีวิต  \nแต่บิดามารดาคือรากฐานแห่งชีวี  \nเมื่อเติบโตแล้วขอจงรำลึก  \nถวายความดีด้วยใจที่ซื่อสัตย์  \n\nแม่ผู้เสียสละทุกอย่าง  \nเพื่อให้ลูกมีชีวิตที่ดี  \nทั้งน้ำตาและเหงื่อไหล  \nคือสิ่งที่เธอแบกไว้คนเดียว  \n\nพ่อผู้หนักแน่นดั่งภูเขา  \nคอยปกป้องลูกทั้งกลางคืนกลางวัน  \nไม่เคยบ่นเรื่องเหน็ดเหนื่อย  \nเพียงได้เห็นลูกมีความสุขก็พอ  \n\nดังนั้นจงรักษาไว้ซึ่งศรัทธา  \nไม่ใช่แค่คำพูดเพียงฝอยลม  \nแต่ต้องทำด้วยกาย ด้วยใจ  \nเพื่อตอบแทนบุญคุณที่ไม่มีวันลืม",
+    "_provenance": {
+      "model": "typhoon-v2.5-30b-a3b-instruct",
+      "src_id": "prosody-klon8-compose-036",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-gpt54mini-prosody-chan-edit-005",
+    "kind": "poem",
+    "task_mode": "edit",
+    "meter": "อินทรวิเชียรฉันท์ ๑๑",
+    "meter_id": "intharawichian_chan_11",
+    "topic": "วรรคทดสอบ (สแกนตามฉันทลักษณ์): รำลึกพระค",
+    "applicable_dims": [
+      "count",
+      "rhyme",
+      "kru_lahu"
+    ],
+    "poem_text": "รำลึกมาคุณแม่  \nมารุณาและอาทร  \nสายัณห์ตะวันอ่อน  \nขณะข้ามทิวากร",
+    "_provenance": {
+      "model": "gpt-5.4-mini",
+      "src_id": "prosody-chan-edit-005",
+      "kind": "pilot"
+    }
+  },
+  {
+    "id": "cal-rhyme-000",
+    "kind": "rhyme_pair",
+    "word_a": "ใจ",
+    "word_b": "ไป",
+    "_cat": "ev"
+  },
+  {
+    "id": "cal-rhyme-001",
+    "kind": "rhyme_pair",
+    "word_a": "มา",
+    "word_b": "ปลา",
+    "_cat": "ev"
+  },
+  {
+    "id": "cal-rhyme-002",
+    "kind": "rhyme_pair",
+    "word_a": "รัก",
+    "word_b": "ภักดิ์",
+    "_cat": "ev"
+  },
+  {
+    "id": "cal-rhyme-003",
+    "kind": "rhyme_pair",
+    "word_a": "ดี",
+    "word_b": "ปี",
+    "_cat": "ev"
+  },
+  {
+    "id": "cal-rhyme-004",
+    "kind": "rhyme_pair",
+    "word_a": "นอน",
+    "word_b": "กร",
+    "_cat": "ev"
+  },
+  {
+    "id": "cal-rhyme-005",
+    "kind": "rhyme_pair",
+    "word_a": "ทอง",
+    "word_b": "ของ",
+    "_cat": "ev"
+  },
+  {
+    "id": "cal-rhyme-006",
+    "kind": "rhyme_pair",
+    "word_a": "เย็น",
+    "word_b": "เห็น",
+    "_cat": "ev"
+  },
+  {
+    "id": "cal-rhyme-007",
+    "kind": "rhyme_pair",
+    "word_a": "ลม",
+    "word_b": "ชม",
+    "_cat": "ev"
+  },
+  {
+    "id": "cal-rhyme-008",
+    "kind": "rhyme_pair",
+    "word_a": "คิด",
+    "word_b": "ปิด",
+    "_cat": "ev"
+  },
+  {
+    "id": "cal-rhyme-009",
+    "kind": "rhyme_pair",
+    "word_a": "เรา",
+    "word_b": "เขา",
+    "_cat": "ev"
+  },
+  {
+    "id": "cal-rhyme-010",
+    "kind": "rhyme_pair",
+    "word_a": "ใจ",
+    "word_b": "ดี",
+    "_cat": "ei"
+  },
+  {
+    "id": "cal-rhyme-011",
+    "kind": "rhyme_pair",
+    "word_a": "มา",
+    "word_b": "นอน",
+    "_cat": "ei"
+  },
+  {
+    "id": "cal-rhyme-012",
+    "kind": "rhyme_pair",
+    "word_a": "ทอง",
+    "word_b": "เย็น",
+    "_cat": "ei"
+  },
+  {
+    "id": "cal-rhyme-013",
+    "kind": "rhyme_pair",
+    "word_a": "ลม",
+    "word_b": "ปี",
+    "_cat": "ei"
+  },
+  {
+    "id": "cal-rhyme-014",
+    "kind": "rhyme_pair",
+    "word_a": "คิด",
+    "word_b": "เรา",
+    "_cat": "ei"
+  },
+  {
+    "id": "cal-rhyme-015",
+    "kind": "rhyme_pair",
+    "word_a": "รัก",
+    "word_b": "ลม",
+    "_cat": "ei"
+  },
+  {
+    "id": "cal-rhyme-016",
+    "kind": "rhyme_pair",
+    "word_a": "ไป",
+    "word_b": "ของ",
+    "_cat": "ei"
+  },
+  {
+    "id": "cal-rhyme-017",
+    "kind": "rhyme_pair",
+    "word_a": "เห็น",
+    "word_b": "ปลา",
+    "_cat": "ei"
+  },
+  {
+    "id": "cal-rhyme-018",
+    "kind": "rhyme_pair",
+    "word_a": "ชม",
+    "word_b": "ปิด",
+    "_cat": "ei"
+  },
+  {
+    "id": "cal-rhyme-019",
+    "kind": "rhyme_pair",
+    "word_a": "เขา",
+    "word_b": "กร",
+    "_cat": "ei"
+  },
+  {
+    "id": "cal-rhyme-020",
+    "kind": "rhyme_pair",
+    "word_a": "หนา",
+    "word_b": "นา",
+    "_cat": "an"
+  },
+  {
+    "id": "cal-rhyme-021",
+    "kind": "rhyme_pair",
+    "word_a": "หมด",
+    "word_b": "ลด",
+    "_cat": "an"
+  },
+  {
+    "id": "cal-rhyme-022",
+    "kind": "rhyme_pair",
+    "word_a": "หลง",
+    "word_b": "ยง",
+    "_cat": "an"
+  },
+  {
+    "id": "cal-rhyme-023",
+    "kind": "rhyme_pair",
+    "word_a": "อย่า",
+    "word_b": "ยา",
+    "_cat": "an"
+  },
+  {
+    "id": "cal-rhyme-024",
+    "kind": "rhyme_pair",
+    "word_a": "หนาว",
+    "word_b": "ดาว",
+    "_cat": "an"
+  },
+  {
+    "id": "cal-rhyme-025",
+    "kind": "rhyme_pair",
+    "word_a": "หมาย",
+    "word_b": "าย",
+    "_cat": "an"
+  },
+  {
+    "id": "cal-rhyme-026",
+    "kind": "rhyme_pair",
+    "word_a": "ใหล",
+    "word_b": "ใด",
+    "_cat": "an"
+  },
+  {
+    "id": "cal-rhyme-027",
+    "kind": "rhyme_pair",
+    "word_a": "หนู",
+    "word_b": "ดู",
+    "_cat": "an"
+  },
+  {
+    "id": "cal-rhyme-028",
+    "kind": "rhyme_pair",
+    "word_a": "ศักดิ์",
+    "word_b": "รัก",
+    "_cat": "ka"
+  },
+  {
+    "id": "cal-rhyme-029",
+    "kind": "rhyme_pair",
+    "word_a": "สิทธิ์",
+    "word_b": "ผิด",
+    "_cat": "ka"
+  },
+  {
+    "id": "cal-rhyme-030",
+    "kind": "rhyme_pair",
+    "word_a": "โทรศัพท์",
+    "word_b": "ทับ",
+    "_cat": "ka"
+  },
+  {
+    "id": "cal-rhyme-031",
+    "kind": "rhyme_pair",
+    "word_a": "จันทร์",
+    "word_b": "ฉัน",
+    "_cat": "ka"
+  },
+  {
+    "id": "cal-rhyme-032",
+    "kind": "rhyme_pair",
+    "word_a": "สงฆ์",
+    "word_b": "สง",
+    "_cat": "ka"
+  },
+  {
+    "id": "cal-rhyme-033",
+    "kind": "rhyme_pair",
+    "word_a": "เล่ห์",
+    "word_b": "เซ",
+    "_cat": "ka"
+  },
+  {
+    "id": "cal-rhyme-034",
+    "kind": "rhyme_pair",
+    "word_a": "พันธุ์",
+    "word_b": "พัน",
+    "_cat": "ka"
+  },
+  {
+    "id": "cal-rhyme-035",
+    "kind": "rhyme_pair",
+    "word_a": "เมล์",
+    "word_b": "เม",
+    "_cat": "ka"
+  },
+  {
+    "id": "cal-rhyme-036",
+    "kind": "rhyme_pair",
+    "word_a": "น้ำ",
+    "word_b": "ทำ",
+    "_cat": "sv"
+  },
+  {
+    "id": "cal-rhyme-037",
+    "kind": "rhyme_pair",
+    "word_a": "ใคร",
+    "word_b": "ไกล",
+    "_cat": "sv"
+  },
+  {
+    "id": "cal-rhyme-038",
+    "kind": "rhyme_pair",
+    "word_a": "เกียรติ",
+    "word_b": "เบียด",
+    "_cat": "sv"
+  },
+  {
+    "id": "cal-rhyme-039",
+    "kind": "rhyme_pair",
+    "word_a": "เธอ",
+    "word_b": "เจอ",
+    "_cat": "sv"
+  },
+  {
+    "id": "cal-rhyme-040",
+    "kind": "rhyme_pair",
+    "word_a": "มือ",
+    "word_b": "ถือ",
+    "_cat": "sv"
+  },
+  {
+    "id": "cal-rhyme-041",
+    "kind": "rhyme_pair",
+    "word_a": "เลือด",
+    "word_b": "เชือด",
+    "_cat": "sv"
+  },
+  {
+    "id": "cal-rhyme-042",
+    "kind": "rhyme_pair",
+    "word_a": "เพลง",
+    "word_b": "เคร่ง",
+    "_cat": "sv"
+  },
+  {
+    "id": "cal-rhyme-043",
+    "kind": "rhyme_pair",
+    "word_a": "กลัว",
+    "word_b": "ตัว",
+    "_cat": "sv"
+  }
+]

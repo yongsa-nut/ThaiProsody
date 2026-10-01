@@ -1,0 +1,32 @@
+<!doctype html><meta charset=utf-8><title>Syllable-count audit</title>
+<style>body{font-family:'Sarabun',Tahoma,sans-serif;max-width:1000px;margin:30px auto;color:#1a1d24;line-height:1.5}h1{font-size:1.4rem}h2{font-size:1.05rem;margin-top:1.8em}table{border-collapse:collapse;width:100%;margin:.6em 0;font-size:.95rem}td,th{border:1px solid #e3e6ea;padding:6px 10px;text-align:left}th{background:#f3eefe}.u{background:#fdecea}.o{background:#fff7e6}.big{font-size:1.2rem;font-weight:700}.k{color:#6b7280}</style>
+<h1>Syllable-count audit — Opus subagents vs tokenizer</h1>
+<p><b>120</b> words counted by 10 Opus 4.7 subagents (91 with hand-gold).</p>
+<p class=big>dict tokenizer vs Opus: 83.3% <span class=k>[CI 77-90]</span> &nbsp;·&nbsp; Opus vs hand-gold: 98.9%</p>
+<h2>Tokenizer disagreements (20) — highlighted</h2>
+<table><tr><th>word</th><th>Opus</th><th>dict</th><th>dir</th><th>Opus syllables</th><th>note</th></tr>
+<tr class=u><td>มนุษย์</td><td>2</td><td>1</td><td>under</td><td>มะ.นุด</td><td></td></tr>
+<tr class=u><td>สังเกต</td><td>3</td><td>2</td><td>under</td><td>สัง.เก.ต</td><td>สัง.เกด in normal speech (2), but in verse scanning the final ◌ต is read as a syllable เกด/กด; commonly scanned สัง-เก-ต = 3</td></tr>
+<tr class=u><td>ฤดู</td><td>2</td><td>1</td><td>under</td><td>รึ.ดู</td><td></td></tr>
+<tr class=u><td>โทรศัพท์</td><td>3</td><td>2</td><td>under</td><td>โท.ระ.สับ</td><td></td></tr>
+<tr class=u><td>ธรรมชาติ</td><td>3</td><td>2</td><td>under</td><td>ทำ.มะ.ชาด</td><td></td></tr>
+<tr class=u><td>อร่อย</td><td>2</td><td>1</td><td>under</td><td>อะ.หฺร่อย</td><td></td></tr>
+<tr class=u><td>ตลาด</td><td>2</td><td>1</td><td>under</td><td>ตะ.หฺลาด</td><td></td></tr>
+<tr class=u><td>ขนม</td><td>2</td><td>1</td><td>under</td><td>ขะ.หฺนม</td><td></td></tr>
+<tr class=u><td>มหา</td><td>2</td><td>1</td><td>under</td><td>มะ.หา</td><td></td></tr>
+<tr class=u><td>กรุณา</td><td>3</td><td>2</td><td>under</td><td>กะ.รุ.นา</td><td></td></tr>
+<tr class=u><td>ฉันทลักษณ์</td><td>3</td><td>2</td><td>under</td><td>ฉัน.ทะ.ลัก</td><td></td></tr>
+<tr class=u><td>สมุทร</td><td>2</td><td>1</td><td>under</td><td>สะ.หฺมุด</td><td></td></tr>
+<tr class=u><td>สบาย</td><td>2</td><td>1</td><td>under</td><td>สะ.บาย</td><td></td></tr>
+<tr class=u><td>สวรรค์</td><td>2</td><td>1</td><td>under</td><td>สะ.หฺวัน</td><td></td></tr>
+<tr class=u><td>ถนน</td><td>2</td><td>1</td><td>under</td><td>ถะ.หฺนน</td><td></td></tr>
+<tr class=u><td>ความเงียบสงบ</td><td>4</td><td>3</td><td>under</td><td>ความ.เงียบ.สะ.หฺงบ</td><td></td></tr>
+<tr class=u><td>จมูก</td><td>2</td><td>1</td><td>under</td><td>จะ.หฺมูก</td><td></td></tr>
+<tr class=u><td>ฉลาด</td><td>2</td><td>1</td><td>under</td><td>ฉะ.หฺลาด</td><td></td></tr>
+<tr class=u><td>สนาม</td><td>2</td><td>1</td><td>under</td><td>สะ.หฺนาม</td><td></td></tr>
+<tr class=u><td>วิทยา</td><td>3</td><td>1</td><td>under</td><td>วิด.ทะ.ยา</td><td></td></tr>
+</table>
+<h2>Opus vs hand-gold disagreements (1)</h2>
+<table><tr><th>word</th><th>Opus</th><th>hand-gold</th><th>dict</th><th>syllables</th><th>note</th></tr>
+<tr><td>สังเกต</td><td>3</td><td>2</td><td>2</td><td>สัง.เก.ต</td><td>สัง.เกด in normal speech (2), but in verse scanning the final ◌ต is read as a syllable เกด/กด; commonly scanned สัง-เก-ต = 3</td></tr>
+</table>

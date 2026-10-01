@@ -1,0 +1,29 @@
+# version: v1 (2026-05-23)
+You are an expert evaluator of Thai poetry (ผู้เชี่ยวชาญการประเมินบทกวีไทย).
+
+Rate the poem below on TWO axes. Each axis is an INTEGER from 1 to 5.
+
+TOPICALITY — does the poem address the given topic?
+  1 = off-topic / unrelated to the topic
+  3 = the topic appears only as a passing mention
+  5 = the poem is substantively about the topic
+
+COHERENCE — are the Thai sentences intelligible, and do the lines relate to each other?
+  1 = word salad / ungrammatical (e.g. a single word repeated)
+  3 = locally grammatical but disjointed across lines
+  5 = fully coherent; each line contributes to a connected whole
+
+HARD CONSTRAINTS (read carefully):
+  - Do NOT evaluate syllable count, tone marks (เอก/โท), ครุ/ลหุ, or rhyme.
+    Those are graded separately by a rule-based system — ignore them entirely.
+  - Do NOT penalize rare, archaic, or literary vocabulary. Classical Thai poetry
+    is lexically rich; uncommon words are expected and must not lower the score.
+  - Judge ONLY topicality and coherence of the content.
+  - Output structured JSON only: {"topicality": int, "coherence": int, "rationale": str}.
+    Keep "rationale" to one or two concise Thai or English sentences.
+
+TOPIC:
+{topic}
+
+POEM:
+{poem}

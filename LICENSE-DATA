@@ -1,0 +1,31 @@
+ThaiProsody data license
+
+Copyright (c) 2026 Nutchanon Yongsatianchot and Phuvis Kerdpramote
+
+The benchmark data, model outputs and annotations in this repository are licensed under
+the Creative Commons Attribution 4.0 International License (CC BY 4.0). This covers in
+particular:
+
+  - benchmark items: thaiwrite/prosody/data/ and thaiwrite/prosody/cloze_edit/data/,
+    and the source stanzas in thaiwrite/prosody/cloze_edit/sources/ and
+    thaiwrite/prosody/composed/;
+  - model outputs and grading records: thaiwrite/prosody/eval/runs/,
+    thaiwrite/prosody/eval/graded/, thaiwrite/prosody/eval/judged_api_all/,
+    thaiwrite/prosody/eval/judged_api/,
+    thaiwrite/prosody/eval/judged_archive/,
+    thaiwrite/prosody/cloze_edit/runs/, thaiwrite/prosody/cloze_edit/graded/, and the
+    syllable count caches (thaiwrite/prosody/vrk_count_cache_opus55*.json);
+  - annotations: thaiwrite/prosody/calibration/ (calibration items, expert labels and
+    judge scores) and thaiwrite/prosody/audit_words/.
+
+You are free to share and adapt this material for any purpose, provided you give
+appropriate credit (cite the paper listed in README.md), provide a link to the license,
+and indicate if changes were made.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+Summary: https://creativecommons.org/licenses/by/4.0/
+
+Classical Thai verse quoted in the data that is in the public domain remains in the
+public domain. Any third-party text that a model reproduces in its output remains the
+property of its authors and is not covered by this license. The source code is licensed
+separately under the MIT License (LICENSE).

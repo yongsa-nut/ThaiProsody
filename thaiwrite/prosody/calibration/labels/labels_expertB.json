@@ -1,0 +1,690 @@
+{
+  "annotator": "expertB",
+  "item_source": "(embedded)",
+  "n_items": 176,
+  "n_labeled": 176,
+  "started": "2026-09-30T17:28:28.255Z",
+  "exported": "2026-09-30T19:07:42.245Z",
+  "labels": {
+    "cal2-gpt55-high-prosody-chan-compose-037": {
+      "topicality": 4,
+      "coherence": 4
+    },
+    "cal2-typhoon25-prosody-chan-compose-004": {
+      "topicality": 3,
+      "coherence": 1
+    },
+    "cal2-thalle-prosody-khlong-compose-030": {
+      "topicality": 4,
+      "coherence": 3
+    },
+    "cal2-gpt55-high-prosody-yani-compose-007": {
+      "topicality": 5,
+      "coherence": 5
+    },
+    "cal2-kimi-k2.6-prosody-khlong-compose-002": {
+      "topicality": 5,
+      "coherence": 5
+    },
+    "cal2-gpt55-med-prosody-klon8-compose-033": {
+      "topicality": 5,
+      "coherence": 5
+    },
+    "cal2-gemini-3.5-flash-prosody-khlong-compose-034": {
+      "topicality": 5,
+      "coherence": 5
+    },
+    "cal2-typhoon25-prosody-khlong-compose-004": {
+      "topicality": 4,
+      "coherence": 3
+    },
+    "cal2-gpt55-low-prosody-chan-compose-004": {
+      "topicality": 4,
+      "coherence": 3
+    },
+    "cal-broken-03-count": {
+      "topicality": 1,
+      "coherence": 1
+    },
+    "cal2-deepseek-v4-flash-prosody-klon8-compose-016": {
+      "topicality": 4,
+      "coherence": 4
+    },
+    "cal2-qwen3.6-35b-a3b-prosody-klon8-compose-017": {
+      "topicality": 4,
+      "coherence": 4
+    },
+    "cal2-minimax-m2.7-prosody-khlong-compose-001": {
+      "topicality": 3,
+      "coherence": 3
+    },
+    "cal2-thalle-prosody-chan-compose-021": {
+      "topicality": 3,
+      "coherence": 2
+    },
+    "cal2-gpt54-mini-prosody-yani-compose-014": {
+      "topicality": 5,
+      "coherence": 5
+    },
+    "cal2-typhoon-s-prosody-klon8-compose-013": {
+      "topicality": 4,
+      "coherence": 3
+    },
+    "cal2-deepseek-v4-pro-prosody-khlong-compose-014": {
+      "topicality": 3,
+      "coherence": 2
+    },
+    "cal2-thalle-prosody-yani-compose-025": {
+      "topicality": 3,
+      "coherence": 3
+    },
+    "cal2-deepseek-v4-flash-prosody-chan-compose-005": {
+      "topicality": 1,
+      "coherence": 1
+    },
+    "cal2-minimax-m2.7-prosody-chan-compose-001": {
+      "topicality": 3,
+      "coherence": 2
+    },
+    "cal2-deepseek-v4-flash-prosody-khlong-compose-022": {
+      "topicality": 4,
+      "coherence": 3
+    },
+    "cal2-qwen3.6-35b-a3b-prosody-klon8-compose-004": {
+      "topicality": 5,
+      "coherence": 4
+    },
+    "cal-clean-01": {
+      "topicality": 1,
+      "coherence": 4
+    },
+    "cal2-typhoon-s-prosody-yani-compose-024": {
+      "topicality": 3,
+      "coherence": 3
+    },
+    "cal2-typhoon25-prosody-yani-compose-002": {
+      "topicality": 5,
+      "coherence": 3
+    },
+    "cal2-qwen3.6-35b-a3b-prosody-yani-compose-003": {
+      "coherence": 2,
+      "topicality": 5
+    },
+    "cal2-gpt55-high-prosody-khlong-compose-010": {
+      "topicality": 5,
+      "coherence": 5
+    },
+    "cal2-gpt55-med-prosody-yani-compose-006": {
+      "topicality": 5,
+      "coherence": 4
+    },
+    "cal2-typhoon25-prosody-chan-compose-003": {
+      "topicality": 3,
+      "coherence": 4
+    },
+    "cal2-gpt55-med-prosody-chan-compose-020": {
+      "topicality": 5,
+      "coherence": 5
+    },
+    "cal2-typhoon-s-prosody-klon8-compose-024": {
+      "topicality": 4,
+      "coherence": 2
+    },
+    "cal2-pathumma-prosody-yani-compose-002": {
+      "topicality": 4,
+      "coherence": 5
+    },
+    "cal2-minimax-m2.7-prosody-yani-compose-004": {
+      "topicality": 3,
+      "coherence": 2
+    },
+    "cal2-deepseek-v4-flash-prosody-yani-compose-037": {
+      "topicality": 3,
+      "coherence": 3
+    },
+    "cal2-gemma-4-31b-prosody-klon8-compose-018": {
+      "topicality": 5,
+      "coherence": 5
+    },
+    "cal2-deepseek-v4-flash-prosody-klon8-compose-006": {
+      "topicality": 5,
+      "coherence": 5
+    },
+    "cal2-opus-4.7-prosody-klon8-compose-003": {
+      "coherence": 5,
+      "topicality": 3
+    },
+    "cal2-gemma-4-31b-prosody-klon8-compose-034": {
+      "coherence": 5,
+      "topicality": 5
+    },
+    "cal2-typhoon25-prosody-klon8-compose-003": {
+      "topicality": 4,
+      "coherence": 4
+    },
+    "cal2-deepseek-v4-pro-prosody-yani-compose-019": {
+      "topicality": 3,
+      "coherence": 2
+    },
+    "cal2-openthaigpt-prosody-chan-compose-002": {
+      "topicality": 4,
+      "coherence": 3
+    },
+    "cal2-gpt54-mini-prosody-chan-compose-039": {
+      "topicality": 5,
+      "coherence": 5
+    },
+    "cal2-opus-4.7-prosody-khlong-compose-040": {
+      "topicality": 4,
+      "coherence": 4
+    },
+    "cal-clean-00": {
+      "topicality": 5,
+      "coherence": 5
+    },
+    "cal2-gemma-4-31b-prosody-chan-compose-037": {
+      "topicality": 5,
+      "coherence": 5
+    },
+    "cal2-glm-5.1-prosody-khlong-compose-006": {
+      "topicality": 4,
+      "coherence": 2
+    },
+    "cal2-thalle-prosody-klon8-compose-008": {
+      "topicality": 4,
+      "coherence": 2
+    },
+    "cal2-deepseek-v4-pro-prosody-chan-compose-002": {
+      "topicality": 4,
+      "coherence": 3
+    },
+    "cal2-typhoon25-prosody-klon8-compose-002": {
+      "topicality": 3,
+      "coherence": 2
+    },
+    "cal2-gemma-4-31b-prosody-khlong-compose-034": {
+      "topicality": 5,
+      "coherence": 4
+    },
+    "cal2-typhoon-s-prosody-khlong-compose-012": {
+      "topicality": 1,
+      "coherence": 1,
+      "meter": {
+        "count": false,
+        "tone": false,
+        "rhyme": false
+      }
+    },
+    "cal2-minimax-m2.7-prosody-chan-compose-004": {
+      "topicality": 3,
+      "coherence": 3
+    },
+    "cal2-gpt55-high-prosody-chan-compose-003": {
+      "topicality": 4,
+      "coherence": 2,
+      "meter": {
+        "count": true,
+        "rhyme": true
+      }
+    },
+    "cal2-openthaigpt-prosody-chan-compose-011": {
+      "topicality": 2,
+      "coherence": 1,
+      "meter": {
+        "count": false
+      }
+    },
+    "cal2-opus-4.7-prosody-yani-compose-011": {
+      "topicality": 4,
+      "coherence": 3
+    },
+    "cal2-gemini-3.5-flash-prosody-chan-compose-035": {
+      "topicality": 4,
+      "coherence": 3
+    },
+    "cal2-gemma-4-31b-prosody-chan-compose-010": {
+      "topicality": 4,
+      "coherence": 4
+    },
+    "cal2-gpt55-med-prosody-khlong-compose-026": {
+      "topicality": 4,
+      "coherence": 3
+    },
+    "cal-clean-02": {
+      "note": "คำผิด มะนุด -> มนุษย์",
+      "topicality": 4,
+      "coherence": 4
+    },
+    "cal2-gpt55-low-prosody-yani-compose-002": {
+      "topicality": 5,
+      "coherence": 5
+    },
+    "cal2-glm-5.1-prosody-klon8-compose-003": {
+      "topicality": 5,
+      "coherence": 5
+    },
+    "cal2-qwen3.6-35b-a3b-prosody-chan-compose-007": {
+      "topicality": 4,
+      "coherence": 2
+    },
+    "cal2-kimi-k2.6-prosody-khlong-compose-001": {
+      "topicality": 3,
+      "coherence": 3
+    },
+    "cal2-glm-5.1-prosody-chan-compose-008": {
+      "topicality": 4,
+      "coherence": 3
+    },
+    "cal2-glm-5.1-prosody-yani-compose-019": {
+      "topicality": 3,
+      "coherence": 3
+    },
+    "cal-broken-04-count": {
+      "note": "คำผิด กะรุณา -> กรุณา, ขะณะ -> ขณะ\n",
+      "topicality": 1,
+      "coherence": 1
+    },
+    "cal2-deepseek-v4-flash-prosody-chan-compose-015": {
+      "topicality": 1,
+      "coherence": 1
+    },
+    "cal2-gemini-3.5-flash-prosody-yani-compose-001": {
+      "topicality": 3,
+      "coherence": 3
+    },
+    "cal2-glm-5.1-prosody-chan-compose-033": {
+      "topicality": 4,
+      "coherence": 2
+    },
+    "cal2-deepseek-v4-flash-prosody-yani-compose-006": {
+      "topicality": 3,
+      "coherence": 1
+    },
+    "cal2-kimi-k2.6-prosody-klon8-compose-004": {
+      "topicality": 3,
+      "coherence": 3
+    },
+    "cal2-typhoon25-prosody-khlong-compose-001": {
+      "topicality": 4,
+      "coherence": 4
+    },
+    "cal2-typhoon25-prosody-chan-compose-002": {
+      "topicality": 3,
+      "coherence": 2
+    },
+    "cal2-gemma-4-31b-prosody-yani-compose-024": {
+      "topicality": 5,
+      "coherence": 5
+    },
+    "cal2-gpt55-med-prosody-klon8-compose-025": {
+      "topicality": 4,
+      "coherence": 4
+    },
+    "cal2-sonnet-4.6-prosody-khlong-compose-037": {
+      "topicality": 4,
+      "coherence": 3
+    },
+    "cal2-openthaigpt-prosody-yani-compose-030": {
+      "topicality": 3,
+      "coherence": 2
+    },
+    "cal2-gemini-3.5-flash-prosody-chan-compose-025": {
+      "topicality": 3,
+      "coherence": 3
+    },
+    "cal-broken-02-count": {
+      "topicality": 4,
+      "coherence": 3,
+      "note": "คำผิด มะ -> มนุยษ์"
+    },
+    "cal2-deepseek-v4-flash-prosody-klon8-compose-010": {
+      "topicality": 4,
+      "coherence": 3
+    },
+    "cal2-thalle-prosody-yani-compose-009": {
+      "topicality": 3,
+      "coherence": 3
+    },
+    "cal2-typhoon25-prosody-yani-compose-003": {
+      "topicality": 4,
+      "coherence": 3
+    },
+    "cal2-gpt55-low-prosody-klon8-compose-018": {
+      "topicality": 3,
+      "coherence": 3
+    },
+    "cal2-sonnet-4.6-prosody-chan-compose-018": {
+      "topicality": 4,
+      "coherence": 3
+    },
+    "cal-broken-00-count": {
+      "note": "ตำแหน่งคำผิด อันใด พี่เอย, ลืมตื่น ฤๅพี่",
+      "topicality": 2,
+      "coherence": 2
+    },
+    "cal2-kimi-k2.6-prosody-chan-compose-004": {
+      "topicality": 3,
+      "coherence": 2
+    },
+    "cal2-gemma-4-31b-prosody-chan-compose-016": {
+      "topicality": 4,
+      "coherence": 4
+    },
+    "cal2-typhoon-s-prosody-chan-compose-018": {
+      "topicality": 4,
+      "coherence": 2
+    },
+    "cal2-gemma-4-31b-prosody-klon8-compose-031": {
+      "topicality": 5,
+      "coherence": 4
+    },
+    "cal2-typhoon25-prosody-yani-compose-004": {
+      "topicality": 3,
+      "coherence": 2
+    },
+    "cal2-openthaigpt-prosody-klon8-compose-035": {
+      "topicality": 4,
+      "coherence": 3
+    },
+    "cal2-gpt55-med-prosody-yani-compose-033": {
+      "topicality": 5,
+      "coherence": 5
+    },
+    "cal2-gemma-4-31b-prosody-khlong-compose-015": {
+      "topicality": 4,
+      "coherence": 4
+    },
+    "cal2-gpt54-mini-prosody-klon8-compose-024": {
+      "topicality": 4,
+      "coherence": 4
+    },
+    "cal-clean-03": {
+      "topicality": 1,
+      "coherence": 1
+    },
+    "cal2-typhoon25-prosody-klon8-compose-004": {
+      "topicality": 3,
+      "coherence": 2
+    },
+    "cal2-typhoon25-prosody-khlong-compose-002": {
+      "coherence": 2,
+      "topicality": 3
+    },
+    "cal2-openthaigpt-prosody-khlong-compose-015": {
+      "topicality": 4,
+      "coherence": 3
+    },
+    "cal2-deepseek-v4-flash-prosody-chan-compose-008": {
+      "topicality": 5,
+      "coherence": 5
+    },
+    "cal-broken-00-tone": {
+      "note": "ตำแหน่งคำผิด อันใด พี่เอย, ลืมตื่น ฤๅพี่",
+      "topicality": 1,
+      "coherence": 2
+    },
+    "cal2-gpt55-low-prosody-khlong-compose-032": {
+      "topicality": 3,
+      "coherence": 3
+    },
+    "cal2-gpt55-high-prosody-klon8-compose-015": {
+      "topicality": 3,
+      "coherence": 2
+    },
+    "cal2-thalle-prosody-khlong-compose-017": {
+      "topicality": 5,
+      "coherence": 4
+    },
+    "cal2-sonnet-4.6-prosody-yani-compose-024": {
+      "topicality": 5,
+      "coherence": 4
+    },
+    "cal2-gpt54-mini-prosody-khlong-compose-035": {
+      "topicality": 3,
+      "coherence": 3
+    },
+    "cal2-gpt55-high-prosody-klon8-compose-035": {
+      "topicality": 4,
+      "coherence": 5
+    },
+    "cal2-typhoon-s-prosody-khlong-compose-022": {
+      "topicality": 2,
+      "coherence": 3
+    },
+    "cal2-glm-5.1-prosody-yani-compose-012": {
+      "topicality": 3,
+      "coherence": 2
+    },
+    "cal2-typhoon25-prosody-khlong-compose-003": {
+      "topicality": 3,
+      "coherence": 2
+    },
+    "cal2-gemini-3.5-flash-prosody-klon8-compose-013": {
+      "topicality": 5,
+      "coherence": 5
+    },
+    "cal2-opus-4.7-prosody-chan-compose-032": {
+      "topicality": 3,
+      "coherence": 3
+    },
+    "cal-broken-04-kru_lahu": {
+      "note": "คำผิด กะรุณา -> กรุณา, ขะณะ -> ขณะ",
+      "topicality": 3,
+      "coherence": 2
+    },
+    "cal2-typhoon25-prosody-yani-compose-001": {
+      "topicality": 4,
+      "coherence": 4
+    },
+    "cal2-deepseek-v4-flash-prosody-yani-compose-009": {
+      "topicality": 4,
+      "coherence": 3
+    },
+    "cal2-minimax-m2.7-prosody-klon8-compose-001": {
+      "topicality": 2,
+      "coherence": 2
+    },
+    "cal2-sonnet-4.6-prosody-klon8-compose-005": {
+      "topicality": 3,
+      "coherence": 3
+    },
+    "cal2-gemma-4-31b-prosody-chan-compose-029": {
+      "topicality": 5,
+      "coherence": 5
+    },
+    "cal2-deepseek-v4-flash-prosody-khlong-compose-026": {
+      "topicality": 3,
+      "coherence": 2
+    },
+    "cal2-deepseek-v4-flash-prosody-khlong-compose-014": {
+      "topicality": 3,
+      "coherence": 2
+    },
+    "cal2-opus-4.7-prosody-khlong-compose-030": {
+      "topicality": 2,
+      "coherence": 3
+    },
+    "cal2-gemma-4-31b-prosody-klon8-compose-012": {
+      "topicality": 5,
+      "coherence": 5
+    },
+    "cal2-deepseek-v4-pro-prosody-klon8-compose-006": {
+      "topicality": 3,
+      "coherence": 2
+    },
+    "cal2-pathumma-prosody-klon8-compose-002": {
+      "topicality": 4,
+      "coherence": 4
+    },
+    "cal-clean-04": {
+      "topicality": 2,
+      "coherence": 2,
+      "note": "ซ้ำ คำผิด กะรุณา - กรุณา, ขะณะ- ขณะ"
+    },
+    "cal2-gemma-4-31b-prosody-yani-compose-033": {
+      "topicality": 4,
+      "coherence": 3
+    },
+    "cal-broken-01-count": {
+      "topicality": 1,
+      "coherence": 2,
+      "note": "คำผิด มะนุด - มนุษย์, อะร่อย - อร่อย"
+    },
+    "cal2-qwen3.6-35b-a3b-prosody-khlong-compose-005": {
+      "topicality": 3,
+      "coherence": 3
+    },
+    "cal2-gemma-4-31b-prosody-khlong-compose-013": {
+      "topicality": 4,
+      "coherence": 3
+    },
+    "cal2-gpt54-mini-prosody-khlong-compose-017": {
+      "topicality": 5,
+      "coherence": 5
+    },
+    "cal2-qwen3.6-35b-a3b-prosody-yani-compose-013": {
+      "topicality": 3,
+      "coherence": 2
+    },
+    "cal2-gpt55-low-prosody-yani-compose-036": {
+      "topicality": 4,
+      "coherence": 3
+    },
+    "cal2-gemma-4-31b-prosody-yani-compose-038": {
+      "topicality": 4,
+      "coherence": 3
+    },
+    "cal-rhyme-000": {
+      "valid": true
+    },
+    "cal-rhyme-001": {
+      "valid": true
+    },
+    "cal-rhyme-002": {
+      "valid": true
+    },
+    "cal-rhyme-003": {
+      "valid": true
+    },
+    "cal-rhyme-004": {
+      "valid": true
+    },
+    "cal-rhyme-005": {
+      "valid": true
+    },
+    "cal-rhyme-006": {
+      "valid": true
+    },
+    "cal-rhyme-007": {
+      "valid": true
+    },
+    "cal-rhyme-008": {
+      "valid": true
+    },
+    "cal-rhyme-009": {
+      "valid": true
+    },
+    "cal-rhyme-010": {
+      "valid": false
+    },
+    "cal-rhyme-011": {
+      "valid": false
+    },
+    "cal-rhyme-012": {
+      "valid": false
+    },
+    "cal-rhyme-013": {
+      "valid": false
+    },
+    "cal-rhyme-014": {
+      "valid": false
+    },
+    "cal-rhyme-015": {
+      "valid": false
+    },
+    "cal-rhyme-016": {
+      "valid": false
+    },
+    "cal-rhyme-017": {
+      "valid": false
+    },
+    "cal-rhyme-018": {
+      "valid": false
+    },
+    "cal-rhyme-019": {
+      "valid": false
+    },
+    "cal-rhyme-020": {
+      "valid": true
+    },
+    "cal-rhyme-021": {
+      "valid": true
+    },
+    "cal-rhyme-022": {
+      "valid": true
+    },
+    "cal-rhyme-023": {
+      "valid": true
+    },
+    "cal-rhyme-024": {
+      "valid": true
+    },
+    "cal-rhyme-025": {
+      "valid": false
+    },
+    "cal-rhyme-026": {
+      "valid": true
+    },
+    "cal-rhyme-027": {
+      "valid": true
+    },
+    "cal-rhyme-028": {
+      "valid": true
+    },
+    "cal-rhyme-029": {
+      "valid": true
+    },
+    "cal-rhyme-030": {
+      "valid": false
+    },
+    "cal-rhyme-031": {
+      "valid": true
+    },
+    "cal-rhyme-032": {
+      "valid": true
+    },
+    "cal-rhyme-033": {
+      "valid": true
+    },
+    "cal-rhyme-034": {
+      "valid": true
+    },
+    "cal-rhyme-035": {
+      "valid": true
+    },
+    "cal-rhyme-036": {
+      "valid": true
+    },
+    "cal-rhyme-037": {
+      "valid": true
+    },
+    "cal-rhyme-038": {
+      "valid": true
+    },
+    "cal-rhyme-039": {
+      "valid": true
+    },
+    "cal-rhyme-040": {
+      "valid": true
+    },
+    "cal-rhyme-041": {
+      "valid": true
+    },
+    "cal-rhyme-042": {
+      "valid": true
+    },
+    "cal-rhyme-043": {
+      "valid": true
+    }
+  }
+}

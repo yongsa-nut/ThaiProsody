@@ -1,0 +1,5236 @@
+{
+ "models": {
+  "deepseek-v4-flash": {
+   "cloze": {
+    "all": {
+     "n": 160,
+     "n_stanzas": 51,
+     "n_infra_excluded": 0,
+     "delivery": 0.7562,
+     "meter": 0.6704,
+     "meter_ci": [
+      0.61,
+      0.7289
+     ],
+     "solved": 0.3312,
+     "solved_ci": [
+      0.245,
+      0.4266
+     ],
+     "valid": 0.3312,
+     "valid_ci": [
+      0.2457,
+      0.4286
+     ],
+     "windowed": 0.0187,
+     "faithful": 0.7375,
+     "exact": 0.2,
+     "meter_tok": 0.5996,
+     "solved_tok": 0.2562
+    },
+    "khlong_si_suphap": {
+     "n": 48,
+     "n_stanzas": 12,
+     "n_infra_excluded": 0,
+     "delivery": 0.7083,
+     "meter": 0.6368,
+     "meter_ci": [
+      0.5607,
+      0.7164
+     ],
+     "solved": 0.0833,
+     "solved_ci": [
+      0.0208,
+      0.1458
+     ],
+     "valid": 0.0833,
+     "valid_ci": [
+      0.0208,
+      0.1458
+     ],
+     "windowed": 0.0417,
+     "faithful": 0.6875,
+     "exact": 0.0,
+     "meter_tok": 0.6278,
+     "solved_tok": 0.0625
+    },
+    "klon_paet": {
+     "n": 42,
+     "n_stanzas": 14,
+     "n_infra_excluded": 0,
+     "delivery": 0.8571,
+     "meter": 0.8,
+     "meter_ci": [
+      0.6762,
+      0.9048
+     ],
+     "solved": 0.5952,
+     "solved_ci": [
+      0.4286,
+      0.7619
+     ],
+     "valid": 0.5952,
+     "valid_ci": [
+      0.4286,
+      0.7619
+     ],
+     "windowed": 0.0,
+     "faithful": 0.8571,
+     "exact": 0.4048,
+     "meter_tok": 0.7905,
+     "solved_tok": 0.5714
+    },
+    "kap_yani_11": {
+     "n": 40,
+     "n_stanzas": 20,
+     "n_infra_excluded": 0,
+     "delivery": 0.75,
+     "meter": 0.665,
+     "meter_ci": [
+      0.5425,
+      0.7825
+     ],
+     "solved": 0.5,
+     "solved_ci": [
+      0.35,
+      0.65
+     ],
+     "valid": 0.5,
+     "valid_ci": [
+      0.35,
+      0.65
+     ],
+     "windowed": 0.0,
+     "faithful": 0.75,
+     "exact": 0.375,
+     "meter_tok": 0.5275,
+     "solved_tok": 0.35
+    },
+    "intharawichian_chan_11": {
+     "n": 30,
+     "n_stanzas": 5,
+     "n_infra_excluded": 0,
+     "delivery": 0.7,
+     "meter": 0.5497,
+     "meter_ci": [
+      0.4232,
+      0.6273
+     ],
+     "solved": 0.1333,
+     "solved_ci": [
+      0.0667,
+      0.1667
+     ],
+     "valid": 0.1333,
+     "valid_ci": [
+      0.0667,
+      0.1667
+     ],
+     "windowed": 0.0333,
+     "faithful": 0.6333,
+     "exact": 0.0,
+     "meter_tok": 0.3836,
+     "solved_tok": 0.0
+    }
+   },
+   "edit": {
+    "all": {
+     "n": 74,
+     "n_stanzas": 17,
+     "n_infra_excluded": 0,
+     "delivery": 0.5,
+     "meter": 0.271,
+     "meter_ci": [
+      0.1736,
+      0.378
+     ],
+     "solved": 0.0,
+     "solved_ci": [
+      0.0,
+      0.0
+     ],
+     "valid": 0.0135,
+     "valid_ci": [
+      0.0,
+      0.04
+     ],
+     "windowed": 0.0,
+     "faithful": 0.0,
+     "exact": 0.0,
+     "meter_tok": 0.2253,
+     "solved_tok": 0.0
+    },
+    "khlong_si_suphap": {
+     "n": 48,
+     "n_stanzas": 12,
+     "n_infra_excluded": 0,
+     "delivery": 0.3958,
+     "meter": 0.174,
+     "meter_ci": [
+      0.1037,
+      0.241
+     ],
+     "solved": 0.0,
+     "solved_ci": [
+      0.0,
+      0.0
+     ],
+     "valid": 0.0,
+     "valid_ci": [
+      0.0,
+      0.0
+     ],
+     "windowed": 0.0,
+     "faithful": 0.0,
+     "exact": 0.0,
+     "meter_tok": 0.1664,
+     "solved_tok": 0.0
+    },
+    "intharawichian_chan_11": {
+     "n": 26,
+     "n_stanzas": 5,
+     "n_infra_excluded": 0,
+     "delivery": 0.6923,
+     "meter": 0.45,
+     "meter_ci": [
+      0.2753,
+      0.6444
+     ],
+     "solved": 0.0,
+     "solved_ci": [
+      0.0,
+      0.0
+     ],
+     "valid": 0.0385,
+     "valid_ci": [
+      0.0,
+      0.1111
+     ],
+     "windowed": 0.0,
+     "faithful": 0.0,
+     "exact": 0.0,
+     "meter_tok": 0.3339,
+     "solved_tok": 0.0
+    }
+   }
+  },
+  "deepseek-v4-pro": {
+   "cloze": {
+    "all": {
+     "n": 160,
+     "n_stanzas": 51,
+     "n_infra_excluded": 0,
+     "delivery": 0.8875,
+     "meter": 0.8398,
+     "meter_ci": [
+      0.7864,
+      0.8945
+     ],
+     "solved": 0.5437,
+     "solved_ci": [
+      0.4294,
+      0.6713
+     ],
+     "valid": 0.55,
+     "valid_ci": [
+      0.4345,
+      0.6806
+     ],
+     "windowed": 0.0,
+     "faithful": 0.875,
+     "exact": 0.3688,
+     "meter_tok": 0.7489,
+     "solved_tok": 0.4125
+    },
+    "khlong_si_suphap": {
+     "n": 48,
+     "n_stanzas": 12,
+     "n_infra_excluded": 0,
+     "delivery": 0.8125,
+     "meter": 0.7497,
+     "meter_ci": [
+      0.6811,
+      0.8148
+     ],
+     "solved": 0.1667,
+     "solved_ci": [
+      0.0417,
+      0.3125
+     ],
+     "valid": 0.1667,
+     "valid_ci": [
+      0.0417,
+      0.3125
+     ],
+     "windowed": 0.0,
+     "faithful": 0.8125,
+     "exact": 0.0417,
+     "meter_tok": 0.7265,
+     "solved_tok": 0.1458
+    },
+    "klon_paet": {
+     "n": 42,
+     "n_stanzas": 14,
+     "n_infra_excluded": 0,
+     "delivery": 0.9762,
+     "meter": 0.9714,
+     "meter_ci": [
+      0.919,
+      1.0
+     ],
+     "solved": 0.9524,
+     "solved_ci": [
+      0.881,
+      1.0
+     ],
+     "valid": 0.9524,
+     "valid_ci": [
+      0.881,
+      1.0
+     ],
+     "windowed": 0.0,
+     "faithful": 0.9762,
+     "exact": 0.7381,
+     "meter_tok": 0.9619,
+     "solved_tok": 0.9048
+    },
+    "kap_yani_11": {
+     "n": 40,
+     "n_stanzas": 20,
+     "n_infra_excluded": 0,
+     "delivery": 0.975,
+     "meter": 0.945,
+     "meter_ci": [
+      0.8875,
+      0.985
+     ],
+     "solved": 0.875,
+     "solved_ci": [
+      0.775,
+      0.975
+     ],
+     "valid": 0.875,
+     "valid_ci": [
+      0.775,
+      0.975
+     ],
+     "windowed": 0.0,
+     "faithful": 0.975,
+     "exact": 0.65,
+     "meter_tok": 0.75,
+     "solved_tok": 0.525
+    },
+    "intharawichian_chan_11": {
+     "n": 30,
+     "n_stanzas": 5,
+     "n_infra_excluded": 0,
+     "delivery": 0.7667,
+     "meter": 0.6595,
+     "meter_ci": [
+      0.517,
+      0.8021
+     ],
+     "solved": 0.1333,
+     "solved_ci": [
+      0.0333,
+      0.2667
+     ],
+     "valid": 0.1667,
+     "valid_ci": [
+      0.0667,
+      0.2667
+     ],
+     "windowed": 0.0,
+     "faithful": 0.7,
+     "exact": 0.0,
+     "meter_tok": 0.4851,
+     "solved_tok": 0.0
+    }
+   },
+   "edit": {
+    "all": {
+     "n": 47,
+     "n_stanzas": 11,
+     "n_infra_excluded": 27,
+     "delivery": 0.7447,
+     "meter": 0.5997,
+     "meter_ci": [
+      0.4153,
+      0.7285
+     ],
+     "solved": 0.0,
+     "solved_ci": [
+      0.0,
+      0.0
+     ],
+     "valid": 0.0,
+     "valid_ci": [
+      0.0,
+      0.0
+     ],
+     "windowed": 0.0,
+     "faithful": 0.1064,
+     "exact": 0.0,
+     "meter_tok": 0.4944,
+     "solved_tok": 0.0
+    },
+    "khlong_si_suphap": {
+     "n": 21,
+     "n_stanzas": 6,
+     "n_infra_excluded": 27,
+     "delivery": 0.4762,
+     "meter": 0.3639,
+     "meter_ci": [
+      0.1695,
+      0.5347
+     ],
+     "solved": 0.0,
+     "solved_ci": [
+      0.0,
+      0.0
+     ],
+     "valid": 0.0,
+     "valid_ci": [
+      0.0,
+      0.0
+     ],
+     "windowed": 0.0,
+     "faithful": 0.0,
+     "exact": 0.0,
+     "meter_tok": 0.3639,
+     "solved_tok": 0.0
+    },
+    "intharawichian_chan_11": {
+     "n": 26,
+     "n_stanzas": 5,
+     "n_infra_excluded": 0,
+     "delivery": 0.9615,
+     "meter": 0.79,
+     "meter_ci": [
+      0.7547,
+      0.8297
+     ],
+     "solved": 0.0,
+     "solved_ci": [
+      0.0,
+      0.0
+     ],
+     "valid": 0.0,
+     "valid_ci": [
+      0.0,
+      0.0
+     ],
+     "windowed": 0.0,
+     "faithful": 0.1923,
+     "exact": 0.0,
+     "meter_tok": 0.5998,
+     "solved_tok": 0.0
+    }
+   }
+  },
+  "gemini-3.5-flash": {
+   "cloze": {
+    "all": {
+     "n": 160,
+     "n_stanzas": 51,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.9579,
+     "meter_ci": [
+      0.9437,
+      0.9721
+     ],
+     "solved": 0.6687,
+     "solved_ci": [
+      0.5828,
+      0.7622
+     ],
+     "valid": 0.6687,
+     "valid_ci": [
+      0.5829,
+      0.7586
+     ],
+     "windowed": 0.0063,
+     "faithful": 0.9938,
+     "exact": 0.425,
+     "meter_tok": 0.839,
+     "solved_tok": 0.4375
+    },
+    "khlong_si_suphap": {
+     "n": 48,
+     "n_stanzas": 12,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.932,
+     "meter_ci": [
+      0.9059,
+      0.9565
+     ],
+     "solved": 0.3333,
+     "solved_ci": [
+      0.2292,
+      0.4375
+     ],
+     "valid": 0.3333,
+     "valid_ci": [
+      0.2292,
+      0.4375
+     ],
+     "windowed": 0.0,
+     "faithful": 0.9792,
+     "exact": 0.0417,
+     "meter_tok": 0.8984,
+     "solved_tok": 0.2292
+    },
+    "klon_paet": {
+     "n": 42,
+     "n_stanzas": 14,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.9976,
+     "meter_ci": [
+      0.9929,
+      1.0
+     ],
+     "solved": 0.9762,
+     "solved_ci": [
+      0.9286,
+      1.0
+     ],
+     "valid": 0.9762,
+     "valid_ci": [
+      0.9286,
+      1.0
+     ],
+     "windowed": 0.0,
+     "faithful": 1.0,
+     "exact": 0.8333,
+     "meter_tok": 0.9833,
+     "solved_tok": 0.9048
+    },
+    "kap_yani_11": {
+     "n": 40,
+     "n_stanzas": 20,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.95,
+     "meter_ci": [
+      0.9125,
+      0.9825
+     ],
+     "solved": 0.85,
+     "solved_ci": [
+      0.75,
+      0.95
+     ],
+     "valid": 0.85,
+     "valid_ci": [
+      0.75,
+      0.95
+     ],
+     "windowed": 0.025,
+     "faithful": 1.0,
+     "exact": 0.65,
+     "meter_tok": 0.755,
+     "solved_tok": 0.525
+    },
+    "intharawichian_chan_11": {
+     "n": 30,
+     "n_stanzas": 5,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.9542,
+     "meter_ci": [
+      0.9271,
+      0.9814
+     ],
+     "solved": 0.5333,
+     "solved_ci": [
+      0.4333,
+      0.6333
+     ],
+     "valid": 0.5333,
+     "valid_ci": [
+      0.4333,
+      0.6333
+     ],
+     "windowed": 0.0,
+     "faithful": 1.0,
+     "exact": 0.1667,
+     "meter_tok": 0.6541,
+     "solved_tok": 0.0
+    }
+   },
+   "edit": {
+    "all": {
+     "n": 74,
+     "n_stanzas": 17,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.7458,
+     "meter_ci": [
+      0.6877,
+      0.8095
+     ],
+     "solved": 0.027,
+     "solved_ci": [
+      0.0,
+      0.0658
+     ],
+     "valid": 0.2027,
+     "valid_ci": [
+      0.0833,
+      0.3521
+     ],
+     "windowed": 0.0405,
+     "faithful": 0.0405,
+     "exact": 0.0135,
+     "meter_tok": 0.6912,
+     "solved_tok": 0.0135
+    },
+    "khlong_si_suphap": {
+     "n": 48,
+     "n_stanzas": 12,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.7527,
+     "meter_ci": [
+      0.6643,
+      0.8376
+     ],
+     "solved": 0.0208,
+     "solved_ci": [
+      0.0,
+      0.0625
+     ],
+     "valid": 0.2917,
+     "valid_ci": [
+      0.125,
+      0.4792
+     ],
+     "windowed": 0.0417,
+     "faithful": 0.0208,
+     "exact": 0.0208,
+     "meter_tok": 0.7546,
+     "solved_tok": 0.0208
+    },
+    "intharawichian_chan_11": {
+     "n": 26,
+     "n_stanzas": 5,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.733,
+     "meter_ci": [
+      0.6865,
+      0.7929
+     ],
+     "solved": 0.0385,
+     "solved_ci": [
+      0.0,
+      0.1111
+     ],
+     "valid": 0.0385,
+     "valid_ci": [
+      0.0,
+      0.1071
+     ],
+     "windowed": 0.0385,
+     "faithful": 0.0769,
+     "exact": 0.0,
+     "meter_tok": 0.5741,
+     "solved_tok": 0.0
+    }
+   }
+  },
+  "gemma-4-31b": {
+   "cloze": {
+    "all": {
+     "n": 160,
+     "n_stanzas": 51,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.8588,
+     "meter_ci": [
+      0.8377,
+      0.88
+     ],
+     "solved": 0.3375,
+     "solved_ci": [
+      0.2595,
+      0.4156
+     ],
+     "valid": 0.3375,
+     "valid_ci": [
+      0.2667,
+      0.4214
+     ],
+     "windowed": 0.0,
+     "faithful": 0.875,
+     "exact": 0.2,
+     "meter_tok": 0.7644,
+     "solved_tok": 0.2625
+    },
+    "khlong_si_suphap": {
+     "n": 48,
+     "n_stanzas": 12,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.8819,
+     "meter_ci": [
+      0.8577,
+      0.904
+     ],
+     "solved": 0.1458,
+     "solved_ci": [
+      0.0625,
+      0.25
+     ],
+     "valid": 0.1458,
+     "valid_ci": [
+      0.0625,
+      0.25
+     ],
+     "windowed": 0.0,
+     "faithful": 0.7292,
+     "exact": 0.0,
+     "meter_tok": 0.861,
+     "solved_tok": 0.125
+    },
+    "klon_paet": {
+     "n": 42,
+     "n_stanzas": 14,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.9286,
+     "meter_ci": [
+      0.9,
+      0.9571
+     ],
+     "solved": 0.6429,
+     "solved_ci": [
+      0.5,
+      0.7857
+     ],
+     "valid": 0.6429,
+     "valid_ci": [
+      0.5,
+      0.7857
+     ],
+     "windowed": 0.0,
+     "faithful": 1.0,
+     "exact": 0.5,
+     "meter_tok": 0.9143,
+     "solved_tok": 0.619
+    },
+    "kap_yani_11": {
+     "n": 40,
+     "n_stanzas": 20,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.7825,
+     "meter_ci": [
+      0.7475,
+      0.8175
+     ],
+     "solved": 0.3,
+     "solved_ci": [
+      0.2,
+      0.4
+     ],
+     "valid": 0.3,
+     "valid_ci": [
+      0.2,
+      0.4
+     ],
+     "windowed": 0.0,
+     "faithful": 1.0,
+     "exact": 0.275,
+     "meter_tok": 0.6375,
+     "solved_tok": 0.25
+    },
+    "intharawichian_chan_11": {
+     "n": 30,
+     "n_stanzas": 5,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.8261,
+     "meter_ci": [
+      0.7876,
+      0.8658
+     ],
+     "solved": 0.2667,
+     "solved_ci": [
+      0.1667,
+      0.4
+     ],
+     "valid": 0.2667,
+     "valid_ci": [
+      0.1667,
+      0.4
+     ],
+     "windowed": 0.0,
+     "faithful": 0.7667,
+     "exact": 0.0,
+     "meter_tok": 0.5689,
+     "solved_tok": 0.0
+    }
+   },
+   "edit": {
+    "all": {
+     "n": 74,
+     "n_stanzas": 17,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.758,
+     "meter_ci": [
+      0.6726,
+      0.8364
+     ],
+     "solved": 0.0135,
+     "solved_ci": [
+      0.0,
+      0.0423
+     ],
+     "valid": 0.0946,
+     "valid_ci": [
+      0.025,
+      0.1884
+     ],
+     "windowed": 0.0,
+     "faithful": 0.0135,
+     "exact": 0.0135,
+     "meter_tok": 0.7051,
+     "solved_tok": 0.0135
+    },
+    "khlong_si_suphap": {
+     "n": 48,
+     "n_stanzas": 12,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.8025,
+     "meter_ci": [
+      0.73,
+      0.8753
+     ],
+     "solved": 0.0208,
+     "solved_ci": [
+      0.0,
+      0.0625
+     ],
+     "valid": 0.1458,
+     "valid_ci": [
+      0.0417,
+      0.2708
+     ],
+     "windowed": 0.0,
+     "faithful": 0.0208,
+     "exact": 0.0208,
+     "meter_tok": 0.8071,
+     "solved_tok": 0.0208
+    },
+    "intharawichian_chan_11": {
+     "n": 26,
+     "n_stanzas": 5,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.6759,
+     "meter_ci": [
+      0.4968,
+      0.8117
+     ],
+     "solved": 0.0,
+     "solved_ci": [
+      0.0,
+      0.0
+     ],
+     "valid": 0.0,
+     "valid_ci": [
+      0.0,
+      0.0
+     ],
+     "windowed": 0.0,
+     "faithful": 0.0,
+     "exact": 0.0,
+     "meter_tok": 0.517,
+     "solved_tok": 0.0
+    }
+   }
+  },
+  "gemma-4-31b-think": {
+   "cloze": {
+    "all": {
+     "n": 160,
+     "n_stanzas": 51,
+     "n_infra_excluded": 0,
+     "delivery": 0.9125,
+     "meter": 0.8352,
+     "meter_ci": [
+      0.7801,
+      0.8888
+     ],
+     "solved": 0.5125,
+     "solved_ci": [
+      0.4134,
+      0.6284
+     ],
+     "valid": 0.5125,
+     "valid_ci": [
+      0.4037,
+      0.6267
+     ],
+     "windowed": 0.0,
+     "faithful": 0.8688,
+     "exact": 0.3438,
+     "meter_tok": 0.7493,
+     "solved_tok": 0.3812
+    },
+    "khlong_si_suphap": {
+     "n": 48,
+     "n_stanzas": 12,
+     "n_infra_excluded": 0,
+     "delivery": 0.9792,
+     "meter": 0.8722,
+     "meter_ci": [
+      0.8077,
+      0.9212
+     ],
+     "solved": 0.25,
+     "solved_ci": [
+      0.125,
+      0.3958
+     ],
+     "valid": 0.25,
+     "valid_ci": [
+      0.1042,
+      0.4167
+     ],
+     "windowed": 0.0,
+     "faithful": 0.8958,
+     "exact": 0.0417,
+     "meter_tok": 0.8525,
+     "solved_tok": 0.1667
+    },
+    "klon_paet": {
+     "n": 42,
+     "n_stanzas": 14,
+     "n_infra_excluded": 0,
+     "delivery": 0.9286,
+     "meter": 0.9214,
+     "meter_ci": [
+      0.8476,
+      0.9857
+     ],
+     "solved": 0.881,
+     "solved_ci": [
+      0.8095,
+      0.9524
+     ],
+     "valid": 0.881,
+     "valid_ci": [
+      0.7857,
+      0.9524
+     ],
+     "windowed": 0.0,
+     "faithful": 0.9286,
+     "exact": 0.7381,
+     "meter_tok": 0.9071,
+     "solved_tok": 0.8095
+    },
+    "kap_yani_11": {
+     "n": 40,
+     "n_stanzas": 20,
+     "n_infra_excluded": 0,
+     "delivery": 0.95,
+     "meter": 0.86,
+     "meter_ci": [
+      0.775,
+      0.9325
+     ],
+     "solved": 0.7,
+     "solved_ci": [
+      0.575,
+      0.825
+     ],
+     "valid": 0.7,
+     "valid_ci": [
+      0.575,
+      0.825
+     ],
+     "windowed": 0.0,
+     "faithful": 0.95,
+     "exact": 0.525,
+     "meter_tok": 0.7025,
+     "solved_tok": 0.475
+    },
+    "intharawichian_chan_11": {
+     "n": 30,
+     "n_stanzas": 5,
+     "n_infra_excluded": 0,
+     "delivery": 0.7333,
+     "meter": 0.6223,
+     "meter_ci": [
+      0.4703,
+      0.7294
+     ],
+     "solved": 0.1667,
+     "solved_ci": [
+      0.0667,
+      0.2667
+     ],
+     "valid": 0.1667,
+     "valid_ci": [
+      0.0667,
+      0.2667
+     ],
+     "windowed": 0.0,
+     "faithful": 0.6333,
+     "exact": 0.0333,
+     "meter_tok": 0.4257,
+     "solved_tok": 0.0
+    }
+   },
+   "edit": {
+    "all": {
+     "n": 74,
+     "n_stanzas": 17,
+     "n_infra_excluded": 0,
+     "delivery": 0.5946,
+     "meter": 0.451,
+     "meter_ci": [
+      0.3397,
+      0.5615
+     ],
+     "solved": 0.0135,
+     "solved_ci": [
+      0.0,
+      0.0429
+     ],
+     "valid": 0.0946,
+     "valid_ci": [
+      0.0366,
+      0.1714
+     ],
+     "windowed": 0.027,
+     "faithful": 0.0135,
+     "exact": 0.0135,
+     "meter_tok": 0.4074,
+     "solved_tok": 0.0135
+    },
+    "khlong_si_suphap": {
+     "n": 48,
+     "n_stanzas": 12,
+     "n_infra_excluded": 0,
+     "delivery": 0.5208,
+     "meter": 0.4018,
+     "meter_ci": [
+      0.2531,
+      0.566
+     ],
+     "solved": 0.0208,
+     "solved_ci": [
+      0.0,
+      0.0625
+     ],
+     "valid": 0.1458,
+     "valid_ci": [
+      0.0625,
+      0.2292
+     ],
+     "windowed": 0.0417,
+     "faithful": 0.0208,
+     "exact": 0.0208,
+     "meter_tok": 0.4064,
+     "solved_tok": 0.0208
+    },
+    "intharawichian_chan_11": {
+     "n": 26,
+     "n_stanzas": 5,
+     "n_infra_excluded": 0,
+     "delivery": 0.7308,
+     "meter": 0.5418,
+     "meter_ci": [
+      0.3867,
+      0.6775
+     ],
+     "solved": 0.0,
+     "solved_ci": [
+      0.0,
+      0.0
+     ],
+     "valid": 0.0,
+     "valid_ci": [
+      0.0,
+      0.0
+     ],
+     "windowed": 0.0,
+     "faithful": 0.0,
+     "exact": 0.0,
+     "meter_tok": 0.4093,
+     "solved_tok": 0.0
+    }
+   }
+  },
+  "gpt55-med": {
+   "cloze": {
+    "all": {
+     "n": 160,
+     "n_stanzas": 51,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.9406,
+     "meter_ci": [
+      0.9138,
+      0.9652
+     ],
+     "solved": 0.675,
+     "solved_ci": [
+      0.5901,
+      0.7688
+     ],
+     "valid": 0.6813,
+     "valid_ci": [
+      0.5952,
+      0.7748
+     ],
+     "windowed": 0.0,
+     "faithful": 0.9938,
+     "exact": 0.4,
+     "meter_tok": 0.8388,
+     "solved_tok": 0.4688
+    },
+    "khlong_si_suphap": {
+     "n": 48,
+     "n_stanzas": 12,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.9645,
+     "meter_ci": [
+      0.9518,
+      0.9767
+     ],
+     "solved": 0.5208,
+     "solved_ci": [
+      0.3958,
+      0.6458
+     ],
+     "valid": 0.5417,
+     "valid_ci": [
+      0.4167,
+      0.6667
+     ],
+     "windowed": 0.0,
+     "faithful": 0.9792,
+     "exact": 0.0833,
+     "meter_tok": 0.9439,
+     "solved_tok": 0.375
+    },
+    "klon_paet": {
+     "n": 42,
+     "n_stanzas": 14,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.9929,
+     "meter_ci": [
+      0.9786,
+      1.0
+     ],
+     "solved": 0.9524,
+     "solved_ci": [
+      0.8571,
+      1.0
+     ],
+     "valid": 0.9524,
+     "valid_ci": [
+      0.8571,
+      1.0
+     ],
+     "windowed": 0.0,
+     "faithful": 1.0,
+     "exact": 0.7619,
+     "meter_tok": 0.9786,
+     "solved_tok": 0.881
+    },
+    "kap_yani_11": {
+     "n": 40,
+     "n_stanzas": 20,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.925,
+     "meter_ci": [
+      0.87,
+      0.97
+     ],
+     "solved": 0.775,
+     "solved_ci": [
+      0.625,
+      0.9
+     ],
+     "valid": 0.775,
+     "valid_ci": [
+      0.625,
+      0.9
+     ],
+     "windowed": 0.0,
+     "faithful": 1.0,
+     "exact": 0.625,
+     "meter_tok": 0.74,
+     "solved_tok": 0.475
+    },
+    "intharawichian_chan_11": {
+     "n": 30,
+     "n_stanzas": 5,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.85,
+     "meter_ci": [
+      0.7779,
+      0.9188
+     ],
+     "solved": 0.4,
+     "solved_ci": [
+      0.3333,
+      0.4667
+     ],
+     "valid": 0.4,
+     "valid_ci": [
+      0.3333,
+      0.4667
+     ],
+     "windowed": 0.0,
+     "faithful": 1.0,
+     "exact": 0.1,
+     "meter_tok": 0.6068,
+     "solved_tok": 0.0333
+    }
+   },
+   "edit": {
+    "all": {
+     "n": 74,
+     "n_stanzas": 17,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.9264,
+     "meter_ci": [
+      0.8917,
+      0.959
+     ],
+     "solved": 0.1892,
+     "solved_ci": [
+      0.0857,
+      0.2958
+     ],
+     "valid": 0.5,
+     "valid_ci": [
+      0.3571,
+      0.6528
+     ],
+     "windowed": 0.0,
+     "faithful": 0.2568,
+     "exact": 0.1622,
+     "meter_tok": 0.8401,
+     "solved_tok": 0.1351
+    },
+    "khlong_si_suphap": {
+     "n": 48,
+     "n_stanzas": 12,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.9605,
+     "meter_ci": [
+      0.9249,
+      0.9866
+     ],
+     "solved": 0.2083,
+     "solved_ci": [
+      0.0625,
+      0.375
+     ],
+     "valid": 0.6667,
+     "valid_ci": [
+      0.5,
+      0.8125
+     ],
+     "windowed": 0.0,
+     "faithful": 0.2083,
+     "exact": 0.1667,
+     "meter_tok": 0.9734,
+     "solved_tok": 0.2083
+    },
+    "intharawichian_chan_11": {
+     "n": 26,
+     "n_stanzas": 5,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.8635,
+     "meter_ci": [
+      0.8175,
+      0.9036
+     ],
+     "solved": 0.1538,
+     "solved_ci": [
+      0.0455,
+      0.2593
+     ],
+     "valid": 0.1923,
+     "valid_ci": [
+      0.05,
+      0.3
+     ],
+     "windowed": 0.0,
+     "faithful": 0.3462,
+     "exact": 0.1538,
+     "meter_tok": 0.5941,
+     "solved_tok": 0.0
+    }
+   }
+  },
+  "openthaigpt": {
+   "cloze": {
+    "all": {
+     "n": 160,
+     "n_stanzas": 51,
+     "n_infra_excluded": 0,
+     "delivery": 0.9625,
+     "meter": 0.7397,
+     "meter_ci": [
+      0.7033,
+      0.7732
+     ],
+     "solved": 0.1187,
+     "solved_ci": [
+      0.0662,
+      0.1761
+     ],
+     "valid": 0.125,
+     "valid_ci": [
+      0.0727,
+      0.1818
+     ],
+     "windowed": 0.0813,
+     "faithful": 0.7937,
+     "exact": 0.0563,
+     "meter_tok": 0.6631,
+     "solved_tok": 0.1062
+    },
+    "khlong_si_suphap": {
+     "n": 48,
+     "n_stanzas": 12,
+     "n_infra_excluded": 0,
+     "delivery": 0.9583,
+     "meter": 0.7724,
+     "meter_ci": [
+      0.7089,
+      0.8364
+     ],
+     "solved": 0.0833,
+     "solved_ci": [
+      0.0,
+      0.1667
+     ],
+     "valid": 0.0833,
+     "valid_ci": [
+      0.0,
+      0.1875
+     ],
+     "windowed": 0.0208,
+     "faithful": 0.7917,
+     "exact": 0.0,
+     "meter_tok": 0.7499,
+     "solved_tok": 0.0833
+    },
+    "klon_paet": {
+     "n": 42,
+     "n_stanzas": 14,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.8,
+     "meter_ci": [
+      0.7667,
+      0.8429
+     ],
+     "solved": 0.2619,
+     "solved_ci": [
+      0.1429,
+      0.4048
+     ],
+     "valid": 0.2619,
+     "valid_ci": [
+      0.1429,
+      0.4048
+     ],
+     "windowed": 0.1429,
+     "faithful": 0.9524,
+     "exact": 0.1429,
+     "meter_tok": 0.7905,
+     "solved_tok": 0.2619
+    },
+    "kap_yani_11": {
+     "n": 40,
+     "n_stanzas": 20,
+     "n_infra_excluded": 0,
+     "delivery": 0.95,
+     "meter": 0.6525,
+     "meter_ci": [
+      0.5975,
+      0.7025
+     ],
+     "solved": 0.075,
+     "solved_ci": [
+      0.0,
+      0.15
+     ],
+     "valid": 0.1,
+     "valid_ci": [
+      0.025,
+      0.2
+     ],
+     "windowed": 0.1,
+     "faithful": 0.825,
+     "exact": 0.075,
+     "meter_tok": 0.52,
+     "solved_tok": 0.05
+    },
+    "intharawichian_chan_11": {
+     "n": 30,
+     "n_stanzas": 5,
+     "n_infra_excluded": 0,
+     "delivery": 0.9333,
+     "meter": 0.7192,
+     "meter_ci": [
+      0.5854,
+      0.8038
+     ],
+     "solved": 0.0333,
+     "solved_ci": [
+      0.0,
+      0.1
+     ],
+     "valid": 0.0333,
+     "valid_ci": [
+      0.0,
+      0.1
+     ],
+     "windowed": 0.0667,
+     "faithful": 0.5333,
+     "exact": 0.0,
+     "meter_tok": 0.5365,
+     "solved_tok": 0.0
+    }
+   },
+   "edit": {
+    "all": {
+     "n": 74,
+     "n_stanzas": 17,
+     "n_infra_excluded": 0,
+     "delivery": 0.973,
+     "meter": 0.8398,
+     "meter_ci": [
+      0.7327,
+      0.9303
+     ],
+     "solved": 0.0676,
+     "solved_ci": [
+      0.0,
+      0.1507
+     ],
+     "valid": 0.0811,
+     "valid_ci": [
+      0.0,
+      0.1818
+     ],
+     "windowed": 0.3919,
+     "faithful": 0.1216,
+     "exact": 0.0676,
+     "meter_tok": 0.7358,
+     "solved_tok": 0.0676
+    },
+    "khlong_si_suphap": {
+     "n": 48,
+     "n_stanzas": 12,
+     "n_infra_excluded": 0,
+     "delivery": 0.9583,
+     "meter": 0.8449,
+     "meter_ci": [
+      0.7007,
+      0.9426
+     ],
+     "solved": 0.1042,
+     "solved_ci": [
+      0.0,
+      0.2292
+     ],
+     "valid": 0.125,
+     "valid_ci": [
+      0.0,
+      0.2708
+     ],
+     "windowed": 0.3333,
+     "faithful": 0.1458,
+     "exact": 0.1042,
+     "meter_tok": 0.8121,
+     "solved_tok": 0.1042
+    },
+    "intharawichian_chan_11": {
+     "n": 26,
+     "n_stanzas": 5,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.8304,
+     "meter_ci": [
+      0.6322,
+      0.9537
+     ],
+     "solved": 0.0,
+     "solved_ci": [
+      0.0,
+      0.0
+     ],
+     "valid": 0.0,
+     "valid_ci": [
+      0.0,
+      0.0
+     ],
+     "windowed": 0.5,
+     "faithful": 0.0769,
+     "exact": 0.0,
+     "meter_tok": 0.5949,
+     "solved_tok": 0.0
+    }
+   }
+  },
+  "qwen3-8b": {
+   "cloze": {
+    "all": {
+     "n": 160,
+     "n_stanzas": 51,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.7834,
+     "meter_ci": [
+      0.7622,
+      0.8036
+     ],
+     "solved": 0.125,
+     "solved_ci": [
+      0.08,
+      0.1731
+     ],
+     "valid": 0.1313,
+     "valid_ci": [
+      0.0875,
+      0.1768
+     ],
+     "windowed": 0.0,
+     "faithful": 0.8875,
+     "exact": 0.0625,
+     "meter_tok": 0.6909,
+     "solved_tok": 0.075
+    },
+    "khlong_si_suphap": {
+     "n": 48,
+     "n_stanzas": 12,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.8429,
+     "meter_ci": [
+      0.8208,
+      0.8635
+     ],
+     "solved": 0.0833,
+     "solved_ci": [
+      0.0208,
+      0.1458
+     ],
+     "valid": 0.0833,
+     "valid_ci": [
+      0.0208,
+      0.1458
+     ],
+     "windowed": 0.0,
+     "faithful": 0.9167,
+     "exact": 0.0208,
+     "meter_tok": 0.8188,
+     "solved_tok": 0.0625
+    },
+    "klon_paet": {
+     "n": 42,
+     "n_stanzas": 14,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.7714,
+     "meter_ci": [
+      0.7452,
+      0.8048
+     ],
+     "solved": 0.1905,
+     "solved_ci": [
+      0.0952,
+      0.3095
+     ],
+     "valid": 0.1905,
+     "valid_ci": [
+      0.0952,
+      0.3095
+     ],
+     "windowed": 0.0,
+     "faithful": 0.9762,
+     "exact": 0.119,
+     "meter_tok": 0.7619,
+     "solved_tok": 0.1667
+    },
+    "kap_yani_11": {
+     "n": 40,
+     "n_stanzas": 20,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.725,
+     "meter_ci": [
+      0.6975,
+      0.7575
+     ],
+     "solved": 0.125,
+     "solved_ci": [
+      0.025,
+      0.225
+     ],
+     "valid": 0.125,
+     "valid_ci": [
+      0.025,
+      0.225
+     ],
+     "windowed": 0.0,
+     "faithful": 0.95,
+     "exact": 0.1,
+     "meter_tok": 0.5725,
+     "solved_tok": 0.05
+    },
+    "intharawichian_chan_11": {
+     "n": 30,
+     "n_stanzas": 5,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.7829,
+     "meter_ci": [
+      0.7286,
+      0.8526
+     ],
+     "solved": 0.1,
+     "solved_ci": [
+      0.0333,
+      0.1667
+     ],
+     "valid": 0.1333,
+     "valid_ci": [
+      0.0667,
+      0.1667
+     ],
+     "windowed": 0.0,
+     "faithful": 0.6333,
+     "exact": 0.0,
+     "meter_tok": 0.5447,
+     "solved_tok": 0.0
+    }
+   },
+   "edit": {
+    "all": {
+     "n": 74,
+     "n_stanzas": 17,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.7039,
+     "meter_ci": [
+      0.6318,
+      0.7669
+     ],
+     "solved": 0.0135,
+     "solved_ci": [
+      0.0,
+      0.0423
+     ],
+     "valid": 0.027,
+     "valid_ci": [
+      0.0,
+      0.0704
+     ],
+     "windowed": 0.0676,
+     "faithful": 0.0405,
+     "exact": 0.0135,
+     "meter_tok": 0.6269,
+     "solved_tok": 0.0
+    },
+    "khlong_si_suphap": {
+     "n": 48,
+     "n_stanzas": 12,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.7088,
+     "meter_ci": [
+      0.6014,
+      0.8019
+     ],
+     "solved": 0.0208,
+     "solved_ci": [
+      0.0,
+      0.0625
+     ],
+     "valid": 0.0417,
+     "valid_ci": [
+      0.0,
+      0.1042
+     ],
+     "windowed": 0.0625,
+     "faithful": 0.0417,
+     "exact": 0.0208,
+     "meter_tok": 0.6908,
+     "solved_tok": 0.0
+    },
+    "intharawichian_chan_11": {
+     "n": 26,
+     "n_stanzas": 5,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.6948,
+     "meter_ci": [
+      0.6612,
+      0.7348
+     ],
+     "solved": 0.0,
+     "solved_ci": [
+      0.0,
+      0.0
+     ],
+     "valid": 0.0,
+     "valid_ci": [
+      0.0,
+      0.0
+     ],
+     "windowed": 0.0769,
+     "faithful": 0.0385,
+     "exact": 0.0,
+     "meter_tok": 0.5089,
+     "solved_tok": 0.0
+    }
+   }
+  },
+  "typhoon-s": {
+   "cloze": {
+    "all": {
+     "n": 160,
+     "n_stanzas": 51,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.7852,
+     "meter_ci": [
+      0.7606,
+      0.8086
+     ],
+     "solved": 0.1688,
+     "solved_ci": [
+      0.1143,
+      0.2273
+     ],
+     "valid": 0.1688,
+     "valid_ci": [
+      0.1176,
+      0.2252
+     ],
+     "windowed": 0.0063,
+     "faithful": 0.8125,
+     "exact": 0.1062,
+     "meter_tok": 0.7068,
+     "solved_tok": 0.1375
+    },
+    "khlong_si_suphap": {
+     "n": 48,
+     "n_stanzas": 12,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.8317,
+     "meter_ci": [
+      0.7862,
+      0.8717
+     ],
+     "solved": 0.0625,
+     "solved_ci": [
+      0.0,
+      0.125
+     ],
+     "valid": 0.0625,
+     "valid_ci": [
+      0.0,
+      0.125
+     ],
+     "windowed": 0.0,
+     "faithful": 0.7292,
+     "exact": 0.0417,
+     "meter_tok": 0.813,
+     "solved_tok": 0.0625
+    },
+    "klon_paet": {
+     "n": 42,
+     "n_stanzas": 14,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.8167,
+     "meter_ci": [
+      0.7881,
+      0.85
+     ],
+     "solved": 0.3095,
+     "solved_ci": [
+      0.2143,
+      0.4048
+     ],
+     "valid": 0.3095,
+     "valid_ci": [
+      0.2143,
+      0.4048
+     ],
+     "windowed": 0.0,
+     "faithful": 1.0,
+     "exact": 0.2619,
+     "meter_tok": 0.8071,
+     "solved_tok": 0.3095
+    },
+    "kap_yani_11": {
+     "n": 40,
+     "n_stanzas": 20,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.7375,
+     "meter_ci": [
+      0.7,
+      0.78
+     ],
+     "solved": 0.175,
+     "solved_ci": [
+      0.075,
+      0.3
+     ],
+     "valid": 0.175,
+     "valid_ci": [
+      0.075,
+      0.325
+     ],
+     "windowed": 0.0,
+     "faithful": 1.0,
+     "exact": 0.1,
+     "meter_tok": 0.605,
+     "solved_tok": 0.15
+    },
+    "intharawichian_chan_11": {
+     "n": 30,
+     "n_stanzas": 5,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.7301,
+     "meter_ci": [
+      0.687,
+      0.7717
+     ],
+     "solved": 0.1333,
+     "solved_ci": [
+      0.0667,
+      0.1667
+     ],
+     "valid": 0.1333,
+     "valid_ci": [
+      0.0667,
+      0.1667
+     ],
+     "windowed": 0.0333,
+     "faithful": 0.4333,
+     "exact": 0.0,
+     "meter_tok": 0.5321,
+     "solved_tok": 0.0
+    }
+   },
+   "edit": {
+    "all": {
+     "n": 74,
+     "n_stanzas": 17,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.9587,
+     "meter_ci": [
+      0.9332,
+      0.9737
+     ],
+     "solved": 0.1351,
+     "solved_ci": [
+      0.0395,
+      0.2603
+     ],
+     "valid": 0.1351,
+     "valid_ci": [
+      0.0395,
+      0.2533
+     ],
+     "windowed": 0.527,
+     "faithful": 0.1757,
+     "exact": 0.1351,
+     "meter_tok": 0.8175,
+     "solved_tok": 0.1216
+    },
+    "khlong_si_suphap": {
+     "n": 48,
+     "n_stanzas": 12,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.952,
+     "meter_ci": [
+      0.9142,
+      0.9742
+     ],
+     "solved": 0.2083,
+     "solved_ci": [
+      0.0833,
+      0.375
+     ],
+     "valid": 0.2083,
+     "valid_ci": [
+      0.0625,
+      0.375
+     ],
+     "windowed": 0.3958,
+     "faithful": 0.25,
+     "exact": 0.2083,
+     "meter_tok": 0.92,
+     "solved_tok": 0.1875
+    },
+    "intharawichian_chan_11": {
+     "n": 26,
+     "n_stanzas": 5,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.971,
+     "meter_ci": [
+      0.961,
+      0.9773
+     ],
+     "solved": 0.0,
+     "solved_ci": [
+      0.0,
+      0.0
+     ],
+     "valid": 0.0,
+     "valid_ci": [
+      0.0,
+      0.0
+     ],
+     "windowed": 0.7692,
+     "faithful": 0.0385,
+     "exact": 0.0,
+     "meter_tok": 0.6282,
+     "solved_tok": 0.0
+    }
+   }
+  },
+  "typhoon25": {
+   "cloze": {
+    "all": {
+     "n": 160,
+     "n_stanzas": 51,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.7774,
+     "meter_ci": [
+      0.7568,
+      0.7962
+     ],
+     "solved": 0.1187,
+     "solved_ci": [
+      0.0671,
+      0.179
+     ],
+     "valid": 0.1187,
+     "valid_ci": [
+      0.0667,
+      0.1772
+     ],
+     "windowed": 0.0063,
+     "faithful": 0.8187,
+     "exact": 0.0813,
+     "meter_tok": 0.693,
+     "solved_tok": 0.1125
+    },
+    "khlong_si_suphap": {
+     "n": 48,
+     "n_stanzas": 12,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.7974,
+     "meter_ci": [
+      0.7669,
+      0.8277
+     ],
+     "solved": 0.0208,
+     "solved_ci": [
+      0.0,
+      0.0625
+     ],
+     "valid": 0.0208,
+     "valid_ci": [
+      0.0,
+      0.0625
+     ],
+     "windowed": 0.0,
+     "faithful": 0.6042,
+     "exact": 0.0,
+     "meter_tok": 0.7732,
+     "solved_tok": 0.0208
+    },
+    "klon_paet": {
+     "n": 42,
+     "n_stanzas": 14,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.8167,
+     "meter_ci": [
+      0.7786,
+      0.8595
+     ],
+     "solved": 0.3095,
+     "solved_ci": [
+      0.1905,
+      0.4286
+     ],
+     "valid": 0.3095,
+     "valid_ci": [
+      0.1905,
+      0.4286
+     ],
+     "windowed": 0.0238,
+     "faithful": 0.9762,
+     "exact": 0.2381,
+     "meter_tok": 0.8071,
+     "solved_tok": 0.3095
+    },
+    "kap_yani_11": {
+     "n": 40,
+     "n_stanzas": 20,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.7075,
+     "meter_ci": [
+      0.68,
+      0.7375
+     ],
+     "solved": 0.1,
+     "solved_ci": [
+      0.025,
+      0.2
+     ],
+     "valid": 0.1,
+     "valid_ci": [
+      0.025,
+      0.2
+     ],
+     "windowed": 0.0,
+     "faithful": 0.975,
+     "exact": 0.075,
+     "meter_tok": 0.5775,
+     "solved_tok": 0.1
+    },
+    "intharawichian_chan_11": {
+     "n": 30,
+     "n_stanzas": 5,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.7838,
+     "meter_ci": [
+      0.7609,
+      0.8146
+     ],
+     "solved": 0.0333,
+     "solved_ci": [
+      0.0,
+      0.1
+     ],
+     "valid": 0.0333,
+     "valid_ci": [
+      0.0,
+      0.1
+     ],
+     "windowed": 0.0,
+     "faithful": 0.7333,
+     "exact": 0.0,
+     "meter_tok": 0.5591,
+     "solved_tok": 0.0
+    }
+   },
+   "edit": {
+    "all": {
+     "n": 74,
+     "n_stanzas": 17,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.6339,
+     "meter_ci": [
+      0.5309,
+      0.7291
+     ],
+     "solved": 0.027,
+     "solved_ci": [
+      0.0,
+      0.0857
+     ],
+     "valid": 0.027,
+     "valid_ci": [
+      0.0,
+      0.0857
+     ],
+     "windowed": 0.0676,
+     "faithful": 0.027,
+     "exact": 0.027,
+     "meter_tok": 0.558,
+     "solved_tok": 0.027
+    },
+    "khlong_si_suphap": {
+     "n": 48,
+     "n_stanzas": 12,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.5819,
+     "meter_ci": [
+      0.4528,
+      0.7153
+     ],
+     "solved": 0.0417,
+     "solved_ci": [
+      0.0,
+      0.125
+     ],
+     "valid": 0.0417,
+     "valid_ci": [
+      0.0,
+      0.125
+     ],
+     "windowed": 0.0208,
+     "faithful": 0.0417,
+     "exact": 0.0417,
+     "meter_tok": 0.571,
+     "solved_tok": 0.0417
+    },
+    "intharawichian_chan_11": {
+     "n": 26,
+     "n_stanzas": 5,
+     "n_infra_excluded": 0,
+     "delivery": 1.0,
+     "meter": 0.7299,
+     "meter_ci": [
+      0.7017,
+      0.7473
+     ],
+     "solved": 0.0,
+     "solved_ci": [
+      0.0,
+      0.0
+     ],
+     "valid": 0.0,
+     "valid_ci": [
+      0.0,
+      0.0
+     ],
+     "windowed": 0.1538,
+     "faithful": 0.0,
+     "exact": 0.0,
+     "meter_tok": 0.5339,
+     "solved_tok": 0.0
+    }
+   }
+  }
+ },
+ "provenance": {
+  "deepseek-v4-flash": {
+   "cloze|khlong_si_suphap|student": {
+    "n": 8,
+    "n_stanzas": 2,
+    "n_infra_excluded": 0,
+    "delivery": 0.75,
+    "meter": 0.689,
+    "meter_ci": [
+     0.6845,
+     0.6935
+    ],
+    "solved": 0.0,
+    "solved_ci": [
+     0.0,
+     0.0
+    ],
+    "valid": 0.0,
+    "valid_ci": [
+     0.0,
+     0.0
+    ],
+    "windowed": 0.125,
+    "faithful": 0.75,
+    "exact": 0.0,
+    "meter_tok": 0.689,
+    "solved_tok": 0.0
+   },
+   "cloze|khlong_si_suphap|model": {
+    "n": 40,
+    "n_stanzas": 10,
+    "n_infra_excluded": 0,
+    "delivery": 0.7,
+    "meter": 0.6264,
+    "meter_ci": [
+     0.5378,
+     0.7197
+    ],
+    "solved": 0.1,
+    "solved_ci": [
+     0.025,
+     0.175
+    ],
+    "valid": 0.1,
+    "valid_ci": [
+     0.025,
+     0.175
+    ],
+    "windowed": 0.025,
+    "faithful": 0.675,
+    "exact": 0.0,
+    "meter_tok": 0.6155,
+    "solved_tok": 0.075
+   },
+   "cloze|klon_paet|student": {
+    "n": 39,
+    "n_stanzas": 13,
+    "n_infra_excluded": 0,
+    "delivery": 0.8462,
+    "meter": 0.7897,
+    "meter_ci": [
+     0.6718,
+     0.9026
+    ],
+    "solved": 0.5897,
+    "solved_ci": [
+     0.4103,
+     0.7692
+    ],
+    "valid": 0.5897,
+    "valid_ci": [
+     0.4103,
+     0.7436
+    ],
+    "windowed": 0.0,
+    "faithful": 0.8462,
+    "exact": 0.4359,
+    "meter_tok": 0.7795,
+    "solved_tok": 0.5641
+   },
+   "cloze|klon_paet|model": {
+    "n": 15,
+    "n_stanzas": 5,
+    "n_infra_excluded": 0,
+    "delivery": 0.8,
+    "meter": 0.6933,
+    "meter_ci": [
+     0.5467,
+     0.8533
+    ],
+    "solved": 0.3333,
+    "solved_ci": [
+     0.0667,
+     0.6
+    ],
+    "valid": 0.3333,
+    "valid_ci": [
+     0.0667,
+     0.6
+    ],
+    "windowed": 0.0,
+    "faithful": 0.8,
+    "exact": 0.2,
+    "meter_tok": 0.6933,
+    "solved_tok": 0.3333
+   },
+   "cloze|kap_yani_11|student": {
+    "n": 30,
+    "n_stanzas": 15,
+    "n_infra_excluded": 0,
+    "delivery": 0.7333,
+    "meter": 0.6433,
+    "meter_ci": [
+     0.5033,
+     0.7867
+    ],
+    "solved": 0.4667,
+    "solved_ci": [
+     0.3,
+     0.6333
+    ],
+    "valid": 0.4667,
+    "valid_ci": [
+     0.3,
+     0.6333
+    ],
+    "windowed": 0.0,
+    "faithful": 0.7333,
+    "exact": 0.3667,
+    "meter_tok": 0.46,
+    "solved_tok": 0.2667
+   },
+   "cloze|kap_yani_11|model": {
+    "n": 16,
+    "n_stanzas": 8,
+    "n_infra_excluded": 0,
+    "delivery": 0.8125,
+    "meter": 0.7437,
+    "meter_ci": [
+     0.5687,
+     0.925
+    ],
+    "solved": 0.5625,
+    "solved_ci": [
+     0.3125,
+     0.8125
+    ],
+    "valid": 0.5625,
+    "valid_ci": [
+     0.3125,
+     0.8125
+    ],
+    "windowed": 0.0,
+    "faithful": 0.8125,
+    "exact": 0.375,
+    "meter_tok": 0.7438,
+    "solved_tok": 0.5625
+   },
+   "cloze|intharawichian_chan_11|model": {
+    "n": 30,
+    "n_stanzas": 5,
+    "n_infra_excluded": 0,
+    "delivery": 0.7,
+    "meter": 0.5497,
+    "meter_ci": [
+     0.4217,
+     0.6308
+    ],
+    "solved": 0.1333,
+    "solved_ci": [
+     0.0667,
+     0.1667
+    ],
+    "valid": 0.1333,
+    "valid_ci": [
+     0.0667,
+     0.1667
+    ],
+    "windowed": 0.0333,
+    "faithful": 0.6333,
+    "exact": 0.0,
+    "meter_tok": 0.3836,
+    "solved_tok": 0.0
+   },
+   "edit|khlong_si_suphap|student": {
+    "n": 8,
+    "n_stanzas": 2,
+    "n_infra_excluded": 0,
+    "delivery": 0.375,
+    "meter": 0.074,
+    "meter_ci": [
+     0.0,
+     0.148
+    ],
+    "solved": 0.0,
+    "solved_ci": [
+     0.0,
+     0.0
+    ],
+    "valid": 0.0,
+    "valid_ci": [
+     0.0,
+     0.0
+    ],
+    "windowed": 0.0,
+    "faithful": 0.0,
+    "exact": 0.0,
+    "meter_tok": 0.074,
+    "solved_tok": 0.0
+   },
+   "edit|khlong_si_suphap|model": {
+    "n": 40,
+    "n_stanzas": 10,
+    "n_infra_excluded": 0,
+    "delivery": 0.4,
+    "meter": 0.194,
+    "meter_ci": [
+     0.1193,
+     0.268
+    ],
+    "solved": 0.0,
+    "solved_ci": [
+     0.0,
+     0.0
+    ],
+    "valid": 0.0,
+    "valid_ci": [
+     0.0,
+     0.0
+    ],
+    "windowed": 0.0,
+    "faithful": 0.0,
+    "exact": 0.0,
+    "meter_tok": 0.1849,
+    "solved_tok": 0.0
+   },
+   "edit|intharawichian_chan_11|model": {
+    "n": 26,
+    "n_stanzas": 5,
+    "n_infra_excluded": 0,
+    "delivery": 0.6923,
+    "meter": 0.45,
+    "meter_ci": [
+     0.2753,
+     0.6456
+    ],
+    "solved": 0.0,
+    "solved_ci": [
+     0.0,
+     0.0
+    ],
+    "valid": 0.0385,
+    "valid_ci": [
+     0.0,
+     0.1111
+    ],
+    "windowed": 0.0,
+    "faithful": 0.0,
+    "exact": 0.0,
+    "meter_tok": 0.3339,
+    "solved_tok": 0.0
+   }
+  },
+  "deepseek-v4-pro": {
+   "cloze|khlong_si_suphap|student": {
+    "n": 8,
+    "n_stanzas": 2,
+    "n_infra_excluded": 0,
+    "delivery": 0.75,
+    "meter": 0.6766,
+    "meter_ci": [
+     0.4818,
+     0.8713
+    ],
+    "solved": 0.125,
+    "solved_ci": [
+     0.0,
+     0.25
+    ],
+    "valid": 0.125,
+    "valid_ci": [
+     0.0,
+     0.25
+    ],
+    "windowed": 0.0,
+    "faithful": 0.75,
+    "exact": 0.125,
+    "meter_tok": 0.6766,
+    "solved_tok": 0.125
+   },
+   "cloze|khlong_si_suphap|model": {
+    "n": 40,
+    "n_stanzas": 10,
+    "n_infra_excluded": 0,
+    "delivery": 0.825,
+    "meter": 0.7643,
+    "meter_ci": [
+     0.7112,
+     0.822
+    ],
+    "solved": 0.175,
+    "solved_ci": [
+     0.025,
+     0.35
+    ],
+    "valid": 0.175,
+    "valid_ci": [
+     0.025,
+     0.35
+    ],
+    "windowed": 0.0,
+    "faithful": 0.825,
+    "exact": 0.025,
+    "meter_tok": 0.7365,
+    "solved_tok": 0.15
+   },
+   "cloze|klon_paet|student": {
+    "n": 39,
+    "n_stanzas": 13,
+    "n_infra_excluded": 0,
+    "delivery": 0.9744,
+    "meter": 0.9692,
+    "meter_ci": [
+     0.9128,
+     1.0
+    ],
+    "solved": 0.9487,
+    "solved_ci": [
+     0.8718,
+     1.0
+    ],
+    "valid": 0.9487,
+    "valid_ci": [
+     0.8718,
+     1.0
+    ],
+    "windowed": 0.0,
+    "faithful": 0.9744,
+    "exact": 0.7692,
+    "meter_tok": 0.959,
+    "solved_tok": 0.8974
+   },
+   "cloze|klon_paet|model": {
+    "n": 15,
+    "n_stanzas": 5,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 1.0,
+    "meter_ci": [
+     1.0,
+     1.0
+    ],
+    "solved": 1.0,
+    "solved_ci": [
+     1.0,
+     1.0
+    ],
+    "valid": 1.0,
+    "valid_ci": [
+     1.0,
+     1.0
+    ],
+    "windowed": 0.0,
+    "faithful": 1.0,
+    "exact": 0.5333,
+    "meter_tok": 1.0,
+    "solved_tok": 1.0
+   },
+   "cloze|kap_yani_11|student": {
+    "n": 30,
+    "n_stanzas": 15,
+    "n_infra_excluded": 0,
+    "delivery": 0.9667,
+    "meter": 0.9267,
+    "meter_ci": [
+     0.85,
+     0.98
+    ],
+    "solved": 0.8333,
+    "solved_ci": [
+     0.7,
+     0.9333
+    ],
+    "valid": 0.8333,
+    "valid_ci": [
+     0.7,
+     0.9333
+    ],
+    "windowed": 0.0,
+    "faithful": 0.9667,
+    "exact": 0.5667,
+    "meter_tok": 0.6667,
+    "solved_tok": 0.3667
+   },
+   "cloze|kap_yani_11|model": {
+    "n": 16,
+    "n_stanzas": 8,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 1.0,
+    "meter_ci": [
+     1.0,
+     1.0
+    ],
+    "solved": 1.0,
+    "solved_ci": [
+     1.0,
+     1.0
+    ],
+    "valid": 1.0,
+    "valid_ci": [
+     1.0,
+     1.0
+    ],
+    "windowed": 0.0,
+    "faithful": 1.0,
+    "exact": 0.9375,
+    "meter_tok": 1.0,
+    "solved_tok": 1.0
+   },
+   "cloze|intharawichian_chan_11|model": {
+    "n": 30,
+    "n_stanzas": 5,
+    "n_infra_excluded": 0,
+    "delivery": 0.7667,
+    "meter": 0.6595,
+    "meter_ci": [
+     0.5153,
+     0.8021
+    ],
+    "solved": 0.1333,
+    "solved_ci": [
+     0.0333,
+     0.2333
+    ],
+    "valid": 0.1667,
+    "valid_ci": [
+     0.0667,
+     0.2667
+    ],
+    "windowed": 0.0,
+    "faithful": 0.7,
+    "exact": 0.0,
+    "meter_tok": 0.4851,
+    "solved_tok": 0.0
+   },
+   "edit|khlong_si_suphap|student": {
+    "n": 8,
+    "n_stanzas": 2,
+    "n_infra_excluded": 0,
+    "delivery": 0.75,
+    "meter": 0.5587,
+    "meter_ci": [
+     0.4485,
+     0.6688
+    ],
+    "solved": 0.0,
+    "solved_ci": [
+     0.0,
+     0.0
+    ],
+    "valid": 0.0,
+    "valid_ci": [
+     0.0,
+     0.0
+    ],
+    "windowed": 0.0,
+    "faithful": 0.0,
+    "exact": 0.0,
+    "meter_tok": 0.5587,
+    "solved_tok": 0.0
+   },
+   "edit|khlong_si_suphap|model": {
+    "n": 13,
+    "n_stanzas": 4,
+    "n_infra_excluded": 27,
+    "delivery": 0.3077,
+    "meter": 0.2441,
+    "meter_ci": [
+     0.0,
+     0.4075
+    ],
+    "solved": 0.0,
+    "solved_ci": [
+     0.0,
+     0.0
+    ],
+    "valid": 0.0,
+    "valid_ci": [
+     0.0,
+     0.0
+    ],
+    "windowed": 0.0,
+    "faithful": 0.0,
+    "exact": 0.0,
+    "meter_tok": 0.2441,
+    "solved_tok": 0.0
+   },
+   "edit|intharawichian_chan_11|model": {
+    "n": 26,
+    "n_stanzas": 5,
+    "n_infra_excluded": 0,
+    "delivery": 0.9615,
+    "meter": 0.79,
+    "meter_ci": [
+     0.756,
+     0.8297
+    ],
+    "solved": 0.0,
+    "solved_ci": [
+     0.0,
+     0.0
+    ],
+    "valid": 0.0,
+    "valid_ci": [
+     0.0,
+     0.0
+    ],
+    "windowed": 0.0,
+    "faithful": 0.1923,
+    "exact": 0.0,
+    "meter_tok": 0.5998,
+    "solved_tok": 0.0
+   }
+  },
+  "gemini-3.5-flash": {
+   "cloze|khlong_si_suphap|student": {
+    "n": 8,
+    "n_stanzas": 2,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.929,
+    "meter_ci": [
+     0.8761,
+     0.9818
+    ],
+    "solved": 0.25,
+    "solved_ci": [
+     0.0,
+     0.5
+    ],
+    "valid": 0.25,
+    "valid_ci": [
+     0.0,
+     0.5
+    ],
+    "windowed": 0.0,
+    "faithful": 0.875,
+    "exact": 0.0,
+    "meter_tok": 0.929,
+    "solved_tok": 0.25
+   },
+   "cloze|khlong_si_suphap|model": {
+    "n": 40,
+    "n_stanzas": 10,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.9326,
+    "meter_ci": [
+     0.9033,
+     0.9566
+    ],
+    "solved": 0.35,
+    "solved_ci": [
+     0.25,
+     0.45
+    ],
+    "valid": 0.35,
+    "valid_ci": [
+     0.25,
+     0.45
+    ],
+    "windowed": 0.0,
+    "faithful": 1.0,
+    "exact": 0.05,
+    "meter_tok": 0.8923,
+    "solved_tok": 0.225
+   },
+   "cloze|klon_paet|student": {
+    "n": 39,
+    "n_stanzas": 13,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.9974,
+    "meter_ci": [
+     0.9923,
+     1.0
+    ],
+    "solved": 0.9744,
+    "solved_ci": [
+     0.9231,
+     1.0
+    ],
+    "valid": 0.9744,
+    "valid_ci": [
+     0.9231,
+     1.0
+    ],
+    "windowed": 0.0,
+    "faithful": 1.0,
+    "exact": 0.8462,
+    "meter_tok": 0.9821,
+    "solved_tok": 0.8974
+   },
+   "cloze|klon_paet|model": {
+    "n": 15,
+    "n_stanzas": 5,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.9867,
+    "meter_ci": [
+     0.96,
+     1.0
+    ],
+    "solved": 0.9333,
+    "solved_ci": [
+     0.8,
+     1.0
+    ],
+    "valid": 0.9333,
+    "valid_ci": [
+     0.8,
+     1.0
+    ],
+    "windowed": 0.0,
+    "faithful": 1.0,
+    "exact": 0.7333,
+    "meter_tok": 0.9867,
+    "solved_tok": 0.9333
+   },
+   "cloze|kap_yani_11|student": {
+    "n": 30,
+    "n_stanzas": 15,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.9567,
+    "meter_ci": [
+     0.9167,
+     0.99
+    ],
+    "solved": 0.8667,
+    "solved_ci": [
+     0.7667,
+     0.9667
+    ],
+    "valid": 0.8667,
+    "valid_ci": [
+     0.7333,
+     0.9667
+    ],
+    "windowed": 0.0333,
+    "faithful": 1.0,
+    "exact": 0.6333,
+    "meter_tok": 0.6967,
+    "solved_tok": 0.4333
+   },
+   "cloze|kap_yani_11|model": {
+    "n": 16,
+    "n_stanzas": 8,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.9563,
+    "meter_ci": [
+     0.9,
+     1.0
+    ],
+    "solved": 0.875,
+    "solved_ci": [
+     0.6875,
+     1.0
+    ],
+    "valid": 0.875,
+    "valid_ci": [
+     0.6875,
+     1.0
+    ],
+    "windowed": 0.0,
+    "faithful": 1.0,
+    "exact": 0.8125,
+    "meter_tok": 0.9563,
+    "solved_tok": 0.875
+   },
+   "cloze|intharawichian_chan_11|model": {
+    "n": 30,
+    "n_stanzas": 5,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.9542,
+    "meter_ci": [
+     0.9271,
+     0.9814
+    ],
+    "solved": 0.5333,
+    "solved_ci": [
+     0.4333,
+     0.6333
+    ],
+    "valid": 0.5333,
+    "valid_ci": [
+     0.4333,
+     0.6333
+    ],
+    "windowed": 0.0,
+    "faithful": 1.0,
+    "exact": 0.1667,
+    "meter_tok": 0.6541,
+    "solved_tok": 0.0
+   },
+   "edit|khlong_si_suphap|student": {
+    "n": 8,
+    "n_stanzas": 2,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.8264,
+    "meter_ci": [
+     0.6528,
+     1.0
+    ],
+    "solved": 0.125,
+    "solved_ci": [
+     0.0,
+     0.25
+    ],
+    "valid": 0.625,
+    "valid_ci": [
+     0.25,
+     1.0
+    ],
+    "windowed": 0.125,
+    "faithful": 0.125,
+    "exact": 0.125,
+    "meter_tok": 0.8264,
+    "solved_tok": 0.125
+   },
+   "edit|khlong_si_suphap|model": {
+    "n": 40,
+    "n_stanzas": 10,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.7379,
+    "meter_ci": [
+     0.6447,
+     0.8261
+    ],
+    "solved": 0.0,
+    "solved_ci": [
+     0.0,
+     0.0
+    ],
+    "valid": 0.225,
+    "valid_ci": [
+     0.075,
+     0.4
+    ],
+    "windowed": 0.025,
+    "faithful": 0.0,
+    "exact": 0.0,
+    "meter_tok": 0.7402,
+    "solved_tok": 0.0
+   },
+   "edit|intharawichian_chan_11|model": {
+    "n": 26,
+    "n_stanzas": 5,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.733,
+    "meter_ci": [
+     0.6917,
+     0.8052
+    ],
+    "solved": 0.0385,
+    "solved_ci": [
+     0.0,
+     0.1111
+    ],
+    "valid": 0.0385,
+    "valid_ci": [
+     0.0,
+     0.1111
+    ],
+    "windowed": 0.0385,
+    "faithful": 0.0769,
+    "exact": 0.0,
+    "meter_tok": 0.5741,
+    "solved_tok": 0.0
+   }
+  },
+  "gemma-4-31b": {
+   "cloze|khlong_si_suphap|student": {
+    "n": 8,
+    "n_stanzas": 2,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.8265,
+    "meter_ci": [
+     0.786,
+     0.867
+    ],
+    "solved": 0.0,
+    "solved_ci": [
+     0.0,
+     0.0
+    ],
+    "valid": 0.0,
+    "valid_ci": [
+     0.0,
+     0.0
+    ],
+    "windowed": 0.0,
+    "faithful": 0.75,
+    "exact": 0.0,
+    "meter_tok": 0.8446,
+    "solved_tok": 0.0
+   },
+   "cloze|khlong_si_suphap|model": {
+    "n": 40,
+    "n_stanzas": 10,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.893,
+    "meter_ci": [
+     0.8731,
+     0.914
+    ],
+    "solved": 0.175,
+    "solved_ci": [
+     0.075,
+     0.275
+    ],
+    "valid": 0.175,
+    "valid_ci": [
+     0.075,
+     0.275
+    ],
+    "windowed": 0.0,
+    "faithful": 0.725,
+    "exact": 0.0,
+    "meter_tok": 0.8643,
+    "solved_tok": 0.15
+   },
+   "cloze|klon_paet|student": {
+    "n": 39,
+    "n_stanzas": 13,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.9333,
+    "meter_ci": [
+     0.9077,
+     0.959
+    ],
+    "solved": 0.6667,
+    "solved_ci": [
+     0.5385,
+     0.8205
+    ],
+    "valid": 0.6667,
+    "valid_ci": [
+     0.5385,
+     0.7949
+    ],
+    "windowed": 0.0,
+    "faithful": 1.0,
+    "exact": 0.5385,
+    "meter_tok": 0.9179,
+    "solved_tok": 0.641
+   },
+   "cloze|klon_paet|model": {
+    "n": 15,
+    "n_stanzas": 5,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.92,
+    "meter_ci": [
+     0.88,
+     0.96
+    ],
+    "solved": 0.6,
+    "solved_ci": [
+     0.4,
+     0.8
+    ],
+    "valid": 0.6,
+    "valid_ci": [
+     0.4,
+     0.8
+    ],
+    "windowed": 0.0,
+    "faithful": 1.0,
+    "exact": 0.4667,
+    "meter_tok": 0.92,
+    "solved_tok": 0.6
+   },
+   "cloze|kap_yani_11|student": {
+    "n": 30,
+    "n_stanzas": 15,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.76,
+    "meter_ci": [
+     0.72,
+     0.8
+    ],
+    "solved": 0.2333,
+    "solved_ci": [
+     0.1,
+     0.3667
+    ],
+    "valid": 0.2333,
+    "valid_ci": [
+     0.1,
+     0.3667
+    ],
+    "windowed": 0.0,
+    "faithful": 1.0,
+    "exact": 0.2,
+    "meter_tok": 0.5667,
+    "solved_tok": 0.1667
+   },
+   "cloze|kap_yani_11|model": {
+    "n": 16,
+    "n_stanzas": 8,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.8687,
+    "meter_ci": [
+     0.85,
+     0.9062
+    ],
+    "solved": 0.5,
+    "solved_ci": [
+     0.3125,
+     0.6875
+    ],
+    "valid": 0.5625,
+    "valid_ci": [
+     0.5,
+     0.6875
+    ],
+    "windowed": 0.0,
+    "faithful": 0.9375,
+    "exact": 0.5,
+    "meter_tok": 0.8687,
+    "solved_tok": 0.5
+   },
+   "cloze|intharawichian_chan_11|model": {
+    "n": 30,
+    "n_stanzas": 5,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.8261,
+    "meter_ci": [
+     0.7879,
+     0.8642
+    ],
+    "solved": 0.2667,
+    "solved_ci": [
+     0.1667,
+     0.4
+    ],
+    "valid": 0.2667,
+    "valid_ci": [
+     0.1667,
+     0.4
+    ],
+    "windowed": 0.0,
+    "faithful": 0.7667,
+    "exact": 0.0,
+    "meter_tok": 0.5689,
+    "solved_tok": 0.0
+   },
+   "edit|khlong_si_suphap|student": {
+    "n": 8,
+    "n_stanzas": 2,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.8488,
+    "meter_ci": [
+     0.824,
+     0.8736
+    ],
+    "solved": 0.0,
+    "solved_ci": [
+     0.0,
+     0.0
+    ],
+    "valid": 0.0,
+    "valid_ci": [
+     0.0,
+     0.0
+    ],
+    "windowed": 0.0,
+    "faithful": 0.0,
+    "exact": 0.0,
+    "meter_tok": 0.8488,
+    "solved_tok": 0.0
+   },
+   "edit|khlong_si_suphap|model": {
+    "n": 40,
+    "n_stanzas": 10,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.7932,
+    "meter_ci": [
+     0.7066,
+     0.8778
+    ],
+    "solved": 0.025,
+    "solved_ci": [
+     0.0,
+     0.075
+    ],
+    "valid": 0.175,
+    "valid_ci": [
+     0.05,
+     0.325
+    ],
+    "windowed": 0.0,
+    "faithful": 0.025,
+    "exact": 0.025,
+    "meter_tok": 0.7987,
+    "solved_tok": 0.025
+   },
+   "edit|intharawichian_chan_11|model": {
+    "n": 26,
+    "n_stanzas": 5,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.6759,
+    "meter_ci": [
+     0.4956,
+     0.8117
+    ],
+    "solved": 0.0,
+    "solved_ci": [
+     0.0,
+     0.0
+    ],
+    "valid": 0.0,
+    "valid_ci": [
+     0.0,
+     0.0
+    ],
+    "windowed": 0.0,
+    "faithful": 0.0,
+    "exact": 0.0,
+    "meter_tok": 0.517,
+    "solved_tok": 0.0
+   }
+  },
+  "gemma-4-31b-think": {
+   "cloze|khlong_si_suphap|student": {
+    "n": 8,
+    "n_stanzas": 2,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.9084,
+    "meter_ci": [
+     0.8641,
+     0.9526
+    ],
+    "solved": 0.25,
+    "solved_ci": [
+     0.0,
+     0.5
+    ],
+    "valid": 0.25,
+    "valid_ci": [
+     0.0,
+     0.5
+    ],
+    "windowed": 0.0,
+    "faithful": 1.0,
+    "exact": 0.125,
+    "meter_tok": 0.9084,
+    "solved_tok": 0.25
+   },
+   "cloze|khlong_si_suphap|model": {
+    "n": 40,
+    "n_stanzas": 10,
+    "n_infra_excluded": 0,
+    "delivery": 0.975,
+    "meter": 0.8649,
+    "meter_ci": [
+     0.7934,
+     0.9219
+    ],
+    "solved": 0.25,
+    "solved_ci": [
+     0.1,
+     0.4
+    ],
+    "valid": 0.25,
+    "valid_ci": [
+     0.1,
+     0.425
+    ],
+    "windowed": 0.0,
+    "faithful": 0.875,
+    "exact": 0.025,
+    "meter_tok": 0.8413,
+    "solved_tok": 0.15
+   },
+   "cloze|klon_paet|student": {
+    "n": 39,
+    "n_stanzas": 13,
+    "n_infra_excluded": 0,
+    "delivery": 0.9487,
+    "meter": 0.941,
+    "meter_ci": [
+     0.8667,
+     0.9949
+    ],
+    "solved": 0.8974,
+    "solved_ci": [
+     0.8205,
+     0.9744
+    ],
+    "valid": 0.8974,
+    "valid_ci": [
+     0.8205,
+     0.9744
+    ],
+    "windowed": 0.0,
+    "faithful": 0.9487,
+    "exact": 0.7436,
+    "meter_tok": 0.9256,
+    "solved_tok": 0.8205
+   },
+   "cloze|klon_paet|model": {
+    "n": 15,
+    "n_stanzas": 5,
+    "n_infra_excluded": 0,
+    "delivery": 0.8667,
+    "meter": 0.8667,
+    "meter_ci": [
+     0.7333,
+     1.0
+    ],
+    "solved": 0.8667,
+    "solved_ci": [
+     0.7333,
+     1.0
+    ],
+    "valid": 0.8667,
+    "valid_ci": [
+     0.7333,
+     1.0
+    ],
+    "windowed": 0.0,
+    "faithful": 0.8667,
+    "exact": 0.7333,
+    "meter_tok": 0.8667,
+    "solved_tok": 0.8667
+   },
+   "cloze|kap_yani_11|student": {
+    "n": 30,
+    "n_stanzas": 15,
+    "n_infra_excluded": 0,
+    "delivery": 0.9333,
+    "meter": 0.8333,
+    "meter_ci": [
+     0.7167,
+     0.92
+    ],
+    "solved": 0.6667,
+    "solved_ci": [
+     0.5,
+     0.8
+    ],
+    "valid": 0.6667,
+    "valid_ci": [
+     0.5,
+     0.8
+    ],
+    "windowed": 0.0,
+    "faithful": 0.9333,
+    "exact": 0.4667,
+    "meter_tok": 0.6233,
+    "solved_tok": 0.3667
+   },
+   "cloze|kap_yani_11|model": {
+    "n": 16,
+    "n_stanzas": 8,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.925,
+    "meter_ci": [
+     0.8687,
+     0.9812
+    ],
+    "solved": 0.75,
+    "solved_ci": [
+     0.5625,
+     0.9375
+    ],
+    "valid": 0.75,
+    "valid_ci": [
+     0.5625,
+     0.9375
+    ],
+    "windowed": 0.0,
+    "faithful": 1.0,
+    "exact": 0.6875,
+    "meter_tok": 0.925,
+    "solved_tok": 0.75
+   },
+   "cloze|intharawichian_chan_11|model": {
+    "n": 30,
+    "n_stanzas": 5,
+    "n_infra_excluded": 0,
+    "delivery": 0.7333,
+    "meter": 0.6223,
+    "meter_ci": [
+     0.4703,
+     0.7294
+    ],
+    "solved": 0.1667,
+    "solved_ci": [
+     0.0667,
+     0.2667
+    ],
+    "valid": 0.1667,
+    "valid_ci": [
+     0.0667,
+     0.2667
+    ],
+    "windowed": 0.0,
+    "faithful": 0.6333,
+    "exact": 0.0333,
+    "meter_tok": 0.4257,
+    "solved_tok": 0.0
+   },
+   "edit|khlong_si_suphap|student": {
+    "n": 8,
+    "n_stanzas": 2,
+    "n_infra_excluded": 0,
+    "delivery": 0.75,
+    "meter": 0.5841,
+    "meter_ci": [
+     0.552,
+     0.6162
+    ],
+    "solved": 0.0,
+    "solved_ci": [
+     0.0,
+     0.0
+    ],
+    "valid": 0.125,
+    "valid_ci": [
+     0.0,
+     0.25
+    ],
+    "windowed": 0.0,
+    "faithful": 0.0,
+    "exact": 0.0,
+    "meter_tok": 0.5841,
+    "solved_tok": 0.0
+   },
+   "edit|khlong_si_suphap|model": {
+    "n": 40,
+    "n_stanzas": 10,
+    "n_infra_excluded": 0,
+    "delivery": 0.475,
+    "meter": 0.3653,
+    "meter_ci": [
+     0.1931,
+     0.5544
+    ],
+    "solved": 0.025,
+    "solved_ci": [
+     0.0,
+     0.075
+    ],
+    "valid": 0.15,
+    "valid_ci": [
+     0.05,
+     0.25
+    ],
+    "windowed": 0.05,
+    "faithful": 0.025,
+    "exact": 0.025,
+    "meter_tok": 0.3708,
+    "solved_tok": 0.025
+   },
+   "edit|intharawichian_chan_11|model": {
+    "n": 26,
+    "n_stanzas": 5,
+    "n_infra_excluded": 0,
+    "delivery": 0.7308,
+    "meter": 0.5418,
+    "meter_ci": [
+     0.3867,
+     0.6775
+    ],
+    "solved": 0.0,
+    "solved_ci": [
+     0.0,
+     0.0
+    ],
+    "valid": 0.0,
+    "valid_ci": [
+     0.0,
+     0.0
+    ],
+    "windowed": 0.0,
+    "faithful": 0.0,
+    "exact": 0.0,
+    "meter_tok": 0.4093,
+    "solved_tok": 0.0
+   }
+  },
+  "gpt55-med": {
+   "cloze|khlong_si_suphap|student": {
+    "n": 8,
+    "n_stanzas": 2,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.9663,
+    "meter_ci": [
+     0.9417,
+     0.9909
+    ],
+    "solved": 0.75,
+    "solved_ci": [
+     0.75,
+     0.75
+    ],
+    "valid": 0.75,
+    "valid_ci": [
+     0.75,
+     0.75
+    ],
+    "windowed": 0.0,
+    "faithful": 1.0,
+    "exact": 0.375,
+    "meter_tok": 0.9663,
+    "solved_tok": 0.75
+   },
+   "cloze|khlong_si_suphap|model": {
+    "n": 40,
+    "n_stanzas": 10,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.9642,
+    "meter_ci": [
+     0.9507,
+     0.9779
+    ],
+    "solved": 0.475,
+    "solved_ci": [
+     0.325,
+     0.6
+    ],
+    "valid": 0.5,
+    "valid_ci": [
+     0.375,
+     0.625
+    ],
+    "windowed": 0.0,
+    "faithful": 0.975,
+    "exact": 0.025,
+    "meter_tok": 0.9394,
+    "solved_tok": 0.3
+   },
+   "cloze|klon_paet|student": {
+    "n": 39,
+    "n_stanzas": 13,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.9923,
+    "meter_ci": [
+     0.9769,
+     1.0
+    ],
+    "solved": 0.9487,
+    "solved_ci": [
+     0.8462,
+     1.0
+    ],
+    "valid": 0.9487,
+    "valid_ci": [
+     0.8462,
+     1.0
+    ],
+    "windowed": 0.0,
+    "faithful": 1.0,
+    "exact": 0.7436,
+    "meter_tok": 0.9769,
+    "solved_tok": 0.8718
+   },
+   "cloze|klon_paet|model": {
+    "n": 15,
+    "n_stanzas": 5,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.9733,
+    "meter_ci": [
+     0.9467,
+     1.0
+    ],
+    "solved": 0.8667,
+    "solved_ci": [
+     0.7333,
+     1.0
+    ],
+    "valid": 0.8667,
+    "valid_ci": [
+     0.7333,
+     1.0
+    ],
+    "windowed": 0.0,
+    "faithful": 1.0,
+    "exact": 0.5333,
+    "meter_tok": 0.9733,
+    "solved_tok": 0.8667
+   },
+   "cloze|kap_yani_11|student": {
+    "n": 30,
+    "n_stanzas": 15,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.91,
+    "meter_ci": [
+     0.84,
+     0.9667
+    ],
+    "solved": 0.7333,
+    "solved_ci": [
+     0.5333,
+     0.9
+    ],
+    "valid": 0.7333,
+    "valid_ci": [
+     0.5333,
+     0.9
+    ],
+    "windowed": 0.0,
+    "faithful": 1.0,
+    "exact": 0.6,
+    "meter_tok": 0.6633,
+    "solved_tok": 0.3333
+   },
+   "cloze|kap_yani_11|model": {
+    "n": 16,
+    "n_stanzas": 8,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.9812,
+    "meter_ci": [
+     0.9437,
+     1.0
+    ],
+    "solved": 0.9375,
+    "solved_ci": [
+     0.8125,
+     1.0
+    ],
+    "valid": 0.9375,
+    "valid_ci": [
+     0.8125,
+     1.0
+    ],
+    "windowed": 0.0,
+    "faithful": 1.0,
+    "exact": 0.8125,
+    "meter_tok": 0.9812,
+    "solved_tok": 0.9375
+   },
+   "cloze|intharawichian_chan_11|model": {
+    "n": 30,
+    "n_stanzas": 5,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.85,
+    "meter_ci": [
+     0.7749,
+     0.9221
+    ],
+    "solved": 0.4,
+    "solved_ci": [
+     0.3333,
+     0.4667
+    ],
+    "valid": 0.4,
+    "valid_ci": [
+     0.3333,
+     0.4667
+    ],
+    "windowed": 0.0,
+    "faithful": 1.0,
+    "exact": 0.1,
+    "meter_tok": 0.6068,
+    "solved_tok": 0.0333
+   },
+   "edit|khlong_si_suphap|student": {
+    "n": 8,
+    "n_stanzas": 2,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.9909,
+    "meter_ci": [
+     0.9909,
+     0.9909
+    ],
+    "solved": 0.625,
+    "solved_ci": [
+     0.5,
+     0.75
+    ],
+    "valid": 0.75,
+    "valid_ci": [
+     0.75,
+     0.75
+    ],
+    "windowed": 0.0,
+    "faithful": 0.625,
+    "exact": 0.5,
+    "meter_tok": 0.9909,
+    "solved_tok": 0.625
+   },
+   "edit|khlong_si_suphap|model": {
+    "n": 40,
+    "n_stanzas": 10,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.9544,
+    "meter_ci": [
+     0.9111,
+     0.9841
+    ],
+    "solved": 0.125,
+    "solved_ci": [
+     0.025,
+     0.25
+    ],
+    "valid": 0.65,
+    "valid_ci": [
+     0.475,
+     0.825
+    ],
+    "windowed": 0.0,
+    "faithful": 0.125,
+    "exact": 0.1,
+    "meter_tok": 0.9699,
+    "solved_tok": 0.125
+   },
+   "edit|intharawichian_chan_11|model": {
+    "n": 26,
+    "n_stanzas": 5,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.8635,
+    "meter_ci": [
+     0.8175,
+     0.9036
+    ],
+    "solved": 0.1538,
+    "solved_ci": [
+     0.0455,
+     0.2593
+    ],
+    "valid": 0.1923,
+    "valid_ci": [
+     0.05,
+     0.3
+    ],
+    "windowed": 0.0,
+    "faithful": 0.3462,
+    "exact": 0.1538,
+    "meter_tok": 0.5941,
+    "solved_tok": 0.0
+   }
+  },
+  "openthaigpt": {
+   "cloze|khlong_si_suphap|student": {
+    "n": 8,
+    "n_stanzas": 2,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.8083,
+    "meter_ci": [
+     0.8018,
+     0.8149
+    ],
+    "solved": 0.0,
+    "solved_ci": [
+     0.0,
+     0.0
+    ],
+    "valid": 0.0,
+    "valid_ci": [
+     0.0,
+     0.0
+    ],
+    "windowed": 0.0,
+    "faithful": 0.875,
+    "exact": 0.0,
+    "meter_tok": 0.8083,
+    "solved_tok": 0.0
+   },
+   "cloze|khlong_si_suphap|model": {
+    "n": 40,
+    "n_stanzas": 10,
+    "n_infra_excluded": 0,
+    "delivery": 0.95,
+    "meter": 0.7652,
+    "meter_ci": [
+     0.6942,
+     0.8382
+    ],
+    "solved": 0.1,
+    "solved_ci": [
+     0.025,
+     0.225
+    ],
+    "valid": 0.1,
+    "valid_ci": [
+     0.0,
+     0.2
+    ],
+    "windowed": 0.025,
+    "faithful": 0.775,
+    "exact": 0.0,
+    "meter_tok": 0.7382,
+    "solved_tok": 0.1
+   },
+   "cloze|klon_paet|student": {
+    "n": 39,
+    "n_stanzas": 13,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.8051,
+    "meter_ci": [
+     0.7692,
+     0.8462
+    ],
+    "solved": 0.2821,
+    "solved_ci": [
+     0.1538,
+     0.4359
+    ],
+    "valid": 0.2821,
+    "valid_ci": [
+     0.1538,
+     0.4103
+    ],
+    "windowed": 0.1538,
+    "faithful": 0.9487,
+    "exact": 0.1538,
+    "meter_tok": 0.7949,
+    "solved_tok": 0.2821
+   },
+   "cloze|klon_paet|model": {
+    "n": 15,
+    "n_stanzas": 5,
+    "n_infra_excluded": 0,
+    "delivery": 0.9333,
+    "meter": 0.6933,
+    "meter_ci": [
+     0.5867,
+     0.8
+    ],
+    "solved": 0.2,
+    "solved_ci": [
+     0.0667,
+     0.3333
+    ],
+    "valid": 0.2,
+    "valid_ci": [
+     0.0667,
+     0.3333
+    ],
+    "windowed": 0.1333,
+    "faithful": 0.8667,
+    "exact": 0.1333,
+    "meter_tok": 0.6933,
+    "solved_tok": 0.2
+   },
+   "cloze|kap_yani_11|student": {
+    "n": 30,
+    "n_stanzas": 15,
+    "n_infra_excluded": 0,
+    "delivery": 0.9333,
+    "meter": 0.6367,
+    "meter_ci": [
+     0.5667,
+     0.69
+    ],
+    "solved": 0.0333,
+    "solved_ci": [
+     0.0,
+     0.1
+    ],
+    "valid": 0.0333,
+    "valid_ci": [
+     0.0,
+     0.1
+    ],
+    "windowed": 0.1333,
+    "faithful": 0.9,
+    "exact": 0.0333,
+    "meter_tok": 0.46,
+    "solved_tok": 0.0
+   },
+   "cloze|kap_yani_11|model": {
+    "n": 16,
+    "n_stanzas": 8,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.6375,
+    "meter_ci": [
+     0.5312,
+     0.725
+    ],
+    "solved": 0.125,
+    "solved_ci": [
+     0.0,
+     0.3125
+    ],
+    "valid": 0.1875,
+    "valid_ci": [
+     0.0625,
+     0.375
+    ],
+    "windowed": 0.0,
+    "faithful": 0.6875,
+    "exact": 0.125,
+    "meter_tok": 0.6375,
+    "solved_tok": 0.125
+   },
+   "cloze|intharawichian_chan_11|model": {
+    "n": 30,
+    "n_stanzas": 5,
+    "n_infra_excluded": 0,
+    "delivery": 0.9333,
+    "meter": 0.7192,
+    "meter_ci": [
+     0.582,
+     0.8038
+    ],
+    "solved": 0.0333,
+    "solved_ci": [
+     0.0,
+     0.1
+    ],
+    "valid": 0.0333,
+    "valid_ci": [
+     0.0,
+     0.1
+    ],
+    "windowed": 0.0667,
+    "faithful": 0.5333,
+    "exact": 0.0,
+    "meter_tok": 0.5365,
+    "solved_tok": 0.0
+   },
+   "edit|khlong_si_suphap|student": {
+    "n": 8,
+    "n_stanzas": 2,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.5966,
+    "meter_ci": [
+     0.2022,
+     0.9909
+    ],
+    "solved": 0.25,
+    "solved_ci": [
+     0.0,
+     0.5
+    ],
+    "valid": 0.375,
+    "valid_ci": [
+     0.0,
+     0.75
+    ],
+    "windowed": 0.25,
+    "faithful": 0.25,
+    "exact": 0.25,
+    "meter_tok": 0.5966,
+    "solved_tok": 0.25
+   },
+   "edit|khlong_si_suphap|model": {
+    "n": 40,
+    "n_stanzas": 10,
+    "n_infra_excluded": 0,
+    "delivery": 0.95,
+    "meter": 0.8945,
+    "meter_ci": [
+     0.8324,
+     0.9486
+    ],
+    "solved": 0.075,
+    "solved_ci": [
+     0.0,
+     0.175
+    ],
+    "valid": 0.075,
+    "valid_ci": [
+     0.0,
+     0.175
+    ],
+    "windowed": 0.35,
+    "faithful": 0.125,
+    "exact": 0.075,
+    "meter_tok": 0.8552,
+    "solved_tok": 0.075
+   },
+   "edit|intharawichian_chan_11|model": {
+    "n": 26,
+    "n_stanzas": 5,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.8304,
+    "meter_ci": [
+     0.6322,
+     0.9537
+    ],
+    "solved": 0.0,
+    "solved_ci": [
+     0.0,
+     0.0
+    ],
+    "valid": 0.0,
+    "valid_ci": [
+     0.0,
+     0.0
+    ],
+    "windowed": 0.5,
+    "faithful": 0.0769,
+    "exact": 0.0,
+    "meter_tok": 0.5949,
+    "solved_tok": 0.0
+   }
+  },
+  "qwen3-8b": {
+   "cloze|khlong_si_suphap|student": {
+    "n": 8,
+    "n_stanzas": 2,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.7763,
+    "meter_ci": [
+     0.7536,
+     0.7989
+    ],
+    "solved": 0.0,
+    "solved_ci": [
+     0.0,
+     0.0
+    ],
+    "valid": 0.0,
+    "valid_ci": [
+     0.0,
+     0.0
+    ],
+    "windowed": 0.0,
+    "faithful": 1.0,
+    "exact": 0.0,
+    "meter_tok": 0.7763,
+    "solved_tok": 0.0
+   },
+   "cloze|khlong_si_suphap|model": {
+    "n": 40,
+    "n_stanzas": 10,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.8562,
+    "meter_ci": [
+     0.84,
+     0.8701
+    ],
+    "solved": 0.1,
+    "solved_ci": [
+     0.025,
+     0.175
+    ],
+    "valid": 0.1,
+    "valid_ci": [
+     0.025,
+     0.175
+    ],
+    "windowed": 0.0,
+    "faithful": 0.9,
+    "exact": 0.025,
+    "meter_tok": 0.8273,
+    "solved_tok": 0.075
+   },
+   "cloze|klon_paet|student": {
+    "n": 39,
+    "n_stanzas": 13,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.7744,
+    "meter_ci": [
+     0.7462,
+     0.8103
+    ],
+    "solved": 0.2051,
+    "solved_ci": [
+     0.1026,
+     0.3333
+    ],
+    "valid": 0.2051,
+    "valid_ci": [
+     0.1026,
+     0.3077
+    ],
+    "windowed": 0.0,
+    "faithful": 0.9744,
+    "exact": 0.1282,
+    "meter_tok": 0.7641,
+    "solved_tok": 0.1795
+   },
+   "cloze|klon_paet|model": {
+    "n": 15,
+    "n_stanzas": 5,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.74,
+    "meter_ci": [
+     0.6333,
+     0.8133
+    ],
+    "solved": 0.1333,
+    "solved_ci": [
+     0.0,
+     0.2667
+    ],
+    "valid": 0.1333,
+    "valid_ci": [
+     0.0,
+     0.2667
+    ],
+    "windowed": 0.0,
+    "faithful": 0.9333,
+    "exact": 0.0667,
+    "meter_tok": 0.74,
+    "solved_tok": 0.1333
+   },
+   "cloze|kap_yani_11|student": {
+    "n": 30,
+    "n_stanzas": 15,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.7167,
+    "meter_ci": [
+     0.6867,
+     0.75
+    ],
+    "solved": 0.1,
+    "solved_ci": [
+     0.0,
+     0.2
+    ],
+    "valid": 0.1,
+    "valid_ci": [
+     0.0,
+     0.2
+    ],
+    "windowed": 0.0,
+    "faithful": 1.0,
+    "exact": 0.0667,
+    "meter_tok": 0.5133,
+    "solved_tok": 0.0
+   },
+   "cloze|kap_yani_11|model": {
+    "n": 16,
+    "n_stanzas": 8,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.725,
+    "meter_ci": [
+     0.675,
+     0.775
+    ],
+    "solved": 0.125,
+    "solved_ci": [
+     0.0,
+     0.3125
+    ],
+    "valid": 0.125,
+    "valid_ci": [
+     0.0,
+     0.3125
+    ],
+    "windowed": 0.0,
+    "faithful": 0.875,
+    "exact": 0.125,
+    "meter_tok": 0.725,
+    "solved_tok": 0.125
+   },
+   "cloze|intharawichian_chan_11|model": {
+    "n": 30,
+    "n_stanzas": 5,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.7829,
+    "meter_ci": [
+     0.7286,
+     0.8518
+    ],
+    "solved": 0.1,
+    "solved_ci": [
+     0.0333,
+     0.1667
+    ],
+    "valid": 0.1333,
+    "valid_ci": [
+     0.0667,
+     0.1667
+    ],
+    "windowed": 0.0,
+    "faithful": 0.6333,
+    "exact": 0.0,
+    "meter_tok": 0.5447,
+    "solved_tok": 0.0
+   },
+   "edit|khlong_si_suphap|student": {
+    "n": 8,
+    "n_stanzas": 2,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.5577,
+    "meter_ci": [
+     0.2631,
+     0.8524
+    ],
+    "solved": 0.0,
+    "solved_ci": [
+     0.0,
+     0.0
+    ],
+    "valid": 0.125,
+    "valid_ci": [
+     0.0,
+     0.25
+    ],
+    "windowed": 0.0,
+    "faithful": 0.0,
+    "exact": 0.0,
+    "meter_tok": 0.5578,
+    "solved_tok": 0.0
+   },
+   "edit|khlong_si_suphap|model": {
+    "n": 40,
+    "n_stanzas": 10,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.739,
+    "meter_ci": [
+     0.6657,
+     0.8107
+    ],
+    "solved": 0.025,
+    "solved_ci": [
+     0.0,
+     0.075
+    ],
+    "valid": 0.025,
+    "valid_ci": [
+     0.0,
+     0.075
+    ],
+    "windowed": 0.075,
+    "faithful": 0.05,
+    "exact": 0.025,
+    "meter_tok": 0.7175,
+    "solved_tok": 0.0
+   },
+   "edit|intharawichian_chan_11|model": {
+    "n": 26,
+    "n_stanzas": 5,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.6948,
+    "meter_ci": [
+     0.6612,
+     0.7396
+    ],
+    "solved": 0.0,
+    "solved_ci": [
+     0.0,
+     0.0
+    ],
+    "valid": 0.0,
+    "valid_ci": [
+     0.0,
+     0.0
+    ],
+    "windowed": 0.0769,
+    "faithful": 0.0385,
+    "exact": 0.0,
+    "meter_tok": 0.5089,
+    "solved_tok": 0.0
+   }
+  },
+  "typhoon-s": {
+   "cloze|khlong_si_suphap|student": {
+    "n": 8,
+    "n_stanzas": 2,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.8375,
+    "meter_ci": [
+     0.7656,
+     0.9093
+    ],
+    "solved": 0.125,
+    "solved_ci": [
+     0.0,
+     0.25
+    ],
+    "valid": 0.125,
+    "valid_ci": [
+     0.0,
+     0.25
+    ],
+    "windowed": 0.0,
+    "faithful": 0.75,
+    "exact": 0.0,
+    "meter_tok": 0.8375,
+    "solved_tok": 0.125
+   },
+   "cloze|khlong_si_suphap|model": {
+    "n": 40,
+    "n_stanzas": 10,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.8305,
+    "meter_ci": [
+     0.7789,
+     0.8734
+    ],
+    "solved": 0.05,
+    "solved_ci": [
+     0.0,
+     0.125
+    ],
+    "valid": 0.05,
+    "valid_ci": [
+     0.0,
+     0.125
+    ],
+    "windowed": 0.0,
+    "faithful": 0.725,
+    "exact": 0.05,
+    "meter_tok": 0.8081,
+    "solved_tok": 0.05
+   },
+   "cloze|klon_paet|student": {
+    "n": 39,
+    "n_stanzas": 13,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.8231,
+    "meter_ci": [
+     0.7923,
+     0.8564
+    ],
+    "solved": 0.3333,
+    "solved_ci": [
+     0.2308,
+     0.4359
+    ],
+    "valid": 0.3333,
+    "valid_ci": [
+     0.2308,
+     0.4359
+    ],
+    "windowed": 0.0,
+    "faithful": 1.0,
+    "exact": 0.2821,
+    "meter_tok": 0.8128,
+    "solved_tok": 0.3333
+   },
+   "cloze|klon_paet|model": {
+    "n": 15,
+    "n_stanzas": 5,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.7867,
+    "meter_ci": [
+     0.7333,
+     0.8667
+    ],
+    "solved": 0.2,
+    "solved_ci": [
+     0.0,
+     0.4667
+    ],
+    "valid": 0.2,
+    "valid_ci": [
+     0.0,
+     0.4667
+    ],
+    "windowed": 0.0,
+    "faithful": 1.0,
+    "exact": 0.1333,
+    "meter_tok": 0.7867,
+    "solved_tok": 0.2
+   },
+   "cloze|kap_yani_11|student": {
+    "n": 30,
+    "n_stanzas": 15,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.7033,
+    "meter_ci": [
+     0.6733,
+     0.7367
+    ],
+    "solved": 0.0667,
+    "solved_ci": [
+     0.0,
+     0.1667
+    ],
+    "valid": 0.0667,
+    "valid_ci": [
+     0.0,
+     0.1667
+    ],
+    "windowed": 0.0,
+    "faithful": 1.0,
+    "exact": 0.0333,
+    "meter_tok": 0.5267,
+    "solved_tok": 0.0333
+   },
+   "cloze|kap_yani_11|model": {
+    "n": 16,
+    "n_stanzas": 8,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.8,
+    "meter_ci": [
+     0.725,
+     0.8688
+    ],
+    "solved": 0.375,
+    "solved_ci": [
+     0.125,
+     0.625
+    ],
+    "valid": 0.375,
+    "valid_ci": [
+     0.1875,
+     0.625
+    ],
+    "windowed": 0.0,
+    "faithful": 1.0,
+    "exact": 0.25,
+    "meter_tok": 0.8,
+    "solved_tok": 0.375
+   },
+   "cloze|intharawichian_chan_11|model": {
+    "n": 30,
+    "n_stanzas": 5,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.7301,
+    "meter_ci": [
+     0.6886,
+     0.7717
+    ],
+    "solved": 0.1333,
+    "solved_ci": [
+     0.0667,
+     0.1667
+    ],
+    "valid": 0.1333,
+    "valid_ci": [
+     0.0667,
+     0.1667
+    ],
+    "windowed": 0.0333,
+    "faithful": 0.4333,
+    "exact": 0.0,
+    "meter_tok": 0.5321,
+    "solved_tok": 0.0
+   },
+   "edit|khlong_si_suphap|student": {
+    "n": 8,
+    "n_stanzas": 2,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.9738,
+    "meter_ci": [
+     0.9727,
+     0.9749
+    ],
+    "solved": 0.5,
+    "solved_ci": [
+     0.25,
+     0.75
+    ],
+    "valid": 0.5,
+    "valid_ci": [
+     0.25,
+     0.75
+    ],
+    "windowed": 0.0,
+    "faithful": 0.75,
+    "exact": 0.5,
+    "meter_tok": 0.9738,
+    "solved_tok": 0.5
+   },
+   "edit|khlong_si_suphap|model": {
+    "n": 40,
+    "n_stanzas": 10,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.9477,
+    "meter_ci": [
+     0.9013,
+     0.9736
+    ],
+    "solved": 0.15,
+    "solved_ci": [
+     0.025,
+     0.3
+    ],
+    "valid": 0.15,
+    "valid_ci": [
+     0.025,
+     0.3
+    ],
+    "windowed": 0.475,
+    "faithful": 0.15,
+    "exact": 0.15,
+    "meter_tok": 0.9093,
+    "solved_tok": 0.125
+   },
+   "edit|intharawichian_chan_11|model": {
+    "n": 26,
+    "n_stanzas": 5,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.971,
+    "meter_ci": [
+     0.9616,
+     0.9773
+    ],
+    "solved": 0.0,
+    "solved_ci": [
+     0.0,
+     0.0
+    ],
+    "valid": 0.0,
+    "valid_ci": [
+     0.0,
+     0.0
+    ],
+    "windowed": 0.7692,
+    "faithful": 0.0385,
+    "exact": 0.0,
+    "meter_tok": 0.6282,
+    "solved_tok": 0.0
+   }
+  },
+  "typhoon25": {
+   "cloze|khlong_si_suphap|student": {
+    "n": 8,
+    "n_stanzas": 2,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.771,
+    "meter_ci": [
+     0.7671,
+     0.7748
+    ],
+    "solved": 0.0,
+    "solved_ci": [
+     0.0,
+     0.0
+    ],
+    "valid": 0.0,
+    "valid_ci": [
+     0.0,
+     0.0
+    ],
+    "windowed": 0.0,
+    "faithful": 0.625,
+    "exact": 0.0,
+    "meter_tok": 0.771,
+    "solved_tok": 0.0
+   },
+   "cloze|khlong_si_suphap|model": {
+    "n": 40,
+    "n_stanzas": 10,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.8027,
+    "meter_ci": [
+     0.7641,
+     0.8384
+    ],
+    "solved": 0.025,
+    "solved_ci": [
+     0.0,
+     0.075
+    ],
+    "valid": 0.025,
+    "valid_ci": [
+     0.0,
+     0.075
+    ],
+    "windowed": 0.0,
+    "faithful": 0.6,
+    "exact": 0.0,
+    "meter_tok": 0.7737,
+    "solved_tok": 0.025
+   },
+   "cloze|klon_paet|student": {
+    "n": 39,
+    "n_stanzas": 13,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.8231,
+    "meter_ci": [
+     0.7795,
+     0.8641
+    ],
+    "solved": 0.3333,
+    "solved_ci": [
+     0.2051,
+     0.4615
+    ],
+    "valid": 0.3333,
+    "valid_ci": [
+     0.2051,
+     0.4615
+    ],
+    "windowed": 0.0256,
+    "faithful": 0.9744,
+    "exact": 0.2564,
+    "meter_tok": 0.8128,
+    "solved_tok": 0.3333
+   },
+   "cloze|klon_paet|model": {
+    "n": 15,
+    "n_stanzas": 5,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.7733,
+    "meter_ci": [
+     0.7333,
+     0.8267
+    ],
+    "solved": 0.0667,
+    "solved_ci": [
+     0.0,
+     0.2
+    ],
+    "valid": 0.1333,
+    "valid_ci": [
+     0.0,
+     0.2667
+    ],
+    "windowed": 0.0667,
+    "faithful": 0.9333,
+    "exact": 0.0667,
+    "meter_tok": 0.7733,
+    "solved_tok": 0.0667
+   },
+   "cloze|kap_yani_11|student": {
+    "n": 30,
+    "n_stanzas": 15,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.6833,
+    "meter_ci": [
+     0.66,
+     0.7067
+    ],
+    "solved": 0.0333,
+    "solved_ci": [
+     0.0,
+     0.1
+    ],
+    "valid": 0.0333,
+    "valid_ci": [
+     0.0,
+     0.1
+    ],
+    "windowed": 0.0,
+    "faithful": 0.9667,
+    "exact": 0.0333,
+    "meter_tok": 0.51,
+    "solved_tok": 0.0333
+   },
+   "cloze|kap_yani_11|model": {
+    "n": 16,
+    "n_stanzas": 8,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.775,
+    "meter_ci": [
+     0.7188,
+     0.825
+    ],
+    "solved": 0.25,
+    "solved_ci": [
+     0.0625,
+     0.4375
+    ],
+    "valid": 0.25,
+    "valid_ci": [
+     0.0625,
+     0.4375
+    ],
+    "windowed": 0.0,
+    "faithful": 1.0,
+    "exact": 0.1875,
+    "meter_tok": 0.775,
+    "solved_tok": 0.25
+   },
+   "cloze|intharawichian_chan_11|model": {
+    "n": 30,
+    "n_stanzas": 5,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.7838,
+    "meter_ci": [
+     0.7609,
+     0.8146
+    ],
+    "solved": 0.0333,
+    "solved_ci": [
+     0.0,
+     0.1
+    ],
+    "valid": 0.0333,
+    "valid_ci": [
+     0.0,
+     0.1
+    ],
+    "windowed": 0.0,
+    "faithful": 0.7333,
+    "exact": 0.0,
+    "meter_tok": 0.5591,
+    "solved_tok": 0.0
+   },
+   "edit|khlong_si_suphap|student": {
+    "n": 8,
+    "n_stanzas": 2,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.4132,
+    "meter_ci": [
+     0.3148,
+     0.5117
+    ],
+    "solved": 0.0,
+    "solved_ci": [
+     0.0,
+     0.0
+    ],
+    "valid": 0.0,
+    "valid_ci": [
+     0.0,
+     0.0
+    ],
+    "windowed": 0.0,
+    "faithful": 0.0,
+    "exact": 0.0,
+    "meter_tok": 0.4132,
+    "solved_tok": 0.0
+   },
+   "edit|khlong_si_suphap|model": {
+    "n": 40,
+    "n_stanzas": 10,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.6157,
+    "meter_ci": [
+     0.4664,
+     0.7585
+    ],
+    "solved": 0.05,
+    "solved_ci": [
+     0.0,
+     0.15
+    ],
+    "valid": 0.05,
+    "valid_ci": [
+     0.0,
+     0.15
+    ],
+    "windowed": 0.025,
+    "faithful": 0.05,
+    "exact": 0.05,
+    "meter_tok": 0.6025,
+    "solved_tok": 0.05
+   },
+   "edit|intharawichian_chan_11|model": {
+    "n": 26,
+    "n_stanzas": 5,
+    "n_infra_excluded": 0,
+    "delivery": 1.0,
+    "meter": 0.7299,
+    "meter_ci": [
+     0.7048,
+     0.7468
+    ],
+    "solved": 0.0,
+    "solved_ci": [
+     0.0,
+     0.0
+    ],
+    "valid": 0.0,
+    "valid_ci": [
+     0.0,
+     0.0
+    ],
+    "windowed": 0.1538,
+    "faithful": 0.0,
+    "exact": 0.0,
+    "meter_tok": 0.5339,
+    "solved_tok": 0.0
+   }
+  }
+ },
+ "positions": {
+  "deepseek-v4-flash": {
+   "cloze|klon_paet|rhyme": [
+    25,
+    36
+   ],
+   "cloze|kap_yani_11|rhyme": [
+    20,
+    30
+   ],
+   "cloze|intharawichian_chan_11|rhyme": [
+    0,
+    6
+   ],
+   "cloze|intharawichian_chan_11|lahu": [
+    2,
+    14
+   ],
+   "cloze|khlong_si_suphap|rhyme": [
+    4,
+    16
+   ],
+   "cloze|khlong_si_suphap|tone_aek": [
+    20,
+    52
+   ],
+   "cloze|klon_paet|nondelivery": [
+    0,
+    6
+   ],
+   "cloze|khlong_si_suphap|nondelivery": [
+    0,
+    14
+   ],
+   "cloze|kap_yani_11|nondelivery": [
+    0,
+    10
+   ],
+   "cloze|intharawichian_chan_11|karu": [
+    18,
+    22
+   ],
+   "edit|intharawichian_chan_11|weight": [
+    1,
+    18
+   ],
+   "edit|intharawichian_chan_11|nondelivery": [
+    0,
+    8
+   ],
+   "edit|khlong_si_suphap|tone": [
+    2,
+    19
+   ],
+   "cloze|intharawichian_chan_11|nondelivery": [
+    0,
+    9
+   ],
+   "edit|khlong_si_suphap|nondelivery": [
+    0,
+    29
+   ]
+  },
+  "deepseek-v4-pro": {
+   "cloze|klon_paet|rhyme": [
+    41,
+    41
+   ],
+   "cloze|khlong_si_suphap|tone_aek": [
+    31,
+    61
+   ],
+   "cloze|klon_paet|nondelivery": [
+    0,
+    1
+   ],
+   "cloze|khlong_si_suphap|rhyme": [
+    7,
+    17
+   ],
+   "cloze|khlong_si_suphap|nondelivery": [
+    0,
+    9
+   ],
+   "cloze|kap_yani_11|rhyme": [
+    35,
+    39
+   ],
+   "cloze|intharawichian_chan_11|rhyme": [
+    2,
+    7
+   ],
+   "cloze|intharawichian_chan_11|lahu": [
+    4,
+    15
+   ],
+   "cloze|intharawichian_chan_11|karu": [
+    20,
+    24
+   ],
+   "cloze|kap_yani_11|nondelivery": [
+    0,
+    1
+   ],
+   "cloze|intharawichian_chan_11|nondelivery": [
+    0,
+    7
+   ],
+   "edit|intharawichian_chan_11|weight": [
+    3,
+    25
+   ],
+   "edit|khlong_si_suphap|tone": [
+    3,
+    10
+   ],
+   "edit|khlong_si_suphap|nondelivery": [
+    0,
+    11
+   ],
+   "edit|intharawichian_chan_11|nondelivery": [
+    0,
+    1
+   ]
+  },
+  "gemini-3.5-flash": {
+   "cloze|kap_yani_11|rhyme": [
+    34,
+    40
+   ],
+   "cloze|klon_paet|rhyme": [
+    41,
+    42
+   ],
+   "edit|intharawichian_chan_11|weight": [
+    3,
+    26
+   ],
+   "cloze|khlong_si_suphap|rhyme": [
+    13,
+    24
+   ],
+   "cloze|khlong_si_suphap|tone_aek": [
+    45,
+    72
+   ],
+   "edit|khlong_si_suphap|tone": [
+    32,
+    48
+   ],
+   "cloze|intharawichian_chan_11|rhyme": [
+    7,
+    10
+   ],
+   "cloze|intharawichian_chan_11|lahu": [
+    7,
+    20
+   ],
+   "cloze|intharawichian_chan_11|karu": [
+    30,
+    30
+   ]
+  },
+  "gemma-4-31b": {
+   "cloze|khlong_si_suphap|rhyme": [
+    6,
+    24
+   ],
+   "cloze|khlong_si_suphap|tone_aek": [
+    29,
+    72
+   ],
+   "cloze|klon_paet|rhyme": [
+    27,
+    42
+   ],
+   "cloze|kap_yani_11|rhyme": [
+    12,
+    40
+   ],
+   "cloze|intharawichian_chan_11|rhyme": [
+    1,
+    10
+   ],
+   "cloze|intharawichian_chan_11|lahu": [
+    4,
+    20
+   ],
+   "cloze|intharawichian_chan_11|karu": [
+    24,
+    30
+   ],
+   "edit|khlong_si_suphap|tone": [
+    25,
+    48
+   ],
+   "edit|intharawichian_chan_11|weight": [
+    4,
+    26
+   ]
+  },
+  "gemma-4-31b-think": {
+   "cloze|kap_yani_11|rhyme": [
+    28,
+    38
+   ],
+   "cloze|klon_paet|rhyme": [
+    37,
+    39
+   ],
+   "cloze|khlong_si_suphap|rhyme": [
+    9,
+    23
+   ],
+   "cloze|khlong_si_suphap|tone_aek": [
+    34,
+    71
+   ],
+   "cloze|intharawichian_chan_11|rhyme": [
+    4,
+    8
+   ],
+   "cloze|intharawichian_chan_11|lahu": [
+    3,
+    16
+   ],
+   "edit|intharawichian_chan_11|weight": [
+    1,
+    19
+   ],
+   "edit|khlong_si_suphap|nondelivery": [
+    0,
+    23
+   ],
+   "cloze|intharawichian_chan_11|karu": [
+    17,
+    20
+   ],
+   "cloze|klon_paet|nondelivery": [
+    0,
+    3
+   ],
+   "edit|khlong_si_suphap|tone": [
+    18,
+    25
+   ],
+   "cloze|kap_yani_11|nondelivery": [
+    0,
+    2
+   ],
+   "cloze|intharawichian_chan_11|nondelivery": [
+    0,
+    8
+   ],
+   "edit|intharawichian_chan_11|nondelivery": [
+    0,
+    7
+   ],
+   "cloze|khlong_si_suphap|nondelivery": [
+    0,
+    1
+   ]
+  },
+  "gpt55-med": {
+   "cloze|kap_yani_11|rhyme": [
+    31,
+    40
+   ],
+   "cloze|intharawichian_chan_11|rhyme": [
+    6,
+    10
+   ],
+   "cloze|intharawichian_chan_11|lahu": [
+    8,
+    20
+   ],
+   "cloze|klon_paet|rhyme": [
+    40,
+    42
+   ],
+   "edit|intharawichian_chan_11|weight": [
+    11,
+    26
+   ],
+   "edit|khlong_si_suphap|tone": [
+    47,
+    48
+   ],
+   "cloze|khlong_si_suphap|rhyme": [
+    20,
+    24
+   ],
+   "cloze|khlong_si_suphap|tone_aek": [
+    51,
+    72
+   ],
+   "cloze|intharawichian_chan_11|karu": [
+    24,
+    30
+   ]
+  },
+  "openthaigpt": {
+   "cloze|khlong_si_suphap|rhyme": [
+    3,
+    23
+   ],
+   "cloze|khlong_si_suphap|tone_aek": [
+    25,
+    69
+   ],
+   "cloze|kap_yani_11|rhyme": [
+    4,
+    38
+   ],
+   "edit|khlong_si_suphap|tone": [
+    7,
+    46
+   ],
+   "cloze|klon_paet|rhyme": [
+    11,
+    42
+   ],
+   "cloze|intharawichian_chan_11|rhyme": [
+    1,
+    9
+   ],
+   "cloze|intharawichian_chan_11|lahu": [
+    0,
+    18
+   ],
+   "edit|intharawichian_chan_11|weight": [
+    0,
+    26
+   ],
+   "cloze|kap_yani_11|nondelivery": [
+    0,
+    2
+   ],
+   "cloze|intharawichian_chan_11|karu": [
+    21,
+    29
+   ],
+   "cloze|intharawichian_chan_11|nondelivery": [
+    0,
+    2
+   ],
+   "cloze|khlong_si_suphap|nondelivery": [
+    0,
+    2
+   ],
+   "edit|khlong_si_suphap|nondelivery": [
+    0,
+    2
+   ]
+  },
+  "qwen3-8b": {
+   "cloze|klon_paet|rhyme": [
+    8,
+    42
+   ],
+   "cloze|khlong_si_suphap|rhyme": [
+    2,
+    24
+   ],
+   "cloze|khlong_si_suphap|tone_aek": [
+    28,
+    72
+   ],
+   "cloze|kap_yani_11|rhyme": [
+    5,
+    40
+   ],
+   "cloze|intharawichian_chan_11|karu": [
+    25,
+    30
+   ],
+   "cloze|intharawichian_chan_11|lahu": [
+    0,
+    20
+   ],
+   "cloze|intharawichian_chan_11|rhyme": [
+    2,
+    10
+   ],
+   "edit|khlong_si_suphap|tone": [
+    11,
+    48
+   ],
+   "edit|intharawichian_chan_11|weight": [
+    0,
+    26
+   ]
+  },
+  "typhoon-s": {
+   "cloze|khlong_si_suphap|rhyme": [
+    7,
+    24
+   ],
+   "cloze|khlong_si_suphap|tone_aek": [
+    25,
+    72
+   ],
+   "cloze|kap_yani_11|rhyme": [
+    7,
+    40
+   ],
+   "cloze|intharawichian_chan_11|rhyme": [
+    0,
+    10
+   ],
+   "cloze|intharawichian_chan_11|lahu": [
+    0,
+    20
+   ],
+   "cloze|klon_paet|rhyme": [
+    14,
+    42
+   ],
+   "edit|khlong_si_suphap|tone": [
+    11,
+    48
+   ],
+   "edit|intharawichian_chan_11|weight": [
+    0,
+    26
+   ],
+   "cloze|intharawichian_chan_11|karu": [
+    19,
+    30
+   ]
+  },
+  "typhoon25": {
+   "cloze|kap_yani_11|rhyme": [
+    4,
+    40
+   ],
+   "edit|intharawichian_chan_11|weight": [
+    2,
+    26
+   ],
+   "cloze|intharawichian_chan_11|rhyme": [
+    0,
+    10
+   ],
+   "cloze|intharawichian_chan_11|lahu": [
+    1,
+    20
+   ],
+   "cloze|klon_paet|rhyme": [
+    13,
+    42
+   ],
+   "cloze|khlong_si_suphap|rhyme": [
+    2,
+    24
+   ],
+   "cloze|khlong_si_suphap|tone_aek": [
+    22,
+    72
+   ],
+   "edit|khlong_si_suphap|tone": [
+    10,
+    48
+   ],
+   "cloze|intharawichian_chan_11|karu": [
+    23,
+    30
+   ]
+  }
+ }
+}

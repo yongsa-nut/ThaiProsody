@@ -1,0 +1,14 @@
+[
+  {"word":"ป่า","count":1,"syllables":"ป่า"},
+  {"word":"วันสงกรานต์","count":3,"syllables":"วัน.สง.กราน","note":"ต์ silenced; กราน is one syllable (ควบแท้ กร)"},
+  {"word":"รัก","count":1,"syllables":"รัก"},
+  {"word":"มา","count":1,"syllables":"มา"},
+  {"word":"ไหล","count":1,"syllables":"ไหล","note":"silent leading ห before ล"},
+  {"word":"เล่ห์","count":1,"syllables":"เล่ห์","note":"ห์ silenced"},
+  {"word":"ราชา","count":2,"syllables":"รา.ชา"},
+  {"word":"สัตว์","count":1,"syllables":"สัด","note":"ว์ silenced"},
+  {"word":"ครอบครัว","count":2,"syllables":"ครอบ.ครัว","note":"each ควบแท้ คร = one syllable"},
+  {"word":"ความอบอุ่น","count":3,"syllables":"ความ.อบ.อุ่น"},
+  {"word":"แม่น้ำ","count":2,"syllables":"แม่.น้ำ"},
+  {"word":"ครับ","count":1,"syllables":"ครับ","note":"ควบแท้ คร = one syllable"}
+]

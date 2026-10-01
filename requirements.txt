@@ -1,0 +1,10 @@
+# Grader and table reproduction (no API calls)
+pythainlp==5.3.1        # khavee: tone (เอก/โท) and weight (ครุ/ลหุ) checks, syllable tokenizer
+
+# Claude API scripts: count_api.py (syllable count-of-record), judge_api.py (content judge)
+anthropic==0.88.0
+
+# Model-running harness (only to generate outputs for new models)
+openai==2.1.0           # OpenAI and OpenAI-compatible endpoints (Gemini, OpenRouter, ThaiLLM, Typhoon)
+requests==2.33.1
+python-dotenv==1.2.2

@@ -1,0 +1,362 @@
+{
+  "ปลอบประโลม": {
+    "probe_gold": null
+  },
+  "พราว": {
+    "probe_gold": 1
+  },
+  "มนุษย์": {
+    "probe_gold": 2
+  },
+  "ป่า": {
+    "probe_gold": 1
+  },
+  "สังเกต": {
+    "probe_gold": 2
+  },
+  "ความเย็นฉ่ำ": {
+    "probe_gold": null
+  },
+  "กล่อมเกลี้ยง": {
+    "probe_gold": null
+  },
+  "พระอาทิตย์": {
+    "probe_gold": null
+  },
+  "เปรมปรีดิ์": {
+    "probe_gold": null
+  },
+  "ศรัทธา": {
+    "probe_gold": 2
+  },
+  "อยู่": {
+    "probe_gold": 1
+  },
+  "หนาว": {
+    "probe_gold": 1
+  },
+  "เพลง": {
+    "probe_gold": 1
+  },
+  "วันสงกรานต์": {
+    "probe_gold": null
+  },
+  "ขลาด": {
+    "probe_gold": 1
+  },
+  "ฤดู": {
+    "probe_gold": 2
+  },
+  "โทรศัพท์": {
+    "probe_gold": 3
+  },
+  "เสียงหัวเราะ": {
+    "probe_gold": null
+  },
+  "อินทรวิเชียร": {
+    "probe_gold": null
+  },
+  "คิด": {
+    "probe_gold": 1
+  },
+  "เก็บเกี่ยว": {
+    "probe_gold": null
+  },
+  "ธรรมชาติ": {
+    "probe_gold": 3
+  },
+  "หนา": {
+    "probe_gold": 1
+  },
+  "รัก": {
+    "probe_gold": 1
+  },
+  "หมาย": {
+    "probe_gold": 1
+  },
+  "กลอน": {
+    "probe_gold": 1
+  },
+  "เขา": {
+    "probe_gold": 1
+  },
+  "อร่อย": {
+    "probe_gold": 2
+  },
+  "ใจ": {
+    "probe_gold": 1
+  },
+  "ตลาด": {
+    "probe_gold": 2
+  },
+  "ความว่างเปล่า": {
+    "probe_gold": null
+  },
+  "ครั้งหนึ่ง": {
+    "probe_gold": null
+  },
+  "ดอกไม้": {
+    "probe_gold": 2
+  },
+  "มา": {
+    "probe_gold": 1
+  },
+  "กก": {
+    "probe_gold": 1
+  },
+  "บานสะพรั่ง": {
+    "probe_gold": null
+  },
+  "ขนม": {
+    "probe_gold": 2
+  },
+  "มหา": {
+    "probe_gold": 2
+  },
+  "กรุณา": {
+    "probe_gold": 3
+  },
+  "ตะวัน": {
+    "probe_gold": 2
+  },
+  "เชี่ยวกราก": {
+    "probe_gold": null
+  },
+  "ลม": {
+    "probe_gold": 1
+  },
+  "ฉันทลักษณ์": {
+    "probe_gold": null
+  },
+  "ไหล": {
+    "probe_gold": 1
+  },
+  "ปรารถนา": {
+    "probe_gold": 3
+  },
+  "สมุทร": {
+    "probe_gold": 2
+  },
+  "ลักษณ์": {
+    "probe_gold": 1
+  },
+  "ความรัก": {
+    "probe_gold": 2
+  },
+  "ใหม่": {
+    "probe_gold": 1
+  },
+  "การเปลี่ยนแปลง": {
+    "probe_gold": null
+  },
+  "สบาย": {
+    "probe_gold": 2
+  },
+  "ต้นไม้": {
+    "probe_gold": 2
+  },
+  "สวรรค์": {
+    "probe_gold": 2
+  },
+  "เล่ห์": {
+    "probe_gold": 1
+  },
+  "จันทร์": {
+    "probe_gold": 1
+  },
+  "ปลา": {
+    "probe_gold": 1
+  },
+  "ของ": {
+    "probe_gold": 1
+  },
+  "ถนน": {
+    "probe_gold": 2
+  },
+  "ดาว": {
+    "probe_gold": 1
+  },
+  "ฝน": {
+    "probe_gold": 1
+  },
+  "ความ": {
+    "probe_gold": 1
+  },
+  "ใหญ่": {
+    "probe_gold": 1
+  },
+  "ความเงียบสงบ": {
+    "probe_gold": null
+  },
+  "ราชา": {
+    "probe_gold": 2
+  },
+  "เห็น": {
+    "probe_gold": 1
+  },
+  "ขวาน": {
+    "probe_gold": 1
+  },
+  "ปรับเปลี่ยน": {
+    "probe_gold": null
+  },
+  "สิทธิ์": {
+    "probe_gold": 1
+  },
+  "อึกทึกครึกโครม": {
+    "probe_gold": null
+  },
+  "จมูก": {
+    "probe_gold": 2
+  },
+  "หญิง": {
+    "probe_gold": 1
+  },
+  "หรือ": {
+    "probe_gold": 1
+  },
+  "ฉลาด": {
+    "probe_gold": 2
+  },
+  "สัตว์": {
+    "probe_gold": 1
+  },
+  "ก้องกังวาน": {
+    "probe_gold": null
+  },
+  "ภูเขา": {
+    "probe_gold": 2
+  },
+  "พลาด": {
+    "probe_gold": 1
+  },
+  "ไกล": {
+    "probe_gold": 1
+  },
+  "หรู": {
+    "probe_gold": 1
+  },
+  "พงศ์": {
+    "probe_gold": 1
+  },
+  "กรง": {
+    "probe_gold": 1
+  },
+  "ศักดิ์": {
+    "probe_gold": 1
+  },
+  "รดน้ำดำหัว": {
+    "probe_gold": null
+  },
+  "ครอบครัว": {
+    "probe_gold": 2
+  },
+  "จันทร์ส่องหล้า": {
+    "probe_gold": null
+  },
+  "ประเทศ": {
+    "probe_gold": 2
+  },
+  "เปลี่ยนเป็น": {
+    "probe_gold": null
+  },
+  "วิญญาณ": {
+    "probe_gold": 2
+  },
+  "ครวญ": {
+    "probe_gold": 1
+  },
+  "ทอง": {
+    "probe_gold": 1
+  },
+  "ความสอดคล้อง": {
+    "probe_gold": null
+  },
+  "เรา": {
+    "probe_gold": 1
+  },
+  "หลง": {
+    "probe_gold": 1
+  },
+  "ความอบอุ่น": {
+    "probe_gold": null
+  },
+  "กิ่งก้านสาขา": {
+    "probe_gold": null
+  },
+  "ยามเช้าตรู่": {
+    "probe_gold": null
+  },
+  "เพื่อนบ้าน": {
+    "probe_gold": 2
+  },
+  "สงฆ์": {
+    "probe_gold": 1
+  },
+  "ปราย": {
+    "probe_gold": 1
+  },
+  "ปรับ": {
+    "probe_gold": 1
+  },
+  "น้ำ": {
+    "probe_gold": 1
+  },
+  "พันธุ์": {
+    "probe_gold": 1
+  },
+  "ปี": {
+    "probe_gold": 1
+  },
+  "แม่น้ำ": {
+    "probe_gold": 2
+  },
+  "สนาม": {
+    "probe_gold": 2
+  },
+  "เมล์": {
+    "probe_gold": 1
+  },
+  "อาทิตย์": {
+    "probe_gold": 2
+  },
+  "เต็มไปด้วย": {
+    "probe_gold": null
+  },
+  "กลาง": {
+    "probe_gold": 1
+  },
+  "วิทยา": {
+    "probe_gold": 3
+  },
+  "ดี": {
+    "probe_gold": 1
+  },
+  "ความเปลี่ยนแปลง": {
+    "probe_gold": null
+  },
+  "ความวุ่นวาย": {
+    "probe_gold": null
+  },
+  "ครับ": {
+    "probe_gold": 1
+  },
+  "ทรัพย์": {
+    "probe_gold": 1
+  },
+  "ไป": {
+    "probe_gold": 1
+  },
+  "อย่า": {
+    "probe_gold": 1
+  },
+  "ทะเล": {
+    "probe_gold": 2
+  },
+  "รักษ์": {
+    "probe_gold": 1
+  },
+  "หมด": {
+    "probe_gold": 1
+  }
+}

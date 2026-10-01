@@ -1,0 +1,673 @@
+{
+ "report": {
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "n": 132,
+  "usd": 1.2,
+  "kappa_topicality>=3": 0.717,
+  "kappa_coherence>=2": 0.66,
+  "kappa_coherence>=3": 0.651
+ },
+ "scores": {
+  "cal2-gpt55-high-prosody-yani-compose-007": {
+   "topicality": 5,
+   "coherence": 5,
+   "rationale": "The poem is entirely about the great forest at dawn, with morning light, mist, birdsong, a stream, butterflies, deer and treetops. The images flow naturally into one connected, intelligible scene."
+  },
+  "cal2-gpt55-med-prosody-klon8-compose-033": {
+   "topicality": 5,
+   "coherence": 5,
+   "rationale": "บทกวีกล่าวถึงฝนแรกโดยตรงตลอดทั้งบท ทั้งกลิ่นดิน ยอดหญ้า และการเริ่มต้นปีใหม่ ภาพแต่ละวรรคเชื่อมโยงกันอย่างต่อเนื่องและเข้าใจได้ชัดเจน"
+  },
+  "cal2-kimi-k2.6-prosody-khlong-compose-002": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is squarely about the sea at night: sunset, waves striking the rocks, the cool wind and moonlight on the water. The imagery links into one scene, but the phrases 'ยวงยวน' and 'แทนสีดาใส' are unclear and slightly obscure the meaning of the last two lines."
+  },
+  "cal2-gpt55-high-prosody-chan-compose-037": {
+   "topicality": 4,
+   "coherence": 4,
+   "rationale": "The poem conveys the value of silence through fading sound, a calm mind, mindfulness and speaking little, though it leans more toward meditation in general than silence itself. The meaning is mostly connected, but some phrases such as 'ขณะนึกระงับกาล' are compressed and somewhat vague."
+  },
+  "cal2-typhoon25-prosody-chan-compose-004": {
+   "topicality": 2,
+   "coherence": 1,
+   "rationale": "The poem mentions blooming flowers (ดอกบาน, เบ่งบาน) but never develops the garden setting, and the second stanza has no content tied to the topic. It is mostly the same words repeated (เบ่ง/บาน/เบิก, ส่อง), which is word salad with no meaningful sentences or connections between lines."
+  },
+  "cal2-thalle-prosody-khlong-compose-030": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "กลอนกล่าวถึงช่วงกลางวันและกลางคืนในวัยเด็กโดยตรง ผ่านการวิ่งเล่น คำสอนของแม่ เสียงเพลงก่อนนอน และเรื่องเล่าของพ่อ จึงตรงหัวข้ออย่างเป็นเนื้อหาหลัก ภาษาเข้าใจได้และแต่ละบรรทัดสัมพันธ์กันด้วยโครงสร้างวัน/คืนที่คู่ขนาน แม้วลี 'คืนเด็ก' และ 'เรื่องราวในใจ' จะกระชับจนความหมายกำกวมเล็กน้อย"
+  },
+  "cal2-gemini-3.5-flash-prosody-khlong-compose-034": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "บทกวีพรรณนาทุ่งนาสีเหลืองทอง กลิ่นข้าวหอม และแสงแดดส่องทั่วแผ่นดิน จึงตรงหัวข้ออย่างชัดเจน ภาพโดยรวมต่อเนื่องกันดี แต่วลี 'ส่องสินสู่ใจ' และ 'แหล่งใต้เปรมปรีดิ์' มีความหมายค่อนข้างคลุมเครือ"
+  },
+  "cal-broken-03-count": {
+   "topicality": 2,
+   "coherence": 4,
+   "rationale": "The poem describes hardship after leaving the city and surviving on roasted tubers and fruit. It never mentions a natural disaster, and the life lesson is only implied, so its link to the topic is weak. The lines are grammatical and connect well around the theme of hardship and survival."
+  },
+  "cal2-typhoon25-prosody-khlong-compose-004": {
+   "topicality": 5,
+   "coherence": 5,
+   "rationale": "The poem is about a flower (บานเบือน) blooming in a garden. It describes colour, fragrance on the breeze, and butterflies. Every line builds one clear image of a blooming garden."
+  },
+  "cal2-deepseek-v4-flash-prosody-klon8-compose-016": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is entirely about a childhood dream that has never faded over time, so it fits the topic fully. It hangs together well, but it is repetitive, and the line 'ภาพกระจ่างเลือนลางอย่างแรงกล้า' is self-contradictory, pairing clear with faded and strongly with faded."
+  },
+  "cal2-gpt55-low-prosody-chan-compose-004": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "บทกวีพรรณนาดอกมะลิ กุหลาบ และพวงแก้วที่บานในสวนยามเช้า พร้อมภู่ผึ้งและนกร้อง จึงตรงหัวข้ออย่างเต็มที่ ภาพรวมเชื่อมโยงกันดี แต่มีวลีซ้ำและแปร่งบ้าง เช่น \"ระคนสวน\" \"ระบัดวัน\" \"แสงทองระวีใจ\" ทำให้ความหมายบางวรรคไม่ชัด"
+  },
+  "cal2-qwen3.6-35b-a3b-prosody-klon8-compose-017": {
+   "topicality": 5,
+   "coherence": 3,
+   "rationale": "The poem is entirely about a bird flying freely in the sky, so it fits the topic fully. Each line is intelligible and related, but the second stanza repeats earlier lines verbatim in a loop, so the ideas stop developing and the poem loses its connected flow."
+  },
+  "cal2-minimax-m2.7-prosody-khlong-compose-001": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The whole poem is about the rainy season: drizzle, thunder, overflowing streams and green trees. The imagery is connected, though some phrasing is a little awkward, such as 'ลำธารเอ่อล้นหลาม ชื่นชมผืนดิน'."
+  },
+  "cal2-thalle-prosody-chan-compose-021": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is substantively about Songkran, covering water splashing, washing away bad luck, making merit and festive joy. The lines are grammatical and connected, but the second stanza largely repeats the first and duplicates phrases such as 'ความสุขล้นหลาม', which weakens its development."
+  },
+  "cal2-gpt54-mini-prosody-yani-compose-014": {
+   "topicality": 5,
+   "coherence": 5,
+   "rationale": "บทกวีพรรณนาภาพเมืองใหญ่ (ตึกสูง แสงไฟ รถรา ผู้คนเดินผ่านอย่างเงียบงัน) คู่กับความเดียวดายในใจอย่างชัดเจน ตรงหัวข้อความเหงาในเมืองใหญ่โดยตรง เนื้อความต่อเนื่องและปิดท้ายด้วยการเปรียบเมืองที่สว่างกับหัวใจที่มืดมนอย่างกลมกลืน"
+  },
+  "cal2-thalle-prosody-yani-compose-025": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "บทกวีกล่าวถึงใบไม้ร่วงหลังฝนหยุดตกอย่างชัดเจนตลอดทั้งบท ประโยคเข้าใจได้และเชื่อมโยงกัน แต่บางวรรคซ้ำซากและข้อคิดท้ายบทค่อนข้างลอย ไม่ได้ขยายความให้เชื่อมกับภาพที่วาดไว้"
+  },
+  "cal2-typhoon-s-prosody-klon8-compose-013": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "บทกวีกล่าวถึงความสุขเมื่อได้พบกันอีกครั้งโดยตรง และเชื่อมโยงกับความทรงจำร่วมกันอย่างสอดคล้อง ความหมายต่อเนื่องดี แม้บางวลีเช่น 'ใจยิ้มยิน' จะเรียบเรียงไม่ค่อยลื่นไหล และภาพเปรียบในบทที่สองเปลี่ยนไปเน้นความทรงจำเล็กน้อย"
+  },
+  "cal2-deepseek-v4-pro-prosody-khlong-compose-014": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "บทกวีกล่าวถึงความเหงาในเมืองใหญ่โดยตรง ตัดกันระหว่างแสงไฟและฝูงชนบนรถไฟฟ้ากับห้องนอนที่เปล่าเปลี่ยว ลำดับภาพเชื่อมโยงกันดี แต่วลีบางส่วนเช่น 'เดินคลาใจ' 'เคียงดู' และ 'ใจเงียบเร่งเหงา' ยังคลุมเครือเล็กน้อย"
+  },
+  "cal2-deepseek-v4-flash-prosody-chan-compose-005": {
+   "topicality": 2,
+   "coherence": 1,
+   "rationale": "The poem has only faint hints of the moon, such as 'จัน', 'ทอแสง', 'นวล' and 'ฟ้า', and never clearly describes a full moon. Most of the text is filler syllables (จะ/สะ/สุ/กะ/มะ) repeated without meaning, so it amounts to word salad with no connection between lines."
+  },
+  "cal2-minimax-m2.7-prosody-chan-compose-001": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "บทกวีกล่าวถึงฤดูฝนโดยตรงตลอดทั้งบท ทั้งฝนตก ฟ้าร้อง เมฆครึ้ม และชาวนากับต้นข้าว ภาษาเข้าใจได้และเชื่อมโยงกันดี แต่มีลักษณะเป็นการไล่เรียงภาพแบบรายการ และมีวรรคซ้ำหลายแห่ง เช่น นกร้องและต้นไม้ใบเขียว"
+  },
+  "cal2-deepseek-v4-flash-prosody-khlong-compose-022": {
+   "topicality": 4,
+   "coherence": 3,
+   "rationale": "The poem sets up Loy Krathong night through the full moon of the twelfth month, the river, the moonlit sky and floating the krathong, though the imagery is thin and the krathong itself only appears in the last line. The single-word lines, repetition and the incomplete ending make it fragmented, even though the imagery follows one connected thread."
+  },
+  "cal2-qwen3.6-35b-a3b-prosody-klon8-compose-004": {
+   "topicality": 5,
+   "coherence": 5,
+   "rationale": "บทกวีกล่าวถึงดอกไม้บานในสวนโดยตรงตลอดทั้งบท ทั้งแสงแดด กลิ่นหอม และผีเสื้อ แต่ละบรรทัดเชื่อมโยงกันเป็นภาพสวนดอกไม้ที่งดงามอย่างต่อเนื่อง แม้บางวลีจะซ้ำคำบ้าง"
+  },
+  "cal-clean-01": {
+   "topicality": 2,
+   "coherence": 5,
+   "rationale": "The poem touches on travel only through the place-name device 'ถึงบางพูด', a convention of nirat poetry. Its substance is a teaching about speech, and longing is absent. The lines are fully coherent and connected, contrasting good speech with harmful speech."
+  },
+  "cal2-qwen3.6-35b-a3b-prosody-yani-compose-003": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is substantively about mountain peaks piercing the mist, with connected imagery of wind, white fog and stillness. However, the second stanza nearly repeats the first, and the phrase 'ลมพัดพราวซอก' is slightly unclear, so it adds little development."
+  },
+  "cal2-typhoon-s-prosody-yani-compose-024": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The whole poem is about the scorching summer sun, from the heat, the withered trees and the dried-up pond to the children suffering in it. The content flows well, though a few spots are slightly awkward, such as children running and playing while crying from the heat."
+  },
+  "cal2-typhoon25-prosody-yani-compose-002": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is substantively about the sea at night, with waves, dark water, moonlight on the sea, coastal wind and the absence of lights. It is mostly coherent, but some images are slightly awkward or loosely connected, such as dark water covering the sky and swallows crying in a forest."
+  },
+  "cal2-gpt55-med-prosody-yani-compose-006": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "บทกวีกล่าวถึงสายน้ำไหลผ่านผา หุบเขาโอบธาร และภาพธรรมชาติรอบลำธารอย่างต่อเนื่อง จึงตรงหัวข้อเต็มที่ ภาษาเข้าใจได้และภาพเชื่อมโยงกันดี แต่มีการซ้ำคำว่า 'เย็น' และ 'ไหว' ค่อนข้างมาก ทำให้บางวรรคดูเติมคำ"
+  },
+  "cal2-gpt55-high-prosody-khlong-compose-010": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is about homesickness throughout: being far from the rice fields, the smell of the soil, and the hometown calling the heart back at dusk. It is mostly connected, but some phrases such as 'ใจห่างห้วงท้องนา' and 'ทั่วหล้า' feel slightly loose or like filler."
+  },
+  "cal2-typhoon-s-prosody-klon8-compose-024": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is entirely about the summer heat: blazing sun, hot wind, dried canals, sweating people. The lines are grammatical and connected, but the three stanzas are repeated verbatim and 'ร้องร้องร้อง' is redundant, which weakens the overall development."
+  },
+  "cal2-pathumma-prosody-yani-compose-002": {
+   "topicality": 5,
+   "coherence": 5,
+   "rationale": "บทกวีพรรณนาทะเลยามค่ำคืนโดยตรง ทั้งแสงจันทร์ส่องน้ำ คลื่น ฟอง ดวงดาว และลมเย็น แต่ละวรรคเชื่อมโยงเป็นภาพบรรยากาศเดียวกันอย่างสอดคล้อง"
+  },
+  "cal2-typhoon25-prosody-chan-compose-003": {
+   "topicality": 4,
+   "coherence": 4,
+   "rationale": "บทกวีพรรณนาภูเขาและบรรยากาศลึกลับอย่างต่อเนื่อง แต่กล่าวถึงหมอกชัดเจนเพียงบรรทัดแรก ส่วนบทที่สองเน้นสายน้ำและแสงจันทร์ ภาษาเข้าใจได้และภาพเชื่อมโยงกัน แม้อุปมา 'ยอดเขาก้มกราบฟ้า' และ 'พเนจรหลงทางในฝัน' จะเชื่อมกันค่อนข้างหลวม"
+  },
+  "cal2-gpt55-med-prosody-chan-compose-020": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "บทกวีกล่าวถึงความไม่เที่ยงและความเปลี่ยนแปลงของชีวิตโดยตรงตลอดทั้งบท เนื้อหาเชื่อมโยงกันดี แต่มีวลีกำกวมบางแห่ง เช่น 'จะละสิ่งมิยืนยง' และ 'จะละใจมิหวั่นเปลี่ยน' รวมถึงการใช้คำเติม 'ก็/จะ' ซ้ำ ๆ"
+  },
+  "cal2-minimax-m2.7-prosody-yani-compose-004": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is substantively about flowers blooming in a garden, describing roses, marigolds and jasmine in spring, and the lines form a connected scene. Some garbled wording (\"บันทุกสิ่ง\", \"สะพรั่น\") and the odd \"นกซีซาร์\" slightly reduce clarity."
+  },
+  "cal2-deepseek-v4-flash-prosody-klon8-compose-006": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is entirely about a clear stream winding through a green valley, its sound and the joy it brings. The whole is connected, but some phrases are awkward (e.g. 'ทางที่คดตาม', 'ดังถามน้ำธาร') and the second stanza largely repeats the first."
+  },
+  "cal2-deepseek-v4-flash-prosody-yani-compose-037": {
+   "topicality": 5,
+   "coherence": 3,
+   "rationale": "บทกวีกล่าวถึงคุณค่าของความเงียบโดยตรงตลอดทั้งบท ทั้งเรื่องจิตสงบ สมาธิ และการได้ยินเสียงภายใน แต่มีหลายวรรคที่ไม่สมบูรณ์หรือห้วน เช่น 'ในสิ่งใดที่ความเงียบมอบให้เราคนดี' และ 'เสียงภายในที่' ทั้งยังซ้ำคำว่า 'ดีนักหนา' จนความต่อเนื่องสะดุด"
+  },
+  "cal2-gemma-4-31b-prosody-klon8-compose-034": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "บทกวีพรรณนาทุ่งนาสีทองอย่างตรงประเด็น ทั้งรวงข้าวสุก แสงแดด สายลม และความสุขของชาวนา ภาษาต่อเนื่องดี แต่วรรคสุดท้าย 'ถึงเวลาเก็บเกี่ยวเลี้ยวคืนเรือน' เชื่อมความหมายค่อนข้างห้วน"
+  },
+  "cal2-gemma-4-31b-prosody-klon8-compose-018": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "กลอนกล่าวถึงความจริงกับมายาโดยตรงตลอดทั้งบท โดยบทแรกพรรณนาการหลงในมายา และบทที่สองชี้ทางพินิจจนพบความจริง แนวคิดจึงเชื่อมโยงกันดี แต่อุปมา 'ดั่งน้ำเชื้อฉาบฉวยด้วยแสงสี' ความหมายไม่ชัดและไม่ค่อยเข้ากับบริบท"
+  },
+  "cal2-gpt54-mini-prosody-chan-compose-039": {
+   "topicality": 5,
+   "coherence": 5,
+   "rationale": "บทกวีกล่าวถึงความงามที่ไม่จีรังโดยตรง ผ่านอุปมาดอกไม้ที่บานแล้วร่วงโรย และจบด้วยความทรงจำถึงความงามที่ผ่านไป ทุกบาทเชื่อมโยงกันเป็นเอกภาพ"
+  },
+  "cal2-typhoon25-prosody-klon8-compose-003": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is substantively about a mountain veiled in mist, describing the mist wrapping the forest, the wind and the birdsong. It is largely connected, but some lines are a little loose, such as 'ภาพวิวงามตา ล่องลอยในสายตา', and the second stanza drifts from the mist toward general scenery."
+  },
+  "cal2-opus-4.7-prosody-klon8-compose-003": {
+   "topicality": 4,
+   "coherence": 4,
+   "rationale": "บทแรกพรรณนาขุนเขาที่มีสายหมอกคล้องอยู่ยามรุ่งอรุณได้ตรงหัวข้อ แต่บทที่สองเบนไปพูดถึงนก ลม และลำธารทั่วไป จนแทบไม่กล่าวถึงหมอกอีก ภาพรวมต่อเนื่องเป็นฉากธรรมชาติเดียวกัน แต่มีวลีบางแห่งกำกวม เช่น 'ดุจม่านใยไหม' ที่ไม่ชัดว่าเปรียบกับสิ่งใด และ 'เสนาะรับ' ที่ความหมายไม่ชัดเจน"
+  },
+  "cal2-opus-4.7-prosody-khlong-compose-040": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is squarely about choosing a path and pressing on through obstacles, leaving footprints on the way to a dreamed destination, so it fully fits the topic. The lines flow as one connected idea, but some phrasing is awkward and slightly unclear, such as 'กั้นกัน ก่อกั้ง' and 'รอตั้ง อยู่เบื้องบุญหนุน'."
+  },
+  "cal2-deepseek-v4-pro-prosody-yani-compose-019": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "บทกวีกล่าวถึงมิตรภาพที่แนบแน่นมั่นคงและการร่วมทุกข์ร่วมสุขอย่างเป็นสาระตลอดทั้งบท แต่บางวรรคมีความหมายคลุมเครือ เช่น 'เปรียบดั่งงานหนักเบาบาง' และ 'มีมิตรพลางสร้างทางใจ' และมีการใช้คำซ้ำ"
+  },
+  "cal2-thalle-prosody-klon8-compose-008": {
+   "topicality": 5,
+   "coherence": 5,
+   "rationale": "The poem is entirely about the dawn sky: the pink sky, the sunrise, the fading stars and the world waking. Every line is grammatical and flows as one connected image."
+  },
+  "cal2-openthaigpt-prosody-chan-compose-002": {
+   "topicality": 5,
+   "coherence": 3,
+   "rationale": "The poem is substantively about the sea at night, with stars, the full moon, the sea breeze and waves. Coherence is reduced because both stanzas are repeated verbatim with '(4 จังหวะ)' annotations and a meta-commentary note, and phrases like 'คลื่นซัดฟ้า' are somewhat odd."
+  },
+  "cal2-glm-5.1-prosody-khlong-compose-006": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is entirely about a stream winding past green mountains and through a deep, shaded valley, which matches the topic. The chained images connect well, though some compressed phrases such as 'เขียวร่ม' and 'ร่มหนาว' feel slightly fragmentary."
+  },
+  "cal2-gemma-4-31b-prosody-chan-compose-037": {
+   "topicality": 5,
+   "coherence": 5,
+   "rationale": "The poem is entirely about the value of silence and stillness: calming the mind, clarity of awareness, freedom from worry, and wisdom and inner happiness. Every line flows in sequence and builds a connected whole."
+  },
+  "cal-clean-00": {
+   "topicality": 3,
+   "coherence": 4,
+   "rationale": "This is the famous opening of ลิลิตพระลอ, about rumors and praise spreading across the land. It only hints at beauty and love through that context and never addresses the topic directly. The content is coherent, but moving the tail words พี่เอย and ฤๅพี่ to the end slightly disrupts the flow."
+  },
+  "cal2-deepseek-v4-pro-prosody-chan-compose-002": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "บทกวีพรรณนาทะเลยามค่ำคืนโดยตรง ทั้งลมหนาว ดวงดาว แสงจันทร์ และเสียงคลื่น จึงตรงหัวข้ออย่างชัดเจน เนื้อความต่อเนื่องดี แต่วลี 'ในใจส่องแสงจันทร์ / พัดผ่านผิวน้ำ' เชื่อมกันไม่สนิทนัก เพราะแสงจันทร์ไม่อาจ 'พัด' ได้"
+  },
+  "cal2-gemma-4-31b-prosody-khlong-compose-034": {
+   "topicality": 5,
+   "coherence": 5,
+   "rationale": "The poem is entirely about the golden rice field: bright fields, rice ears bowing, a gentle breeze, and the farmers' happiness as the field sustains life. Each line connects clearly to form a whole image, though the phrase 'เกษตรสุข' is slightly compressed."
+  },
+  "cal2-typhoon25-prosody-klon8-compose-002": {
+   "topicality": 5,
+   "coherence": 3,
+   "rationale": "The poem is substantively about the sea at night, with waves, moonlight and a dark, endless sea. However, lines such as the boat drifting 'in the sky' (กลางเวหา) and 'the sound of snow crying in the heart of the heart' (เสียงหิมะร้องในใจกลางใจ) are incongruous and weaken the overall connection."
+  },
+  "cal2-typhoon-s-prosody-khlong-compose-012": {
+   "topicality": 4,
+   "coherence": 2,
+   "rationale": "คำสำคัญอย่าง พลัดพราก น้ำตา ใจร้าว เงาเดียว และ ต้องจากกัน ชี้ชัดว่าเป็นเรื่องความเศร้าจากการพลัดพราก แต่เนื้อหาไม่ได้ขยายลึกเกินกว่าการเรียงคำ ส่วนความสอดคล้องต่ำมากเพราะทุกบาทเป็นเพียงคำเดิมซ้ำ ๆ ไม่เป็นประโยคที่สมบูรณ์ มีเพียงเค้าโครงความหมายหลวม ๆ ที่พอเชื่อมกันได้"
+  },
+  "cal2-gpt55-high-prosody-chan-compose-003": {
+   "topicality": 4,
+   "coherence": 3,
+   "rationale": "กลอนกล่าวถึงขุนเขา ผาหมอก ยอดดอย และหมอกเงินอยู่ตลอด จึงตรงหัวข้อพอสมควร แต่ใช้โครง 'X ณ Y / ก็จะ...ณ Z' ซ้ำเชิงกลไก ความหมายบางวรรคคลุมเครือ เช่น 'ยอดไพร ณ เงาจันทร์ ก็จะผัน ณ ธารไพร' และภาพแต่ละวรรคเชื่อมกันอย่างหลวม ๆ"
+  },
+  "cal2-minimax-m2.7-prosody-chan-compose-004": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "บทกวีกล่าวถึงดอกไม้บานในสวนอย่างเป็นเนื้อหาหลักตลอดทั้งสองบท ทั้งสีสัน ผึ้ง นก กลิ่นหอม และบทที่สองมีโครงถาม-ตอบว่าใครสร้างสวน ภาษาส่วนใหญ่เข้าใจได้และเชื่อมโยงกัน แต่มีบางวลีที่ความหมายไม่ชัด เช่น 'เรื่องราวน่าชื่นชมยิ่ง' และ 'ร้องบทกวีนิยาย' และมีการซ้ำความค่อนข้างมาก"
+  },
+  "cal2-openthaigpt-prosody-chan-compose-011": {
+   "topicality": 4,
+   "coherence": 2,
+   "rationale": "The first ten or so lines clearly address hope at the dawn of a new day, keeping the poem on topic. However, the line 'หวังให้ทุกคนมีความหวัง' then repeats over a hundred times, so the text degenerates and loses coherence as a whole."
+  },
+  "cal2-opus-4.7-prosody-yani-compose-011": {
+   "topicality": 5,
+   "coherence": 5,
+   "rationale": "The poem is directly about hope on a new day. It moves from dawn imagery to encouragement to step forward toward a good life. Every line connects, and the star metaphor, though set at dawn, still reads as fitting poetic imagery."
+  },
+  "cal2-gemini-3.5-flash-prosody-chan-compose-035": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "บทกวีพรรณนาหยาดน้ำค้างบนยอดหญ้าที่ต้องแสงระยิบดุจมณีอย่างตรงประเด็นตลอดทั้งบท ภาพรวมต่อเนื่องดี แต่บางวลี เช่น \"ละออนอง\" และ \"วะวาวสาย\" ความหมายคลุมเครือ และท่อนสุดท้าย \"น้อมนึก\" ยังไม่บอกชัดว่าใจนึกถึงสิ่งใด"
+  },
+  "cal2-gpt55-med-prosody-khlong-compose-026": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is substantively about the farmer's perseverance: bent over working under the sun, dripping with sweat, undaunted by sun and rain, and producing golden grain through diligence. The lines connect well, but the repeated use of \"แผด\" (e.g., \"รดแผด\", \"หวั่นแผด\") is somewhat forced and unclear in meaning."
+  },
+  "cal2-gemma-4-31b-prosody-chan-compose-010": {
+   "topicality": 4,
+   "coherence": 3,
+   "rationale": "The poem conveys longing through rural imagery such as the scent of soil, the wind, and golden fields, which clearly implies homesickness, though the birthplace is never named. Some phrases, like 'หฤทัยระย้าหวน' and 'ระบุหวนระลึกครัน', are strained and hard to make sense of, but the lines still share a coherent mood of yearning."
+  },
+  "cal2-gpt55-low-prosody-yani-compose-002": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem clearly depicts the night sea: waves under moonlight, wind on the beach, stars and a dark sky. The imagery is well connected, though 'เรือหลับรี่' is somewhat awkward and the river words นที/ธารา blur the sea setting slightly."
+  },
+  "cal2-qwen3.6-35b-a3b-prosody-chan-compose-007": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is entirely about morning in a great forest, with golden light through tall trees, a cool breeze and birdsong. Every line is grammatical and connected, but the second stanza repeats three lines of the first word for word, so it adds little new content."
+  },
+  "cal-clean-02": {
+   "topicality": 2,
+   "coherence": 5,
+   "rationale": "บทนี้เป็นคำสอนว่าอย่าไว้ใจมนุษย์เพราะน้ำใจคนคดยิ่งกว่าเถาวัลย์ ไม่ได้กล่าวถึงการพลัดพรากหรือการผจญภัยโดยตรง มีเพียงนัยว่าเป็นคำสั่งสอนในเรื่องเล่า แต่เนื้อความทั้งสี่วรรคเชื่อมโยงกันเป็นเอกภาพและชัดเจน"
+  },
+  "cal2-kimi-k2.6-prosody-khlong-compose-001": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is substantively about the rainy season: dark clouds announcing it, rain over the forest, swollen streams and lush trees. The lines form a connected scene, though phrases like 'ฟ้าครามมืดครึ้ม' and 'ลงตลิ่งเต็มริม' are slightly awkward."
+  },
+  "cal2-glm-5.1-prosody-klon8-compose-003": {
+   "topicality": 5,
+   "coherence": 3,
+   "rationale": "บทกวีพรรณนาภาพขุนเขาที่มีหมอกปกคลุมตลอดทั้งบท ตรงหัวข้ออย่างชัดเจน แต่มีคำที่ไม่มีความหมายหรือสะกดผิดหลายแห่ง เช่น 'ระรางหมาง' 'สายแจง' 'ทิศเครง' และบางวรรคยังไม่จบความ ('ชวนให้ผู้ชม') ทำให้ความต่อเนื่องสะดุด"
+  },
+  "cal2-glm-5.1-prosody-yani-compose-019": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is squarely about lasting friendship: a firm bond, long-shared happiness, and joined hearts. Line 3 (ครันรักกันมานี้) is slightly awkward and elliptical, but the lines still form a connected whole."
+  },
+  "cal2-glm-5.1-prosody-chan-compose-008": {
+   "topicality": 5,
+   "coherence": 3,
+   "rationale": "The poem is clearly about the dawn sky: fading stars, spreading light, cool wind, mist, birds and the rising golden sun. The imagery follows a connected sequence, but several phrases are garbled or unintelligible (e.g., 'หายทา', 'ร้องร้องกังดง', 'แจ้งทั่วแจ่ง'), which weakens coherence."
+  },
+  "cal2-gemini-3.5-flash-prosody-yani-compose-001": {
+   "topicality": 5,
+   "coherence": 5,
+   "rationale": "บทกวีกล่าวถึงฤดูฝนโดยตรง ตั้งแต่เมฆครึ้ม ฝนตก ความชุ่มชื้นของพืชพรรณ ทุ่งข้าว และสัตว์ป่า ทุกวรรคเชื่อมโยงกันเป็นภาพรวมที่สมบูรณ์"
+  },
+  "cal2-deepseek-v4-flash-prosody-chan-compose-015": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "บทกวีใช้ภาพม่านหมอกที่เลื่อนลอยผ่านไปเป็นอุปมาของกาลเวลาที่ผันผ่าน และกล่าวถึงเวลาโดยตรงใน 'กาลกาล' และ 'วารวารเคลื่อน' ภาพรวมเชื่อมโยงกันดี แต่บางวลี เช่น 'ณ ต้องมนต์ม่านหมอก' และ 'ฤๅเห็นเลศเฉลยหา' มีโครงสร้างค่อนข้างคลุมเครือ"
+  },
+  "cal2-deepseek-v4-flash-prosody-yani-compose-006": {
+   "topicality": 4,
+   "coherence": 3,
+   "rationale": "The poem is about water flowing slowly through forests and mountains, which fits the topic, though it never evokes a valley itself. Phrases like 'ไหลช้าพา' (with no object) and 'มาลีลา' are grammatically incomplete, and the second couplet nearly repeats the first, adding no new meaning."
+  },
+  "cal-broken-04-count": {
+   "topicality": 3,
+   "coherence": 3,
+   "rationale": "The poem speaks of remembering kindness (พระคุณ, กะรุณา, อาทร), but it never mentions a mother directly, so the topic appears only generally. The first two lines connect to each other, while the sunset crossing the sky in the last two lines links to them only by implication, not clearly."
+  },
+  "cal2-glm-5.1-prosody-chan-compose-033": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "บทกวีกล่าวถึงฝนแรกที่มาหลังความแห้งแล้งอย่างเป็นเนื้อหาหลัก ทั้งไร่นาชุ่มชื้น หญ้าผลิ นกร้อง และความหวังของชาวไร่ ภาพต่างๆ เชื่อมโยงกันดี แต่มีวลีกำกวมบางแห่ง เช่น \"ชุ่มฟ้า\" \"ทั่วถิ่นปี\" และ \"ทั่วทิศมี\""
+  },
+  "cal2-typhoon25-prosody-khlong-compose-001": {
+   "topicality": 5,
+   "coherence": 5,
+   "rationale": "บทกวีกล่าวถึงฤดูฝนโดยตรงทั้งบท ตั้งแต่ฟ้าครึ้ม สายฝนโปรยปราย เสียงฟ้าร้อง จนถึงดินชุ่มชื้นผลิใบ ภาพแต่ละบรรทัดต่อเนื่องเป็นเหตุเป็นผลและสื่อความได้ชัดเจน"
+  },
+  "cal2-kimi-k2.6-prosody-klon8-compose-004": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "บทกวีกล่าวถึงดอกไม้บานในสวนโดยตรง ทั้งกลิ่นหอม ผีเสื้อ และสายลม ภาพรวมเชื่อมโยงกันดี แต่มีความซ้ำซ้อน เช่น 'ดอกไม้บานผลิดอก' และ 'งามหล้า' ซ้ำ ส่วนวรรคที่สามเรียบเรียงไม่ค่อยลื่นไหล"
+  },
+  "cal2-gemma-4-31b-prosody-yani-compose-024": {
+   "topicality": 5,
+   "coherence": 5,
+   "rationale": "The poem is entirely about the scorching summer sun: the glaring sun, burning heat, streaming sweat and dry wind. The lines flow into one connected whole that ends with a longing for water to relieve the heat."
+  },
+  "cal2-sonnet-4.6-prosody-khlong-compose-037": {
+   "topicality": 5,
+   "coherence": 5,
+   "rationale": "บทกวีกล่าวถึงคุณค่าของความเงียบโดยตรง คือความเงียบทำให้จิตใจสงบ ขจัดความวุ่นวาย และได้ฟังเสียงใจตนเอง ทุกวรรคเชื่อมโยงกันอย่างเป็นเอกภาพ"
+  },
+  "cal2-gpt55-med-prosody-klon8-compose-025": {
+   "topicality": 5,
+   "coherence": 5,
+   "rationale": "บทกวีกล่าวถึงใบไม้ร่วงในช่วงปลายฝนอย่างชัดเจนตลอดทั้งบท ตั้งแต่ใบไม้โรยลาจนถึงใบสุดท้ายที่ลอยพ้นสายตา ภาพและอารมณ์ของปลายฝนต้นหนาวเชื่อมโยงกันอย่างกลมกลืนจนจบด้วยการรอฝนใหม่"
+  },
+  "cal2-openthaigpt-prosody-yani-compose-030": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is substantively about childhood days, depicting play, family, and care. The lines are grammatical and connected, but the second half repeats the first almost word for word, and some phrasing is awkward (e.g., 'ร่วมกันเล่นด้วยกัน', 'มีพักให้')."
+  },
+  "cal2-typhoon25-prosody-chan-compose-002": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "บทกวีพรรณนาภาพชายฝั่งยามค่ำคืนได้ตรงหัวข้อ ทั้งคลื่นซัดฝั่ง แสงจันทร์ ดวงดาว และเรือลำเล็ก แม้ไม่เอ่ยคำว่า 'ทะเล' ตรง ๆ ส่วนความต่อเนื่องดีโดยรวม แต่วรรค 'เสียงหิมะร้องในใจ' ดูขัดกับบรรยากาศ และภาพเมฆมืดครึ้มกับดาวระยิบระยับขัดแย้งกันเล็กน้อย"
+  },
+  "cal2-gemini-3.5-flash-prosody-chan-compose-025": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "บทกวีกล่าวถึงฝนที่โรยราและใบไม้เหลืองร่วงทับถมโดยตรง ตรงกับหัวข้ออย่างชัดเจน เนื้อความต่อเนื่องจากลมพัดสู่ใบไม้ร่วงและความงามที่สลายไป แต่บางวลีเช่น \"ฝนโรยจะโชยฟ้า\" และ \"บ่มิพ้นจะโบยบิน\" มีความหมายค่อนข้างคลุมเครือ"
+  },
+  "cal-broken-02-count": {
+   "topicality": 2,
+   "coherence": 4,
+   "rationale": "The poem is a moral teaching about the crooked, untrustworthy human heart and does not directly address separation or adventure, though it echoes lines from Phra Aphai Mani, an adventure tale. It is coherent overall, but the word 'มะ' in the first line obscures the meaning where 'มนุษย์' would be expected."
+  },
+  "cal2-deepseek-v4-flash-prosody-klon8-compose-010": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The whole poem is about longing for one's birthplace: family, the wish to return, and dreams of home. It is mostly coherent, though the chained repeated words (วาย, ครัน) create some forced phrasing, such as \"วายคิดถึง\" and \"ครันคิดถึง\"."
+  },
+  "cal2-thalle-prosody-yani-compose-009": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is entirely about love that has gone: memories, longing, and pain that never heals. The sentences are grammatical and form one connected theme, but the refrain \"ความรักที่จากไปไม่มีวันกลับมา\" is repeated excessively and some uses of \"แต่\" are illogical, which weakens the flow."
+  },
+  "cal2-sonnet-4.6-prosody-chan-compose-018": {
+   "topicality": 5,
+   "coherence": 5,
+   "rationale": "บทกวีกล่าวถึงความจริงกับมายาโดยตรงตลอดทั้งบท เปรียบความงามที่ตาเห็นเป็นเงาของมายา และให้ใช้ปัญญามองหาความจริง ภาษาถูกต้องและแต่ละวรรคเชื่อมโยงกันเป็นเนื้อหาเดียว"
+  },
+  "cal2-typhoon25-prosody-yani-compose-003": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "บทกวีกล่าวถึงขุนเขาที่ถูกสายหมอกปกคลุมอย่างต่อเนื่องตลอดทั้งบท จึงตรงประเด็นอย่างเต็มที่ เนื้อความต่อเนื่องและสร้างบรรยากาศเงียบสงบยามราตรีได้ดี แต่บางวลียังไม่ลื่นไหลนัก เช่น 'ม่านควันบางเบื้องหน้า' และ 'ผ้าคลุมวัง'"
+  },
+  "cal2-gpt55-low-prosody-klon8-compose-018": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "บทกวีกล่าวถึงความจริงกับมายาโดยตรงตลอดทั้งบท ตั้งแต่การหลงเงามายาไปจนถึงการรู้แจ้งเมื่อใจนิ่ง จึงตรงหัวข้ออย่างเต็มที่ เนื้อความต่อเนื่องเป็นลำดับดี แต่บางวลีกำกวมเล็กน้อย เช่น 'แพ้ความจริง' ซึ่งขัดกับความหมายโดยรวม และ 'ออกสู่ใจ' ที่ไม่ชัดเจน"
+  },
+  "cal2-typhoon-s-prosody-chan-compose-018": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is substantively about the contrast between truth and illusion, using imagery of reflections in water and passing wind. It is grammatical and connected, though somewhat repetitive and formulaic across lines."
+  },
+  "cal2-gemma-4-31b-prosody-chan-compose-016": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The whole poem is about a bright dream that is never forgotten: it returns in sleep, stirs longing, and does not fade, which fits the topic fully. The lines connect well overall, but a few word choices, such as \"ระรื่นชื่นระรวน\" and \"มิคลอน\", read slightly forced and blur the meaning a little."
+  },
+  "cal2-gemma-4-31b-prosody-klon8-compose-031": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The whole poem is about a flock of birds flying home to their nests at dusk, from the sunset through flight to rest in the nest. The lines follow a clear sequence, though phrases such as \"มองตามจองเคียงคู่\" and \"พรมละออง\" are somewhat vague."
+  },
+  "cal2-kimi-k2.6-prosody-chan-compose-004": {
+   "topicality": 5,
+   "coherence": 3,
+   "rationale": "The poem is clearly about flowers blooming in a garden, with lines such as บุปผา, สวนรื่น and ดอกชบาแย้มบาน. However, the phrasing is fragmentary, with dangling words like หน้า and the awkward repetition หน้าตา/งามหน้า. The images connect only loosely."
+  },
+  "cal-broken-00-count": {
+   "topicality": 3,
+   "coherence": 3,
+   "rationale": "This is a fragmented version of the famous opening of Lilit Phra Lo. It alludes to widespread rumours praising someone's beauty and to the princesses' longing, so beauty and love are implied rather than developed. The lines are split into fragments, and 'พี่เอย' and 'ฤๅพี่' are detached and moved to the end, which disrupts the flow even though the individual lines remain intelligible."
+  },
+  "cal2-openthaigpt-prosody-klon8-compose-035": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is substantively about morning dew sparkling on grass. It is mostly coherent, but calling the water 'น้ำฝน' (rain) in the second stanza and the phrase 'ประดับฟ้าสีฟ้า' (jewels adorning the sky, not the grass) are slightly inconsistent, and the closing lines drift into generic praise of nature."
+  },
+  "cal2-typhoon25-prosody-yani-compose-004": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "บทกวีกล่าวถึงดอกไม้บานในสวนโดยตรงตลอดทั้งบท ทั้งสีสัน กลีบดอก และหยดน้ำค้าง เนื้อความเชื่อมโยงกันดี แต่วลี 'ปลุกใจใคร่ รำไรรื่นเริง' และภาพ 'ดวงดาวใต้แสงทอง' ค่อนข้างกำกวม"
+  },
+  "cal2-gemma-4-31b-prosody-khlong-compose-015": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "บทกวีกล่าวถึงกาลเวลาที่เคลื่อนคล้อยและวันคืนที่เปลี่ยนผันโดยตรง จึงตรงหัวข้ออย่างชัดเจน เนื้อความโดยรวมเชื่อมโยงกัน แต่วรรค 'รอยจำย้ำระยับ เลือนหาย' มีภาพที่ขัดกันเล็กน้อยระหว่างความระยับกับการเลือนหาย"
+  },
+  "cal2-typhoon25-prosody-klon8-compose-004": {
+   "topicality": 5,
+   "coherence": 5,
+   "rationale": "บทกวีพรรณนาดอกไม้ที่บานในสวนยามเช้าตลอดทั้งบท ทั้งสีสัน กลิ่นหอม และน้ำค้าง ตรงหัวข้ออย่างชัดเจน ภาษาเข้าใจง่ายและแต่ละวรรคเชื่อมโยงกันเป็นภาพเดียวที่ต่อเนื่อง"
+  },
+  "cal2-gpt55-med-prosody-yani-compose-033": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "บทกวีกล่าวถึงฝนแรกโดยตรงตลอดทั้งบท ทั้งกลิ่นดิน ไพรที่ฟื้นคืนชีวิต และความชื่นใจของชาวนา เนื้อความโดยรวมต่อเนื่องดี แต่มีภาพที่ขัดกันเล็กน้อย เช่น ฝนพรำขณะฟ้าใส และรวงข้าวที่ยังไม่ควรมีในช่วงฝนแรก"
+  },
+  "cal2-gpt54-mini-prosody-klon8-compose-024": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is entirely about the scorching summer sun: fierce sunlight, sweat, birds hiding in shade, and people hoping for cool evening. The lines connect well, but some phrases are awkward or unclear, such as \"ร้อนรานใจนา\", \"ราวเตาเขา\" and \"แม้เหนื่อยเบา\"."
+  },
+  "cal-clean-03": {
+   "topicality": 2,
+   "coherence": 4,
+   "rationale": "The poem depicts hardship after leaving the city and surviving on roasted taro, yams, and fruit, but it never mentions a natural disaster and offers no clear life lesson. Its lines connect well around the theme of hardship and survival, though the phrase 'ขึ้นกก' is somewhat vague."
+  },
+  "cal2-typhoon25-prosody-khlong-compose-002": {
+   "topicality": 5,
+   "coherence": 5,
+   "rationale": "The poem is entirely about the sea at night, with waves, the moon and moonlight on the water. Its lines are grammatical and link into one connected scene."
+  },
+  "cal2-gpt55-low-prosody-khlong-compose-032": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is centred on twinkling stars in the night sky, with the moon, the breeze and a contented heart watching the stars as supporting images. The lines connect well, though some phrases, such as 'กลิ่นฟ้า ฝันหวาน', are fragmentary."
+  },
+  "cal2-deepseek-v4-flash-prosody-chan-compose-008": {
+   "topicality": 4,
+   "coherence": 2,
+   "rationale": "The poem is about sunlight and the sky, which fits the topic, but it never clearly conveys the dawn moment. The content is highly repetitive and uses invented, meaningless compounds such as 'คริสต์วาน' and 'สุริยาสานต์', so the lines are fragmented and hard to understand."
+  },
+  "cal2-gpt55-high-prosody-klon8-compose-015": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "บทกวีกล่าวถึงกาลเวลาที่ผันผ่านโดยตรง ทั้งวันคืนที่ล่วงไป รอยอดีต และความทรงจำ ก่อนสรุปให้เห็นคุณค่าของปัจจุบัน เนื้อหาเชื่อมโยงกันดี แม้บางวรรคในบทที่สอง เช่น 'ก้าวที่ย้ำสอนใจด้วยถ้อยคำ' จะสื่อความค่อนข้างคลุมเครือ"
+  },
+  "cal2-thalle-prosody-khlong-compose-017": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is squarely about a bird flying freely in the wide sky and ends by naming freedom outright. The lines connect well, but the phrase 'ให้ใจฟ้า' in line 2 is awkward and unclear."
+  },
+  "cal2-sonnet-4.6-prosody-yani-compose-024": {
+   "topicality": 5,
+   "coherence": 5,
+   "rationale": "บทกวีพรรณนาแดดร้อนแผดเผา ลมนิ่ง เหงื่อโซม กระหายน้ำ และแผ่นดินแล้ง ตรงกับหัวข้อแดดร้อนกลางฤดูร้อนโดยตรง ทุกวรรคสื่อความชัดเจนและเชื่อมโยงกันตั้งแต่ความร้อนจนถึงการหลบพักใต้ร่มไม้"
+  },
+  "cal-broken-00-tone": {
+   "topicality": 3,
+   "coherence": 4,
+   "rationale": "This is the opening stanza of ลิลิตพระลอ. It alludes indirectly to fame spreading across the land and to lovesick dreaming, so beauty and love are implied rather than addressed directly. The lines read as a connected whole, but moving the สร้อยคำ พี่เอย and ฤๅพี่ to the end slightly disrupts the flow."
+  },
+  "cal2-typhoon-s-prosody-khlong-compose-022": {
+   "topicality": 5,
+   "coherence": 5,
+   "rationale": "บทกวีกล่าวถึงคืนลอยกระทงโดยตรงตลอดทั้งบท ทั้งแสงจันทร์ กระทง แสงเทียน และการสื่อความรัก ภาษาเข้าใจง่ายและแต่ละวรรคเชื่อมโยงกันเป็นภาพเดียว"
+  },
+  "cal2-openthaigpt-prosody-khlong-compose-015": {
+   "topicality": 5,
+   "coherence": 5,
+   "rationale": "บทกวีกล่าวถึงกาลเวลาที่ผันผ่านโดยตรงตลอดทั้งบท ทั้งการเปรียบเวลากับสายน้ำ ความทรงจำที่จางหาย และข้อคิดว่าเวลาไม่รอใคร ภาษาเข้าใจง่ายและเนื้อความเชื่อมโยงต่อเนื่องเป็นเอกภาพ แม้มีวลีซ้ำ \"ในใจเราเสมอ\" แต่ไม่ทำให้ความหมายสะดุด"
+  },
+  "cal2-gpt54-mini-prosody-khlong-compose-035": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "บทกวีกล่าวถึงน้ำค้างบนใบหญ้ายามรุ่งอรุณโดยตรง ทั้งความใสแวววาวและความเย็นของหยดน้ำค้าง เนื้อความต่อเนื่องดี แต่วลี 'รุ่งอรุณเร้น' และบาทสุดท้าย 'ฟื้นฟากฟ้าพรายพราว' มีความหมายค่อนข้างคลุมเครือ"
+  },
+  "cal2-gpt55-high-prosody-klon8-compose-035": {
+   "topicality": 5,
+   "coherence": 5,
+   "rationale": "บทกวีกล่าวถึงหยาดน้ำค้างบนใบหญ้ายามเช้าโดยตรงตลอดทั้งบท ทั้งประกายต้องแสงอรุณและการระเหยไปเมื่อแดดส่อง ภาพและความหมายต่อเนื่องสัมพันธ์กันทุกวรรค"
+  },
+  "cal2-typhoon25-prosody-khlong-compose-003": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is about a mountain veiled in mist, hiding the forest behind a curtain of haze, and follows it with an evening landscape. The lines read as one scene, but the last line leaves unclear what is reflecting the moonlight, so the connection there is weaker."
+  },
+  "cal2-opus-4.7-prosody-chan-compose-032": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is centred throughout on stars that twinkle and are scattered across the night sky, so it fits the topic fully. The imagery connects well overall, but some phrases are awkward or hard to follow, such as 'สิประกายผกาฉาย' and 'เคล้าคลอณคืนคลาย'."
+  },
+  "cal2-gemini-3.5-flash-prosody-klon8-compose-013": {
+   "topicality": 5,
+   "coherence": 5,
+   "rationale": "บทกวีกล่าวถึงความคิดถึงเมื่อต้องจากกัน และความสุขเมื่อได้กลับมาพบกันอีกครั้งโดยตรง เนื้อความต่อเนื่องเป็นลำดับจากความคิดถึงไปสู่ความยินดีเมื่อได้พบหน้า ทุกวรรคเชื่อมโยงกันอย่างกลมกลืน"
+  },
+  "cal2-glm-5.1-prosody-yani-compose-012": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is entirely about grief and loneliness after separation. It uses linked repetition to join the lines smoothly, though some phrases, such as 'คิดถึงเก่ารักสุดจุดทุกข์' and 'ร้าวไหว', are somewhat awkward."
+  },
+  "cal2-typhoon25-prosody-yani-compose-001": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is clearly about the rainy season: dark clouds, rain, thunder, damp earth, and lush green forest. The imagery flows well overall, but some phrases are slightly awkward, such as 'ดินชุ่มชื้นเบ่งบาน' and the redundant 'เย็นเยือกเย็น', and the second stanza drifts toward general nature scenes."
+  },
+  "cal-broken-04-kru_lahu": {
+   "topicality": 4,
+   "coherence": 3,
+   "rationale": "The first two lines directly recall the mother's compassion and care (กะรุณาและอาทร), which fits พระคุณแม่. The last two lines describe the evening sun crossing the sky, an image only loosely tied to the mother, so the whole is somewhat disjointed."
+  },
+  "cal2-deepseek-v4-flash-prosody-yani-compose-009": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is entirely about a past love that has left, with lingering longing and grief. It is grammatical and connected, though repetitive, and there is a slight tension between the longing that 'never fades' in stanza 1 and the love that 'has faded and vanished' in stanza 2."
+  },
+  "cal2-deepseek-v4-flash-prosody-khlong-compose-026": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The whole poem is about farmers' perseverance: plowing at dawn, enduring hardship, sowing, and harvesting. The lines form a connected sequence, but some phrasing is awkward or vague, such as 'ไม่กลัวผู้ใดอยู่' and 'ผลผลิตได้พลัน'."
+  },
+  "cal2-sonnet-4.6-prosody-klon8-compose-005": {
+   "topicality": 5,
+   "coherence": 5,
+   "rationale": "The poem is entirely about the full moon, describing its light, beauty, and reflection on the water. The lines flow smoothly and form a connected whole."
+  },
+  "cal2-gemma-4-31b-prosody-chan-compose-029": {
+   "topicality": 5,
+   "coherence": 5,
+   "rationale": "บทกวีกล่าวถึงความผิดพลาดที่ลบไม่ได้ ความทุกข์ที่เตือนสติ และการเรียนรู้จากรอยช้ำเพื่อก้าวต่อไป ตรงกับหัวข้อโดยตรง เนื้อความต่อเนื่องเป็นเอกภาพจากความพลาดสู่บทเรียนและความหวัง แม้คำว่า 'สว่าง' จะซ้ำบ้างเล็กน้อย"
+  },
+  "cal2-opus-4.7-prosody-khlong-compose-030": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is about the joy of childhood: playing every evening and holding lasting memories, which fits the topic well. It reads as a mostly connected whole, though the third line (ลมโชยพัดพาดี ดอกไม้) is somewhat fragmented."
+  },
+  "cal2-minimax-m2.7-prosody-klon8-compose-001": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "บทกวีกล่าวถึงฤดูฝนโดยตรงตลอดทั้งบท ทั้งสายฝน เมฆ ลมชื้น ต้นข้าว และกลิ่นดิน เนื้อหาเชื่อมโยงเป็นภาพเดียวกัน แต่มีวลีสะดุดบางแห่ง เช่น 'เรื่อยเรื่อง' และ 'ฟ้าหมอกหมอกมืดมิดเมฆ'"
+  },
+  "cal2-deepseek-v4-pro-prosody-klon8-compose-006": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is centred on a stream flowing through a valley and its forest, with the surrounding wind and birds adding to the same scene. The Thai is intelligible and the lines connect, but some phrases are awkward or repetitive filler, such as 'บินไหวเย้าเย้าใจ' and 'เพราะไกวใบไหว'."
+  },
+  "cal2-gemma-4-31b-prosody-klon8-compose-012": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is entirely about grief at separation, with tears, a broken heart, loneliness and lost hope, and it names พลัดพราก directly. The lines build one continuous mood. Coherence is slightly weakened by filler repetition (e.g., 'ไม่คืนคืน') and an ambiguous closing phrase 'หยุดน้ำตา', which sits oddly after the deepening sorrow."
+  },
+  "cal2-deepseek-v4-flash-prosody-khlong-compose-014": {
+   "topicality": 5,
+   "coherence": 3,
+   "rationale": "The poem is substantively about loneliness amid the crowds of a big city (ผู้คนมากมาย, นคร, เดียวดาย). However, several lines are hard to parse, such as 'ผู้คนกันมาเดียว', 'ทางวนดั้นตามใกล้' and 'ผู้คนสลัวคา', and the repetitive word chaining leaves the lines only loosely connected in meaning."
+  },
+  "cal2-pathumma-prosody-klon8-compose-002": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "บทกวีพรรณนาทะเลยามค่ำคืนโดยตรง ทั้งแสงจันทร์ที่ส่องบนผืนน้ำ คลื่นที่ซัดหิน และความสงบของท้องทะเล ภาพโดยรวมเชื่อมโยงกันดี แต่วลี 'เงียบงันดังทอง' ค่อนข้างคลุมเครือ และขัดแย้งเล็กน้อยกับภาพคลื่นซัดกระเซ็นฟองในบรรทัดก่อนหน้า"
+  },
+  "cal2-gemma-4-31b-prosody-yani-compose-033": {
+   "topicality": 5,
+   "coherence": 5,
+   "rationale": "The poem is substantively about the first rain of the year, from the gathering grey clouds and waiting wind to the smell of wet earth and the end of the drought. Its lines connect clearly and progress logically."
+  },
+  "cal-clean-04": {
+   "topicality": 4,
+   "coherence": 3,
+   "rationale": "The first two lines address พระคุณแม่ directly through remembrance, กรุณา and อาทร. The last two lines shift to an image of the evening sun crossing the sky, which links to the mother only by implied metaphor, so the poem feels somewhat disjointed."
+  },
+  "cal2-qwen3.6-35b-a3b-prosody-khlong-compose-005": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is entirely about the full moon (ดวงเดือนเพ็ญ): its beauty, drifting across the sky, and brightening the night. The images connect well, though word-chaining wordplay makes some words, such as 'เพรม' and 'ไล', somewhat unclear in meaning."
+  },
+  "cal2-gpt54-mini-prosody-khlong-compose-017": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "The poem is entirely about a bird flying freely in the vast sky, with no cage to hold it, which matches the topic of freedom exactly. The lines connect well, though some phrases are slightly awkward, such as 'ปีกพยับลอยไป' and 'ไร้กรงจองจำแน่นแล้ว'."
+  },
+  "cal2-gemma-4-31b-prosody-yani-compose-038": {
+   "topicality": 5,
+   "coherence": 5,
+   "rationale": "บทกวีกล่าวถึงความทุกข์ที่เปรียบเหมือนอยู่ในอุโมงค์มืด แล้วพบแสงสว่างที่ปลายทางซึ่งนำทางให้ผ่านพ้นภัย จึงตรงกับหัวข้ออย่างแท้จริง เนื้อความต่อเนื่องจากความมืดสู่ความหวังอย่างเป็นเอกภาพ"
+  },
+  "cal2-qwen3.6-35b-a3b-prosody-yani-compose-013": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "บทกวีกล่าวถึงความสุขเมื่อได้พบกันอีกครั้งหลังการรอคอยอย่างชัดเจน ความหมายโดยรวมต่อเนื่องกันดี แต่มีวลีขัดเขินบางแห่ง เช่น 'เป็นจริงใจดี' และบรรทัดสุดท้ายที่เปลี่ยนไปพูดถึงนักเดินทางอย่างกะทันหันเพราะการเล่นคำต่อท้าย"
+  },
+  "cal-broken-01-count": {
+   "topicality": 2,
+   "coherence": 5,
+   "rationale": "This stanza, from Sunthorn Phu's travel poem Nirat Phu Khao Thong, marks the journey only through the words 'ถึงบางพูด' and does not address longing at all; its content is a lesson on the value and danger of speech. The lines are clear, linked by a single idea, and read as a coherent whole."
+  },
+  "cal2-gemma-4-31b-prosody-khlong-compose-013": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "บทกวีกล่าวถึงความห่างไกล การเฝ้ารอ และความสุขเมื่อได้กลับมาพบกันอีกครั้ง จึงตรงหัวข้ออย่างเต็มที่ เนื้อความต่อเนื่องดี แต่คำว่า 'ถ้า' ในวรรคสุดท้ายทำให้ดูเป็นเพียงการสมมุติ ขัดเล็กน้อยกับวรรคก่อนหน้าที่กล่าวว่าได้กลับมาพบกันแล้ว"
+  },
+  "cal2-gpt55-low-prosody-yani-compose-036": {
+   "topicality": 5,
+   "coherence": 4,
+   "rationale": "บทกวีกล่าวถึงความกตัญญูต่อพ่อแม่โดยตรงตลอดทั้งบท ทั้งการตอบแทนคุณ การดูแลยามชรา และการทำความดี เนื้อความต่อเนื่องเป็นเรื่องเดียวกัน แต่มีบางวลีที่ต่อกันไม่ค่อยลื่น เช่น 'แม้ยากลำบากเรา' และ 'ชูชีวันด้วยความดี'"
+  }
+ }
+}
